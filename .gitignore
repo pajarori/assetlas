@@ -1,0 +1,39 @@
+# binaries
+assetlas
+invent
+dist/
+bin/
+*.exe
+
+# Go test/build artifacts
+*.test
+*.out
+*.cover
+coverage.out
+
+# Go workspace (per-developer)
+go.work
+go.work.sum
+
+# secrets
+.env
+.env.local
+*.key
+*.pem
+
+# editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# tooling state
+.claude/
+.cursor/
+*.log
+tmp/

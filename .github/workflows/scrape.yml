@@ -1,0 +1,58 @@
+name: scrape
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+    inputs:
+      platform:
+        description: "Scrape one platform only (leave blank for all)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.24"
+          cache: true
+
+      - name: Build
+        run: go build -o assetlas .
+
+      - name: Run scrape
+        env:
+          HACKENPROOF_BYPASS: ${{ secrets.HACKENPROOF_BYPASS }}
+        run: |
+          if [ -n "${{ github.event.inputs.platform }}" ]; then
+            ./assetlas scrape --silent --platform "${{ github.event.inputs.platform }}"
+          else
+            ./assetlas scrape --silent
+          fi
+
+      - name: Commit changes
+        run: |
+          git config user.name "assetlas-bot"
+          git config user.email "assetlas-bot@users.noreply.github.com"
+          git add -A results/ README.md
+          if git diff --staged --quiet; then
+            echo "no changes"
+            exit 0
+          fi
+          git commit -m "scrape update $(date -u +'%Y-%m-%dT%H:%MZ')"
+          git pull --rebase --autostash origin "$GITHUB_REF_NAME" || true
+          git push

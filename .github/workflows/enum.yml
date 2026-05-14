@@ -1,0 +1,109 @@
+name: enum
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      ports:
+        description: "Run naabu (true/false)"
+        required: false
+        default: "false"
+      dns:
+        description: "Run dnsx"
+        required: false
+        default: "false"
+      tls:
+        description: "Run tlsx"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: enum-${{ github.workflow }}
+  cancel-in-progress: false
+
+jobs:
+  enum:
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [hackerone, bugcrowd, intigriti, yeswehack]
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    concurrency:
+      group: enum-${{ matrix.platform }}
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.24"
+          cache: true
+
+      - name: Cache ProjectDiscovery binaries
+        id: pd-cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/go/bin/subfinder
+            ~/go/bin/httpx
+            ~/go/bin/dnsx
+            ~/go/bin/tlsx
+            ~/go/bin/naabu
+          key: pd-tools-${{ runner.os }}-v1
+
+      - name: Install ProjectDiscovery tools
+        if: steps.pd-cache.outputs.cache-hit != 'true'
+        run: |
+          go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+          go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+          go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest
+          go install -v github.com/projectdiscovery/tlsx/cmd/tlsx@latest
+          go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
+
+      - name: Wire tools to PATH
+        run: echo "$HOME/go/bin" >> $GITHUB_PATH
+
+      - name: Build
+        run: go build -o assetlas .
+
+      - name: Run enum (${{ matrix.platform }})
+        env:
+          ARG_PORTS: ${{ github.event.inputs.ports }}
+          ARG_DNS: ${{ github.event.inputs.dns }}
+          ARG_TLS: ${{ github.event.inputs.tls }}
+        run: |
+          ARGS=("enum" "--silent" "--platform" "${{ matrix.platform }}" "--concurrency" "4")
+          [ "$ARG_PORTS" = "true" ] && ARGS+=("--ports")
+          [ "$ARG_DNS" = "true" ] && ARGS+=("--dns")
+          [ "$ARG_TLS" = "true" ] && ARGS+=("--tls")
+          ./assetlas "${ARGS[@]}"
+
+      - name: Commit changes (${{ matrix.platform }})
+        run: |
+          git config user.name "assetlas-bot"
+          git config user.email "assetlas-bot@users.noreply.github.com"
+          git add -A "results/enum/${{ matrix.platform }}/"
+          if git diff --staged --quiet; then
+            echo "no changes"
+            exit 0
+          fi
+          git commit -m "enum ${{ matrix.platform }} update $(date -u +'%Y-%m-%dT%H:%MZ')"
+          for attempt in 1 2 3 4 5 6 7 8; do
+            git pull --rebase --autostash origin "$GITHUB_REF_NAME" || true
+            if git push; then
+              echo "push ok"
+              exit 0
+            fi
+            echo "push attempt $attempt failed, retrying"
+            sleep $((RANDOM % 10 + 5))
+          done
+          echo "push failed after 8 attempts"
+          exit 1
