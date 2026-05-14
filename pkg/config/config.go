@@ -21,11 +21,10 @@ type Config struct {
 }
 
 const (
-	PlatformHackerOne   = "hackerone"
-	PlatformBugcrowd    = "bugcrowd"
-	PlatformIntigriti   = "intigriti"
-	PlatformYesWeHack   = "yeswehack"
-	PlatformHackenProof = "hackenproof"
+	PlatformHackerOne = "hackerone"
+	PlatformBugcrowd  = "bugcrowd"
+	PlatformIntigriti = "intigriti"
+	PlatformYesWeHack = "yeswehack"
 )
 
 func Default() *Config {
@@ -55,9 +54,6 @@ func Load(path string) (*Config, error) {
 		} else if err := yaml.Unmarshal(data, cfg); err != nil {
 			return nil, fmt.Errorf("parse config: %w", err)
 		}
-	}
-	if key := os.Getenv("HACKENPROOF_BYPASS"); key != "" {
-		cfg.APIKeys[PlatformHackenProof] = key
 	}
 	return cfg, Validate(cfg)
 }

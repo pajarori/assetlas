@@ -19,7 +19,6 @@ import (
 	"github.com/pajarori/assetlas/internal/fetcher"
 	"github.com/pajarori/assetlas/internal/platform"
 	"github.com/pajarori/assetlas/internal/platform/bugcrowd"
-	"github.com/pajarori/assetlas/internal/platform/hackenproof"
 	"github.com/pajarori/assetlas/internal/platform/hackerone"
 	"github.com/pajarori/assetlas/internal/platform/intigriti"
 	"github.com/pajarori/assetlas/internal/platform/yeswehack"
@@ -180,29 +179,31 @@ func enumCmd() *cobra.Command {
 			rcfg := runner.Config{
 				OutputDir:     runner.DefaultEnumDir(),
 				ResolversPath: resolvers,
+				TargetWorkers: 8,
 				SubfinderArgs: tools.SubfinderOptions{
 					Threads:    threads,
-					Timeout:    30,
+					Timeout:    15,
+					RateLimit:  300,
 					AllSources: false,
 				},
 				HttpxArgs: tools.HttpxOptions{
-					Threads:   threads,
-					Timeout:   10,
-					RateLimit: 150,
+					Threads:   200,
+					Timeout:   7,
+					RateLimit: 500,
 				},
 				NaabuArgs: tools.NaabuOptions{
-					Threads:   25,
-					RateLimit: 1000,
+					Threads:   50,
+					RateLimit: 2000,
 					TopPorts:  "100",
 					ScanType:  "c",
 				},
 				DnsxArgs: tools.DnsxOptions{
-					Threads:   100,
+					Threads:   200,
 					Timeout:   3,
-					RateLimit: 200,
+					RateLimit: 500,
 				},
 				TlsxArgs: tools.TlsxOptions{
-					Threads: 100,
+					Threads: 200,
 					Timeout: 5,
 				},
 				WithPorts: withPorts,
@@ -251,9 +252,9 @@ func enumCmd() *cobra.Command {
 	cmd.Flags().BoolVar(&withPorts, "ports", false, "Run naabu port scan")
 	cmd.Flags().BoolVar(&withDNS, "dns", false, "Run dnsx DNS records lookup")
 	cmd.Flags().BoolVar(&withTLS, "tls", false, "Run tlsx TLS info collection")
-	cmd.Flags().IntVar(&threads, "threads", 50, "Threads passed to tools")
+	cmd.Flags().IntVar(&threads, "threads", 100, "Threads passed to subfinder/httpx")
 	cmd.Flags().IntVar(&limit, "limit", 0, "Process at most N programs (0 = all)")
-	cmd.Flags().IntVar(&concurrency, "concurrency", 4, "Programs processed in parallel")
+	cmd.Flags().IntVar(&concurrency, "concurrency", 8, "Programs processed in parallel")
 	return cmd
 }
 
@@ -419,11 +420,6 @@ func buildScrapers(cfg *config.Config, f *fetcher.Fetcher) []platform.Scraper {
 			scrapers = append(scrapers, intigriti.New(deps))
 		case config.PlatformYesWeHack:
 			scrapers = append(scrapers, yeswehack.New(deps))
-		case config.PlatformHackenProof:
-			scrapers = append(scrapers, hackenproof.New(platform.Deps{
-				Fetcher: f,
-				APIKey:  cfg.APIKeys[config.PlatformHackenProof],
-			}))
 		}
 	}
 	return scrapers

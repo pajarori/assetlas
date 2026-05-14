@@ -2,7 +2,7 @@ name: scrape
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "0 */2 * * *"
   workflow_dispatch:
     inputs:
       platform:
@@ -35,8 +35,6 @@ jobs:
         run: go build -o assetlas .
 
       - name: Run scrape
-        env:
-          HACKENPROOF_BYPASS: ${{ secrets.HACKENPROOF_BYPASS }}
         run: |
           if [ -n "${{ github.event.inputs.platform }}" ]; then
             ./assetlas scrape --silent --platform "${{ github.event.inputs.platform }}"
