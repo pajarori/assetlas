@@ -88,8 +88,8 @@ jobs:
 
       - name: Commit changes (${{ matrix.platform }})
         run: |
-          git config user.name "assetlas-bot"
-          git config user.email "assetlas-bot@users.noreply.github.com"
+          git config user.name "pajarori"
+          git config user.email "79126379+pajarori@users.noreply.github.com"
           git add -A "results/enum/${{ matrix.platform }}/"
           if git diff --staged --quiet; then
             echo "no changes"
