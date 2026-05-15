@@ -56,6 +56,7 @@ var AllPlatforms = []PlatformInfo{
 	{Key: "bugcrowd", Name: "Bugcrowd"},
 	{Key: "intigriti", Name: "Intigriti"},
 	{Key: "yeswehack", Name: "YesWeHack"},
+	{Key: "hackenproof", Name: "HackenProof"},
 }
 
 func IsKnownPlatform(key string) bool {

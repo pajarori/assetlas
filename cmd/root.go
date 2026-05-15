@@ -19,6 +19,7 @@ import (
 	"github.com/pajarori/assetlas/internal/fetcher"
 	"github.com/pajarori/assetlas/internal/platform"
 	"github.com/pajarori/assetlas/internal/platform/bugcrowd"
+	"github.com/pajarori/assetlas/internal/platform/hackenproof"
 	"github.com/pajarori/assetlas/internal/platform/hackerone"
 	"github.com/pajarori/assetlas/internal/platform/intigriti"
 	"github.com/pajarori/assetlas/internal/platform/yeswehack"
@@ -420,6 +421,11 @@ func buildScrapers(cfg *config.Config, f *fetcher.Fetcher) []platform.Scraper {
 			scrapers = append(scrapers, intigriti.New(deps))
 		case config.PlatformYesWeHack:
 			scrapers = append(scrapers, yeswehack.New(deps))
+		case config.PlatformHackenProof:
+			scrapers = append(scrapers, hackenproof.New(platform.Deps{
+				Fetcher: f,
+				APIKey:  cfg.APIKeys[config.PlatformHackenProof],
+			}))
 		}
 	}
 	return scrapers

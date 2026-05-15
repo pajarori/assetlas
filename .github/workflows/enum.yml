@@ -30,7 +30,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        platform: [hackerone, bugcrowd, intigriti, yeswehack]
+        platform: [hackerone, bugcrowd, intigriti, yeswehack, hackenproof]
     runs-on: ubuntu-latest
     timeout-minutes: 350
     concurrency:
@@ -80,7 +80,7 @@ jobs:
           ARG_DNS: ${{ github.event.inputs.dns }}
           ARG_TLS: ${{ github.event.inputs.tls }}
         run: |
-          ARGS=("enum" "--silent" "--platform" "${{ matrix.platform }}" "--concurrency" "4")
+          ARGS=("enum" "--silent" "--platform" "${{ matrix.platform }}" "--concurrency" "8")
           [ "$ARG_PORTS" = "true" ] && ARGS+=("--ports")
           [ "$ARG_DNS" = "true" ] && ARGS+=("--dns")
           [ "$ARG_TLS" = "true" ] && ARGS+=("--tls")

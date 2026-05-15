@@ -20,14 +20,15 @@ import (
 )
 
 type ProgramMeta struct {
-	Platform string    `json:"platform"`
-	Handle   string    `json:"handle"`
-	Name     string    `json:"name"`
-	URL      string    `json:"url"`
-	Targets  []string  `json:"targets"`
-	AddedAt  time.Time `json:"added_at"`
-	LastSeen time.Time `json:"last_seen"`
-	Archived bool      `json:"archived"`
+	Platform    string    `json:"platform"`
+	Handle      string    `json:"handle"`
+	Name        string    `json:"name"`
+	URL         string    `json:"url"`
+	Wildcards   []string  `json:"wildcards"`
+	DirectHosts []string  `json:"direct_hosts"`
+	AddedAt     time.Time `json:"added_at"`
+	LastSeen    time.Time `json:"last_seen"`
+	Archived    bool      `json:"archived"`
 }
 
 type Config struct {
@@ -57,7 +58,7 @@ func New(cfg Config) *Runner {
 
 func (r *Runner) Run(ctx context.Context, prog platform.Program) error {
 	targets := ExtractTargets(prog)
-	if len(targets) == 0 {
+	if targets.IsEmpty() {
 		log.Info().Str("handle", prog.Handle).Str("platform", prog.Platform).Msg("no enumerable targets, skipping")
 		return nil
 	}
@@ -70,14 +71,15 @@ func (r *Runner) Run(ctx context.Context, prog platform.Program) error {
 		return err
 	}
 
-	hosts, err := r.runSubfinder(ctx, prog.Handle, targets)
+	enumerated, err := r.runSubfinder(ctx, prog.Handle, targets.Wildcards)
 	if err != nil {
 		log.Warn().Err(err).Str("handle", prog.Handle).Msg("subfinder step failed")
 	}
+	hosts := mergeHosts(enumerated, targets.DirectHosts)
 	if err := writeLines(filepath.Join(dir, "hostnames.txt"), hosts); err != nil {
 		return err
 	}
-	log.Info().Str("handle", prog.Handle).Int("hosts", len(hosts)).Msg("subfinder done")
+	log.Info().Str("handle", prog.Handle).Int("wildcards", len(targets.Wildcards)).Int("direct", len(targets.DirectHosts)).Int("enumerated", len(enumerated)).Int("total_hosts", len(hosts)).Msg("hosts ready")
 	if len(hosts) == 0 {
 		return nil
 	}
@@ -233,17 +235,22 @@ func (r *Runner) runTlsx(ctx context.Context, dir string, hosts []string) error 
 	})
 }
 
-func (r *Runner) writeMeta(dir string, prog platform.Program, targets []string) error {
+func mergeHosts(enumerated, direct []string) []string {
+	return uniqueSortedLower(append(append([]string(nil), enumerated...), direct...))
+}
+
+func (r *Runner) writeMeta(dir string, prog platform.Program, targets Targets) error {
 	path := filepath.Join(dir, "meta.json")
 	now := time.Now().UTC()
 	meta := ProgramMeta{
-		Platform: prog.Platform,
-		Handle:   prog.Handle,
-		Name:     prog.Name,
-		URL:      prog.URL,
-		Targets:  targets,
-		AddedAt:  now,
-		LastSeen: now,
+		Platform:    prog.Platform,
+		Handle:      prog.Handle,
+		Name:        prog.Name,
+		URL:         prog.URL,
+		Wildcards:   targets.Wildcards,
+		DirectHosts: targets.DirectHosts,
+		AddedAt:     now,
+		LastSeen:    now,
 	}
 	if existing, err := os.ReadFile(path); err == nil {
 		var prev ProgramMeta
@@ -258,9 +265,19 @@ func (r *Runner) writeMeta(dir string, prog platform.Program, targets []string) 
 	return store.WriteIfChanged(path, append(data, '\n'))
 }
 
-func ExtractTargets(prog platform.Program) []string {
-	seen := map[string]struct{}{}
-	var out []string
+type Targets struct {
+	Wildcards   []string
+	DirectHosts []string
+}
+
+func (t Targets) IsEmpty() bool {
+	return len(t.Wildcards) == 0 && len(t.DirectHosts) == 0
+}
+
+func ExtractTargets(prog platform.Program) Targets {
+	wcSeen := map[string]struct{}{}
+	hostSeen := map[string]struct{}{}
+	var t Targets
 	for _, sc := range prog.Scopes {
 		if !sc.Eligible {
 			continue
@@ -275,13 +292,30 @@ func ExtractTargets(prog platform.Program) []string {
 			if strings.ContainsAny(base, "* :/") {
 				continue
 			}
-			addUnique(&out, seen, base)
+			addUnique(&t.Wildcards, wcSeen, base)
 		case platform.AssetURL, platform.AssetAPI:
 			host := platform.StripURLPath(platform.NormalizeWildcard(ident))
 			if host == "" || strings.ContainsAny(host, "* :") {
 				continue
 			}
-			addUnique(&out, seen, host)
+			addUnique(&t.DirectHosts, hostSeen, host)
+		}
+	}
+	sort.Strings(t.Wildcards)
+	sort.Strings(t.DirectHosts)
+	return t
+}
+
+func (t Targets) AllUnique() []string {
+	seen := map[string]struct{}{}
+	out := make([]string, 0, len(t.Wildcards)+len(t.DirectHosts))
+	for _, list := range [][]string{t.Wildcards, t.DirectHosts} {
+		for _, s := range list {
+			if _, ok := seen[s]; ok {
+				continue
+			}
+			seen[s] = struct{}{}
+			out = append(out, s)
 		}
 	}
 	sort.Strings(out)

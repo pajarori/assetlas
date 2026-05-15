@@ -23,15 +23,19 @@ func TestExtractTargets(t *testing.T) {
 		},
 	}
 	got := ExtractTargets(prog)
-	want := []string{"api.foo.com", "bar.com", "foo.com"}
-	if !reflect.DeepEqual(got, want) {
-		t.Errorf("ExtractTargets = %v; want %v", got, want)
+	wantWildcards := []string{"foo.com"}
+	wantHosts := []string{"api.foo.com", "bar.com"}
+	if !reflect.DeepEqual(got.Wildcards, wantWildcards) {
+		t.Errorf("Wildcards = %v; want %v", got.Wildcards, wantWildcards)
+	}
+	if !reflect.DeepEqual(got.DirectHosts, wantHosts) {
+		t.Errorf("DirectHosts = %v; want %v", got.DirectHosts, wantHosts)
 	}
 }
 
 func TestExtractTargetsEmpty(t *testing.T) {
-	if got := ExtractTargets(platform.Program{}); len(got) != 0 {
-		t.Errorf("expected empty, got %v", got)
+	if got := ExtractTargets(platform.Program{}); !got.IsEmpty() {
+		t.Errorf("expected empty, got %+v", got)
 	}
 }
 
