@@ -3,11 +3,13 @@
   "handle": "auth0-okta",
   "name": "Auth0 by Okta",
   "url": "https://bugcrowd.com/engagements/auth0-okta",
-  "targets": [
+  "wildcards": [
+    "cic-bug-bounty.auth0app.com"
+  ],
+  "direct_hosts": [
     "api.us1.fga.dev",
     "auth0.com",
     "auth0.net",
-    "cic-bug-bounty.auth0app.com",
     "config.cic-bug-bounty.auth0app.com",
     "customers.us1.fga.dev",
     "dashboard.fga.dev",
@@ -21,6 +23,6 @@
     "webauthn.me"
   ],
   "added_at": "2026-05-15T01:08:35.188745953Z",
-  "last_seen": "2026-05-15T01:08:35.188745953Z",
+  "last_seen": "2026-05-17T01:10:26.197076083Z",
   "archived": false
 }
