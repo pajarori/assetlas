@@ -12,6 +12,7 @@ ai-assistant-knowledge-base.backend-capital.com
 alert-monitor-cc.prod-qt.backend-capital.com
 alert-monitor-cx.prod-qt.backend-capital.com
 alertmanager.sre.itcapital.io
+ambient.istio-gateway.stg.core-sre-infra.itcapital.io
 analytics.n8n-hub.itcapital.io
 api-2.backend-capital.com
 api-adapter.backend-capital.com
@@ -25,6 +26,12 @@ atlantis.itcapital.io
 attack.seclearning.itcapital.io
 banner-admin.mi.backend-capital.com
 blockchain.capital.com
+bookinfo-ambient.istio-gateway.stg.core-sre-infra.itcapital.io
+bookinfo-ambient.stg.core-sre-infra.itcapital.io
+bookinfo-nomesh.nginx-gateway.stg.core-sre-infra.itcapital.io
+bookinfo-nomesh.stg.core-sre-infra.itcapital.io
+bookinfo-sidecar.istio-gateway.stg.core-sre-infra.itcapital.io
+bookinfo-sidecar.stg.core-sre-infra.itcapital.io
 callback.backend-capital.com
 career.capital.com
 careers.capital.com
@@ -74,6 +81,7 @@ feature-uaa-11820.uaa-frontend-capital.backend-capital.com
 feature-uaa-11820.uaa-frontend-currency.backend-capital.com
 feature-uaa-12577.uaa-frontend-capital.backend-capital.com
 feature-uaa-12885.uaa-frontend-capital.backend-capital.com
+feature-uaa-13090.uaa-frontend-capital.backend-capital.com
 feature-uaa-9950.uaa-capital.backend-capital.com
 finance.n8n-hub.itcapital.io
 finops-airflow.corp-aws-rke2.itcapital.io
@@ -107,6 +115,7 @@ internal-test-solr.backend-capital.com
 introducing-brokers-internal.backend-capital.com
 introducing-brokers.backend-capital.com
 inventa-poc.backend-capital.com
+istio-gateway.stg.core-sre-infra.itcapital.io
 jitsi.itcapital.io
 jobs-monitor.prod-qt.backend-capital.com
 jobs-monitor.test-qt.itcapital.io
@@ -654,6 +663,7 @@ mi-7487-segmentation.test-mi.backend-capital.com
 mi-7505-hedwig.test-mi.backend-capital.com
 mi-7506-hedwig.test-mi.backend-capital.com
 mi-7512-segmentation-backend.test-mi.backend-capital.com
+mi-7513-segmentation.test-mi.backend-capital.com
 mi-7517-hermes-backend.test-mi.backend-capital.com
 mi-7535-segmentation-old.test-mi.backend-capital.com
 mi-7536-segmentation-backend.test-mi.backend-capital.com
@@ -793,6 +803,7 @@ mi-7913-segmentation.test-mi.backend-capital.com
 mi-7941-hedwig.test-mi.backend-capital.com
 mi-7941-segmentation.test-mi.backend-capital.com
 mi-7948-instruments-admin.test-mi.backend-capital.com
+mi-7950-segmentation.test-mi.backend-capital.com
 mi-7954-segmentation-backend.test-mi.backend-capital.com
 mi-7956-hermes-backend.test-mi.backend-capital.com
 mi-7961-hedwig.test-mi.backend-capital.com
@@ -968,12 +979,14 @@ mi-8645-hermes.test-mi.backend-capital.com
 mi-8653-test-deploy.test-mi.backend-capital.com
 mi-8671-segmentation.test-mi.backend-capital.com
 mi-8685-hedwig.test-mi.backend-capital.com
+mi-8687-segmentation.test-mi.backend-capital.com
 mi-8698-hedwig.test-mi.backend-capital.com
 mi-8698-segmentation.test-mi.backend-capital.com
 mi-8704-hedwig.test-mi.backend-capital.com
 mi-8704-hermes.test-mi.backend-capital.com
 mi-8704-segmentation.test-mi.backend-capital.com
 mi-8712-segmentation-backend.test-mi.backend-capital.com
+mi-8712-segmentation.test-mi.backend-capital.com
 mi-8714-master-data-backend.test-mi.backend-capital.com
 mi-8714-master-data.test-mi.backend-capital.com
 mi-8716-segmentation-backend.test-mi.backend-capital.com
@@ -1004,6 +1017,8 @@ mi-8884-segmentation-backend.test-mi.backend-capital.com
 mi-8884-segmentation.test-mi.backend-capital.com
 mi-8900-hermes-backend.test-mi.backend-capital.com
 mi-8900-hermes.test-mi.backend-capital.com
+mi-8953-hermes-backend.test-mi.backend-capital.com
+mi-8953-hermes.test-mi.backend-capital.com
 mi-8969.test-crm.backend-capital.com
 minio-api-frontend.corp-vl-gitlab.itcapital.io
 minio-api-test.corp-vl-gitlab.itcapital.io
@@ -1273,6 +1288,7 @@ preview-2412.preview-env.backend-capital.com
 preview-2502.preview-env.backend-capital.com
 preview-2503.preview-env.backend-capital.com
 preview-2504.preview-env.backend-capital.com
+preview-2505.preview-env.backend-capital.com
 preview-2506.preview-env.backend-capital.com
 preview-2507.preview-env.backend-capital.com
 preview-2508.preview-env.backend-capital.com
@@ -1521,6 +1537,7 @@ preview-87967.preview-env.backend-capital.com
 preview-8856.preview-env.backend-capital.com
 preview-88561.preview-env.backend-capital.com
 preview-88563.preview-env.backend-capital.com
+preview-89332.preview-env.backend-capital.com
 preview-9138.preview-env.backend-capital.com
 preview-9235.preview-env.backend-capital.com
 preview-92352.preview-env.backend-capital.com
@@ -1573,6 +1590,7 @@ preview-antifc71241.preview-env.backend-capital.com
 preview-antifl71241.preview-env.backend-capital.com
 preview-antifraud-sync.preview-env.backend-capital.com
 preview-antifx71241.preview-env.backend-capital.com
+preview-apc.preview-env.backend-capital.com
 preview-ar-5.preview-env.backend-capital.com
 preview-arts-251126.preview-env.backend-capital.com
 preview-at.preview-env.backend-capital.com
@@ -1855,6 +1873,7 @@ preview-env-mt4-33.preview-env.backend-capital.com
 preview-env-mt4-34.preview-env.backend-capital.com
 preview-env-mt4-35.preview-env.backend-capital.com
 preview-env-mt4-36.preview-env.backend-capital.com
+preview-env-mt4-37.preview-env.backend-capital.com
 preview-env-mt4-4.preview-env.backend-capital.com
 preview-env-mt4-5.preview-env.backend-capital.com
 preview-env-mt4-77.preview-env.backend-capital.com
@@ -1938,6 +1957,7 @@ preview-env-zav.preview-env.backend-capital.com
 preview-epiankov.preview-env.backend-capital.com
 preview-ev-proc-2.preview-env.backend-capital.com
 preview-ev2-6508.preview-env.backend-capital.com
+preview-ev2-7518.preview-env.backend-capital.com
 preview-ev2-7520.preview-env.backend-capital.com
 preview-ev2-8495-price.preview-env.backend-capital.com
 preview-ev2-8495.preview-env.backend-capital.com
@@ -2012,6 +2032,7 @@ preview-leads6.preview-env.backend-capital.com
 preview-leads7.preview-env.backend-capital.com
 preview-leads8.preview-env.backend-capital.com
 preview-leads9.preview-env.backend-capital.com
+preview-license.preview-env.backend-capital.com
 preview-low-0.preview-env.backend-capital.com
 preview-loyalty.preview-env.backend-capital.com
 preview-m-d1-0.preview-env.backend-capital.com
@@ -2226,6 +2247,7 @@ preview-mpd-66042.preview-env.backend-capital.com
 preview-mpd-66116.preview-env.backend-capital.com
 preview-mpd-66431.preview-env.backend-capital.com
 preview-mpd-66643.preview-env.backend-capital.com
+preview-mpd-66663.preview-env.backend-capital.com
 preview-mpd-66665.preview-env.backend-capital.com
 preview-mpd-66715.preview-env.backend-capital.com
 preview-mpd-67248.preview-env.backend-capital.com
@@ -2327,6 +2349,7 @@ preview-mpd-86625.preview-env.backend-capital.com
 preview-mpd-86769.preview-env.backend-capital.com
 preview-mpd-87019.preview-env.backend-capital.com
 preview-mpd-87734.preview-env.backend-capital.com
+preview-mpd-87879.preview-env.backend-capital.com
 preview-mpd-88730.preview-env.backend-capital.com
 preview-mpd-ar-1.preview-env.backend-capital.com
 preview-mpd-ar-2.preview-env.backend-capital.com
@@ -2381,6 +2404,7 @@ preview-ms-one.preview-env.backend-capital.com
 preview-ms-refflag.preview-env.backend-capital.com
 preview-msk-mig.preview-env.backend-capital.com
 preview-mt4-tv.preview-env.backend-capital.com
+preview-mt4hub.preview-env.backend-capital.com
 preview-mti-apr.preview-env.backend-capital.com
 preview-my-tasks-new.preview-env.backend-capital.com
 preview-my-tasks-v2.preview-env.backend-capital.com
@@ -2568,6 +2592,7 @@ preview-public-api-bw.preview-env.backend-capital.com
 preview-push-api.preview-env.backend-capital.com
 preview-py1.preview-env.backend-capital.com
 preview-q-builder.preview-env.backend-capital.com
+preview-qb-main.preview-env.backend-capital.com
 preview-quartztest.preview-env.backend-capital.com
 preview-quartztest2.preview-env.backend-capital.com
 preview-quest-bldr.preview-env.backend-capital.com
@@ -2601,6 +2626,7 @@ preview-ra-79923.preview-env.backend-capital.com
 preview-ra-80282.preview-env.backend-capital.com
 preview-ra-84910.preview-env.backend-capital.com
 preview-ra-85415.preview-env.backend-capital.com
+preview-ra-88161.preview-env.backend-capital.com
 preview-ra-aisearch.preview-env.backend-capital.com
 preview-ra-test.preview-env.backend-capital.com
 preview-ra-testmr.preview-env.backend-capital.com
@@ -2658,11 +2684,13 @@ preview-ref-m1.preview-env.backend-capital.com
 preview-ref-msk.preview-env.backend-capital.com
 preview-ref-web-1.preview-env.backend-capital.com
 preview-ref-web-2.preview-env.backend-capital.com
+preview-ref-x.preview-env.backend-capital.com
 preview-refinfo-1-17-0.preview-env.backend-capital.com
 preview-refinfo-118.preview-env.backend-capital.com
 preview-refinfo-1234.preview-env.backend-capital.com
 preview-refinfo-25.preview-env.backend-capital.com
 preview-refinfo-nw.preview-env.backend-capital.com
+preview-refinfo.preview-env.backend-capital.com
 preview-refinfo119.preview-env.backend-capital.com
 preview-refinfo25.preview-env.backend-capital.com
 preview-refinfo27.preview-env.backend-capital.com
@@ -2769,6 +2797,7 @@ preview-ticks-st-poc.preview-env.backend-capital.com
 preview-tidb-operator.preview-env.backend-capital.com
 preview-tll-active.preview-env.backend-capital.com
 preview-trading-poc.preview-env.backend-capital.com
+preview-transc.preview-env.backend-capital.com
 preview-trivy.preview-env.backend-capital.com
 preview-tst2.preview-env.backend-capital.com
 preview-tsts1.preview-env.backend-capital.com
@@ -2820,6 +2849,8 @@ preview-uaa-11933-fin.preview-env.backend-capital.com
 preview-uaa-11933.preview-env.backend-capital.com
 preview-uaa-11937-v1.preview-env.backend-capital.com
 preview-uaa-11959-v1.preview-env.backend-capital.com
+preview-uaa-11959-v2.preview-env.backend-capital.com
+preview-uaa-11959-v3.preview-env.backend-capital.com
 preview-uaa-12109-v1.preview-env.backend-capital.com
 preview-uaa-12109-v2.preview-env.backend-capital.com
 preview-uaa-12109-v3.preview-env.backend-capital.com
@@ -2918,6 +2949,7 @@ preview-uaa-9886-v1.preview-env.backend-capital.com
 preview-uaa-9974.preview-env.backend-capital.com
 preview-uaa-audit.preview-env.backend-capital.com
 preview-uaa-bury.preview-env.backend-capital.com
+preview-uaa-dzch-test.preview-env.backend-capital.com
 preview-uaa-fixes.preview-env.backend-capital.com
 preview-uaa-gg.preview-env.backend-capital.com
 preview-uaa-msk.preview-env.backend-capital.com
@@ -2969,6 +3001,7 @@ preview-ums-9922.preview-env.backend-capital.com
 preview-ums-mpd-75853.preview-env.backend-capital.com
 preview-umscloak.preview-env.backend-capital.com
 preview-umskeycloak.preview-env.backend-capital.com
+preview-unleash-01.preview-env.backend-capital.com
 preview-unverify.preview-env.backend-capital.com
 preview-upd-rancher-12.preview-env.backend-capital.com
 preview-upd-rancher-2.preview-env.backend-capital.com
@@ -3134,6 +3167,7 @@ segmentation-old.mi.backend-capital.com
 segmentation.mi.backend-capital.com
 sender.capital.com
 shares.capital.com
+sidecar.istio-gateway.stg.core-sre-infra.itcapital.io
 sre-2000.uaa-frontend-capital.backend-capital.com
 sre-2000.uaa-frontend-currency.backend-capital.com
 sre-2597-test-deploy.test-mi.backend-capital.com
