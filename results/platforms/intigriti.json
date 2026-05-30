@@ -26,7 +26,7 @@
         "max_severity": "Tier 2"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:02.432711031Z"
+    "fetched_at": "2026-05-30T12:21:05.727957964Z"
   },
   {
     "platform": "intigriti",
@@ -87,7 +87,7 @@
         "max_severity": "Out of scope"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:04.669050824Z"
+    "fetched_at": "2026-05-30T12:21:07.668944072Z"
   },
   {
     "platform": "intigriti",
@@ -103,7 +103,7 @@
         "max_severity": "No Bounty"
       }
     ],
-    "fetched_at": "2026-05-30T10:32:57.295489325Z"
+    "fetched_at": "2026-05-30T12:21:00.49244067Z"
   },
   {
     "platform": "intigriti",
@@ -169,7 +169,7 @@
         "description": "Manual of several door products"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:02.342867191Z"
+    "fetched_at": "2026-05-30T12:21:05.261092692Z"
   },
   {
     "platform": "intigriti",
@@ -227,7 +227,7 @@
         "max_severity": "Tier 2"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:17.773497857Z"
+    "fetched_at": "2026-05-30T12:21:20.996262596Z"
   },
   {
     "platform": "intigriti",
@@ -251,7 +251,7 @@
         "description": "#### Arm Mali GPU Kernel Driver 'Kbase' (`mali_kbase.ko`)\n\nIn scope versions of the Arm Kbase driver version are:\n- The latest Arm Bifrost, Valhall, or 5th Gen GPU Kernel driver versions, as found on \u003chttps://developer.arm.com/downloads/-/mali-drivers/\u003e or, \n- Arm Bifrost, Valhall, or 5th Gen GPU Kernel driver versions r49p1 and above that are running on devices supported by the OEM and have latest available security patches applied.\n\nOnly vulnerabilities that are exploitable through syscalls available to unprivileged userspace attackers (in EL0) are in scope.\n\nUse of the following configuration options is allowed. The use of other options is out of scope and may only be used during investigation.\n\n#### Kbase Build Configuration\nMali Kbase Default KConfig Build Options are used.\n\nThe following must specifically be set:\n- `CONFIG_MALI_DEBUG=n`\n\nAdditionally, the following options may be changed:\n- `CONFIG_MALI_CSF_SUPPORT=y` or `n` (please refer to FAQ for which setting must be used)\n- `CONFIG_MALI_EXPERT=y` or `n`\n- `CONFIG_LARGE_PAGE_SUPPORT=y` or `n`\n- `CONFIG_MALI_TRACE_POWER_GPU_WORK_PERIOD=y` or `n`\n- `CONFIG_MALI_NO_MALI`, either:\n  - `=n` (default)\n  - `=y`, (excludes vulnerabilities in the \"dummy model\" code itself)\n\n#### Kbase Dynamic Configuration\nThe default module parameter settings must be used.\n\nAdditionally, the following option(s) may be changed (chosen at 'insmod' time) :\n- `kbase_page_migration_enabled`"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:00.47196856Z"
+    "fetched_at": "2026-05-30T12:21:03.647370209Z"
   },
   {
     "platform": "intigriti",
@@ -289,7 +289,7 @@
         "description": "Trusted Firmware-M (TF-M) implements the Secure Processing Environment (SPE) for Armv8-M, Armv8.1-M architectures (e.g. the Cortex-M33, Cortex-M23, Cortex-M55, Cortex-M85 processors) or dual-core platforms. It is the platform security architecture reference implementation aligning with PSA Certified guidelines, enabling chips, Real Time Operating Systems and devices to become PSA Certified."
       }
     ],
-    "fetched_at": "2026-05-30T10:32:58.369905061Z"
+    "fetched_at": "2026-05-30T12:21:01.390183069Z"
   },
   {
     "platform": "intigriti",
@@ -534,7 +534,7 @@
         "description": "This is a marketing related application from ICI Paris XL"
       }
     ],
-    "fetched_at": "2026-05-30T10:32:57.295511133Z"
+    "fetched_at": "2026-05-30T12:21:00.492473351Z"
   },
   {
     "platform": "intigriti",
@@ -887,7 +887,7 @@
         "description": "\"This is Trekpleister, our Dutch online Pharmacy.\nAPI spec: https://www.trekpleister.nl/api/v2/api-docs\""
       }
     ],
-    "fetched_at": "2026-05-30T10:32:57.295517407Z"
+    "fetched_at": "2026-05-30T12:21:00.492469507Z"
   },
   {
     "platform": "intigriti",
@@ -1388,7 +1388,7 @@
         "description": "This is Marionnaud Slovakia, our online Perfumery."
       }
     ],
-    "fetched_at": "2026-05-30T10:32:57.295500155Z"
+    "fetched_at": "2026-05-30T12:21:00.492462491Z"
   },
   {
     "platform": "intigriti",
@@ -1578,7 +1578,7 @@
         "description": "This is the Superdrug Mobile website"
       }
     ],
-    "fetched_at": "2026-05-30T10:32:57.295487401Z"
+    "fetched_at": "2026-05-30T12:21:00.492480247Z"
   },
   {
     "platform": "intigriti",
@@ -1654,7 +1654,7 @@
         "description": "This is The Perfume Shop, our online Perfumery in the UK"
       }
     ],
-    "fetched_at": "2026-05-30T10:32:57.295483792Z"
+    "fetched_at": "2026-05-30T12:21:00.492478722Z"
   },
   {
     "platform": "intigriti",
@@ -2466,7 +2466,7 @@
         "description": "This is the API server of the Watsons Thailand mobile app"
       }
     ],
-    "fetched_at": "2026-05-30T10:32:57.295449152Z"
+    "fetched_at": "2026-05-30T12:21:00.492469484Z"
   },
   {
     "platform": "intigriti",
@@ -2698,7 +2698,7 @@
         "max_severity": "No Bounty"
       }
     ],
-    "fetched_at": "2026-05-30T10:32:57.295500235Z"
+    "fetched_at": "2026-05-30T12:21:00.492458955Z"
   },
   {
     "platform": "intigriti",
@@ -2721,7 +2721,7 @@
         "description": "This asset falls under the Axel Springer National Media \u0026 Tech bug bounty program. We kindly ask that you report any findings related to this asset through that program."
       }
     ],
-    "fetched_at": "2026-05-30T10:33:03.714802844Z"
+    "fetched_at": "2026-05-30T12:21:06.879709987Z"
   },
   {
     "platform": "intigriti",
@@ -3010,7 +3010,7 @@
         "description": "Large german broadsheet newspaper. \n\nYou can find Tier 1 subdomains, as well as a Tier 2 wildcard subdomain.\nYou are welcome to create your own account and test our system."
       }
     ],
-    "fetched_at": "2026-05-30T10:33:07.481165581Z"
+    "fetched_at": "2026-05-30T12:21:10.486104149Z"
   },
   {
     "platform": "intigriti",
@@ -3052,7 +3052,7 @@
         "description": "This is the base WebSocket API endpoint for Bitvavo. For the full list of available methods, endpoints, schema definition, and auth requirement consult the canonical API documentation: \n\nhttps://docs.bitvavo.com/docs/websocket-api/\n\nBitvavo offers two protocols for interacting with its platform: **REST** and **WebSocket**. Both protocols return JSON-encoded responses, and use standard HTTP status codes. However, each protocol is optimized for different use cases:\n\n**WebSocket API**\n* Ideal for real-time, event-driven communication.\n* Once connected, the server continuously pushes updates to the client without requiring repeated requests.\n\nFor more details, read carefully our API docs at https://docs.bitvavo.com/docs/get-started/"
       }
     ],
-    "fetched_at": "2026-05-30T10:32:59.058632325Z"
+    "fetched_at": "2026-05-30T12:21:02.137260228Z"
   },
   {
     "platform": "intigriti",
@@ -3119,7 +3119,7 @@
         "max_severity": "Tier 1"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:03.593864186Z"
+    "fetched_at": "2026-05-30T12:21:06.737547105Z"
   },
   {
     "platform": "intigriti",
@@ -3153,7 +3153,7 @@
         "max_severity": "Tier 2"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:03.535578017Z"
+    "fetched_at": "2026-05-30T12:21:06.606892093Z"
   },
   {
     "platform": "intigriti",
@@ -3169,7 +3169,7 @@
         "max_severity": "No Bounty"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:19.380505355Z"
+    "fetched_at": "2026-05-30T12:21:22.364012733Z"
   },
   {
     "platform": "intigriti",
@@ -3304,7 +3304,7 @@
         "description": "Some of the entry points :\n\nac2 versions of bpi \u0026 bpostinternational T\u0026T\thttps://www.bpost2.be/ac2/bpi/track_trace/find.php\nInternational T\u0026T\thttps://www.bpost2.be/bpi/track_trace/find.php \nInternational T\u0026T\thttp://www.bpost2.be/bpostinternational/track_trace/find.php?lng=en \u0026 http://www.bpost2.be/bpostinternational/track_trace/find.php?search=s\u0026lng=en\u0026trackcode=1000\n\tCollect \u0026 stamp demo's\thttps://www.bpost2.be/collectandstamp/demo/nl/story_html5.html?lms=1\n\tStatic html library of Drupal components\thttp://bpost2.be/components/\n\tPOS locator - Still active : POS by ID \u0026 MP/HMP centres\thttps://www.bpost2.be/locations/etr/nl/map_id.php?id=002500 \u0026 https://www.bpost2.be/locations/business/nl/both.php\n\tOnline version of MP guide\thttps://www.bpost2.be/masspost/guide/nl/"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:17.278335041Z"
+    "fetched_at": "2026-05-30T12:21:20.448631706Z"
   },
   {
     "platform": "intigriti",
@@ -3320,7 +3320,7 @@
         "max_severity": "No Bounty"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:05.268807092Z"
+    "fetched_at": "2026-05-30T12:21:08.411960333Z"
   },
   {
     "platform": "intigriti",
@@ -3464,7 +3464,7 @@
         "max_severity": "Out of scope"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:05.862641083Z"
+    "fetched_at": "2026-05-30T12:21:09.378544335Z"
   },
   {
     "platform": "intigriti",
@@ -3593,7 +3593,7 @@
         "max_severity": "Out of scope"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:08.076168732Z"
+    "fetched_at": "2026-05-30T12:21:11.387901156Z"
   },
   {
     "platform": "intigriti",
@@ -4198,7 +4198,7 @@
         "max_severity": "No Bounty"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:04.806229463Z"
+    "fetched_at": "2026-05-30T12:21:08.120397175Z"
   },
   {
     "platform": "intigriti",
@@ -4337,7 +4337,7 @@
         "max_severity": "Tier 3"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:13.499616731Z"
+    "fetched_at": "2026-05-30T12:21:16.900604208Z"
   },
   {
     "platform": "intigriti",
@@ -4368,7 +4368,7 @@
         "description": "Public website"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:12.97923976Z"
+    "fetched_at": "2026-05-30T12:21:16.16969228Z"
   },
   {
     "platform": "intigriti",
@@ -4495,7 +4495,7 @@
         "description": "🇬🇧🇫🇷🇳🇱"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:18.38634654Z"
+    "fetched_at": "2026-05-30T12:21:21.914794503Z"
   },
   {
     "platform": "intigriti",
@@ -4547,7 +4547,7 @@
         "max_severity": "No Bounty"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:06.279781094Z"
+    "fetched_at": "2026-05-30T12:21:09.479869445Z"
   },
   {
     "platform": "intigriti",
@@ -4617,7 +4617,7 @@
         "max_severity": "Out of scope"
       }
     ],
-    "fetched_at": "2026-05-30T10:32:57.945412865Z"
+    "fetched_at": "2026-05-30T12:21:00.898324873Z"
   },
   {
     "platform": "intigriti",
@@ -4675,7 +4675,7 @@
         "description": "Cloudways website is the corporate website that is often the initial touchpoint for a significant number of interactions between visitors, customers and Cloudways. It offers product details and related corporate information to visitors."
       }
     ],
-    "fetched_at": "2026-05-30T10:33:02.475580614Z"
+    "fetched_at": "2026-05-30T12:21:05.737193892Z"
   },
   {
     "platform": "intigriti",
@@ -5042,7 +5042,7 @@
         "max_severity": "Tier 2"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:02.808404962Z"
+    "fetched_at": "2026-05-30T12:21:06.101697246Z"
   },
   {
     "platform": "intigriti",
@@ -5101,7 +5101,7 @@
         "description": "Donorbox Live is a mobile app that allows orgs to connect Stripe-sanctioned card readers and accept in person payments. See the infrastructure section below for details."
       }
     ],
-    "fetched_at": "2026-05-30T10:33:01.733893201Z"
+    "fetched_at": "2026-05-30T12:21:04.87367055Z"
   },
   {
     "platform": "intigriti",
@@ -5143,7 +5143,7 @@
         "max_severity": "Tier 2"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:14.111703271Z"
+    "fetched_at": "2026-05-30T12:21:17.556626789Z"
   },
   {
     "platform": "intigriti",
@@ -5215,7 +5215,7 @@
         "max_severity": "Tier 2"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:16.524349583Z"
+    "fetched_at": "2026-05-30T12:21:19.530943686Z"
   },
   {
     "platform": "intigriti",
@@ -5263,7 +5263,7 @@
         "max_severity": "Tier 2"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:18.114362545Z"
+    "fetched_at": "2026-05-30T12:21:21.148930995Z"
   },
   {
     "platform": "intigriti",
@@ -5301,7 +5301,7 @@
         "description": "Issues related to Zendesk beyond our control are Out of Scope"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:17.103035001Z"
+    "fetched_at": "2026-05-30T12:21:20.169950664Z"
   },
   {
     "platform": "intigriti",
@@ -5360,7 +5360,7 @@
         "description": "excluding\n* hln.be/service\n* hln.be/inloggen\n* hln.be/login\n* hln.be/registreren"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:12.890452973Z"
+    "fetched_at": "2026-05-30T12:21:15.987158168Z"
   },
   {
     "platform": "intigriti",
@@ -5438,7 +5438,7 @@
         "max_severity": "Tier 2"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:16.221378855Z"
+    "fetched_at": "2026-05-30T12:21:19.492476206Z"
   },
   {
     "platform": "intigriti",
@@ -5510,7 +5510,7 @@
         "max_severity": "Tier 2"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:16.757083377Z"
+    "fetched_at": "2026-05-30T12:21:19.92001194Z"
   },
   {
     "platform": "intigriti",
@@ -5557,7 +5557,7 @@
         "description": "excluding\n* libelle.nl/service\n* libelle.nl/inloggen\n* libelle.nl/login\n* libelle.nl/registreren"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:13.933085226Z"
+    "fetched_at": "2026-05-30T12:21:17.529254852Z"
   },
   {
     "platform": "intigriti",
@@ -5635,7 +5635,7 @@
         "max_severity": "Tier 2"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:16.671371351Z"
+    "fetched_at": "2026-05-30T12:21:19.772688219Z"
   },
   {
     "platform": "intigriti",
@@ -5670,7 +5670,7 @@
         "max_severity": "Out of scope"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:18.954214104Z"
+    "fetched_at": "2026-05-30T12:21:21.971798952Z"
   },
   {
     "platform": "intigriti",
@@ -5749,7 +5749,7 @@
         "max_severity": "Out of scope"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:14.671725416Z"
+    "fetched_at": "2026-05-30T12:21:17.929175234Z"
   },
   {
     "platform": "intigriti",
@@ -5777,7 +5777,7 @@
         "max_severity": "Out of scope"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:03.672121687Z"
+    "fetched_at": "2026-05-30T12:21:06.852709395Z"
   },
   {
     "platform": "intigriti",
@@ -6013,7 +6013,7 @@
         "description": "Sign by Dropbox (formerly HelloSign)"
       }
     ],
-    "fetched_at": "2026-05-30T10:32:59.567057362Z"
+    "fetched_at": "2026-05-30T12:21:03.055028591Z"
   },
   {
     "platform": "intigriti",
@@ -6036,7 +6036,7 @@
         "description": "Before testing or reporting a vulnerability, confirm that the target asset is owned or managed by Dropbox. Terms like “Dropbox-compatible” do not mean Dropbox controls the system. If you're unsure, contact the program team to avoid interacting with assets outside of scope at bugbounty@dropbox.com."
       }
     ],
-    "fetched_at": "2026-05-30T10:32:59.31555737Z"
+    "fetched_at": "2026-05-30T12:21:02.392463171Z"
   },
   {
     "platform": "intigriti",
@@ -6108,7 +6108,7 @@
         "max_severity": "Out of scope"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:18.311440912Z"
+    "fetched_at": "2026-05-30T12:21:21.332380935Z"
   },
   {
     "platform": "intigriti",
@@ -6221,7 +6221,7 @@
         "description": "weclapp is part of Exact Group"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:01.055614141Z"
+    "fetched_at": "2026-05-30T12:21:03.912037764Z"
   },
   {
     "platform": "intigriti",
@@ -6318,7 +6318,7 @@
         "description": "Our [public website](https://www.exoscale.com/). A great way to start to familiarise with our products and services and learn more about everything Exoscale has to offer!"
       }
     ],
-    "fetched_at": "2026-05-30T10:32:58.755420082Z"
+    "fetched_at": "2026-05-30T12:21:02.124243256Z"
   },
   {
     "platform": "intigriti",
@@ -6334,7 +6334,7 @@
         "max_severity": "Tier 2"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:05.675963541Z"
+    "fetched_at": "2026-05-30T12:21:08.858499163Z"
   },
   {
     "platform": "intigriti",
@@ -6374,7 +6374,7 @@
         "max_severity": "No Bounty"
       }
     ],
-    "fetched_at": "2026-05-30T10:32:57.295478865Z"
+    "fetched_at": "2026-05-30T12:21:00.492460801Z"
   },
   {
     "platform": "intigriti",
@@ -6468,7 +6468,7 @@
         "max_severity": "Tier 2"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:11.279524657Z"
+    "fetched_at": "2026-05-30T12:21:14.713799807Z"
   },
   {
     "platform": "intigriti",
@@ -6510,7 +6510,7 @@
         "max_severity": "Out of scope"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:02.866670872Z"
+    "fetched_at": "2026-05-30T12:21:06.398891587Z"
   },
   {
     "platform": "intigriti",
@@ -6545,7 +6545,7 @@
         "max_severity": "Out of scope"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:01.465060517Z"
+    "fetched_at": "2026-05-30T12:21:04.665031877Z"
   },
   {
     "platform": "intigriti",
@@ -6561,7 +6561,7 @@
         "max_severity": "No Bounty"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:06.599007831Z"
+    "fetched_at": "2026-05-30T12:21:09.732837591Z"
   },
   {
     "platform": "intigriti",
@@ -6660,7 +6660,7 @@
         "max_severity": "Out of scope"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:13.312919672Z"
+    "fetched_at": "2026-05-30T12:21:16.687319655Z"
   },
   {
     "platform": "intigriti",
@@ -6712,7 +6712,7 @@
         "description": "Canada Post's mobile application for Android"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:10.048837857Z"
+    "fetched_at": "2026-05-30T12:21:12.943952691Z"
   },
   {
     "platform": "intigriti",
@@ -6753,7 +6753,7 @@
         "max_severity": "Tier 3"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:10.085611593Z"
+    "fetched_at": "2026-05-30T12:21:13.142877639Z"
   },
   {
     "platform": "intigriti",
@@ -6887,7 +6887,7 @@
         "description": "This is our marketing website."
       }
     ],
-    "fetched_at": "2026-05-30T10:33:18.998991069Z"
+    "fetched_at": "2026-05-30T12:21:21.998159734Z"
   },
   {
     "platform": "intigriti",
@@ -7265,7 +7265,7 @@
         "max_severity": "Tier 1"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:19.729676929Z"
+    "fetched_at": "2026-05-30T12:21:22.913544364Z"
   },
   {
     "platform": "intigriti",
@@ -7329,7 +7329,7 @@
         "max_severity": "Out of scope"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:05.443814001Z"
+    "fetched_at": "2026-05-30T12:21:08.73058606Z"
   },
   {
     "platform": "intigriti",
@@ -7346,7 +7346,7 @@
         "description": "!! You can create an account with [your @intigriti.me address](https://go.intigriti.com/intigritime) and name 'Intigriti Test' (as explained in the FAQ), but the **registration process** itself is **not in scope** for the bug bounty programme !!\n\nThe scope includes all assets that are reasonably related to the housing application app (except for authentication like login or registration process)."
       }
     ],
-    "fetched_at": "2026-05-30T10:33:09.08251713Z"
+    "fetched_at": "2026-05-30T12:21:12.004353622Z"
   },
   {
     "platform": "intigriti",
@@ -7374,7 +7374,7 @@
         "max_severity": "Out of scope"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:12.087953993Z"
+    "fetched_at": "2026-05-30T12:21:15.294407873Z"
   },
   {
     "platform": "intigriti",
@@ -7398,7 +7398,7 @@
         "description": "🇬🇧🇳🇱"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:17.341463354Z"
+    "fetched_at": "2026-05-30T12:21:20.503365122Z"
   },
   {
     "platform": "intigriti",
@@ -7436,7 +7436,7 @@
         "description": "Always use \"intigriti.me\" address for any web form"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:10.551274081Z"
+    "fetched_at": "2026-05-30T12:21:13.517129554Z"
   },
   {
     "platform": "intigriti",
@@ -7562,7 +7562,7 @@
         "max_severity": "Out of scope"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:12.153588102Z"
+    "fetched_at": "2026-05-30T12:21:15.443996576Z"
   },
   {
     "platform": "intigriti",
@@ -7633,7 +7633,7 @@
         "description": "Liferay Corporate Website/Marketing Portal - The primary public-facing corporate and marketing website. Contains general company information, product pages, and non-customer/non-developer functionality."
       }
     ],
-    "fetched_at": "2026-05-30T10:32:58.550530951Z"
+    "fetched_at": "2026-05-30T12:21:01.729669898Z"
   },
   {
     "platform": "intigriti",
@@ -7715,7 +7715,7 @@
         "max_severity": "Out of scope"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:11.107197545Z"
+    "fetched_at": "2026-05-30T12:21:14.508549231Z"
   },
   {
     "platform": "intigriti",
@@ -7833,7 +7833,7 @@
         "max_severity": "Tier 2"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:10.15757112Z"
+    "fetched_at": "2026-05-30T12:21:13.42842143Z"
   },
   {
     "platform": "intigriti",
@@ -7849,7 +7849,7 @@
         "max_severity": "No Bounty"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:09.592908972Z"
+    "fetched_at": "2026-05-30T12:21:12.773426694Z"
   },
   {
     "platform": "intigriti",
@@ -7955,7 +7955,7 @@
         "description": "Android App: nexuzhealth pro"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:01.083803719Z"
+    "fetched_at": "2026-05-30T12:21:04.472446442Z"
   },
   {
     "platform": "intigriti",
@@ -7971,7 +7971,7 @@
         "max_severity": "No Bounty"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:01.061992869Z"
+    "fetched_at": "2026-05-30T12:21:04.224030071Z"
   },
   {
     "platform": "intigriti",
@@ -8108,7 +8108,7 @@
         "description": "If you've found an issue with this domain you can contact Zendesk here - https://support.zendesk.com/hc/en-us/articles/4409154830874-Zendesk-Bug-Bounty-Program"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:07.992671403Z"
+    "fetched_at": "2026-05-30T12:21:10.995277011Z"
   },
   {
     "platform": "intigriti",
@@ -8131,7 +8131,7 @@
         "description": "Before initiating any testing or submitting a report, please ensure that the asset in question is genuinely owned or operated by NVIDIA. Descriptive phrases such as “compatible with NVIDIA GPU” do not constitute confirmation of NVIDIA’s ownership or control. When in doubt, we strongly encourage you to verify the asset's ownership through the program team to avoid unintentional testing of third-party systems."
       }
     ],
-    "fetched_at": "2026-05-30T10:32:59.708080087Z"
+    "fetched_at": "2026-05-30T12:21:03.113560297Z"
   },
   {
     "platform": "intigriti",
@@ -8346,7 +8346,7 @@
         "max_severity": "No Bounty"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:04.263433614Z"
+    "fetched_at": "2026-05-30T12:21:07.618190102Z"
   },
   {
     "platform": "intigriti",
@@ -8386,7 +8386,7 @@
         "max_severity": "Tier 2"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:09.284292309Z"
+    "fetched_at": "2026-05-30T12:21:12.482370128Z"
   },
   {
     "platform": "intigriti",
@@ -8518,7 +8518,7 @@
         "max_severity": "Out of scope"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:10.759815472Z"
+    "fetched_at": "2026-05-30T12:21:13.895572578Z"
   },
   {
     "platform": "intigriti",
@@ -8902,7 +8902,7 @@
         "max_severity": "Tier 2"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:14.948260384Z"
+    "fetched_at": "2026-05-30T12:21:18.023231542Z"
   },
   {
     "platform": "intigriti",
@@ -8930,7 +8930,7 @@
         "max_severity": "No Bounty"
       }
     ],
-    "fetched_at": "2026-05-30T10:32:59.966945206Z"
+    "fetched_at": "2026-05-30T12:21:03.252388662Z"
   },
   {
     "platform": "intigriti",
@@ -8954,7 +8954,7 @@
         "description": "\u003e The Quadcode's main webside representing the company information, mission, solutions.\n\n**Registration is not available**"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:00.660779255Z"
+    "fetched_at": "2026-05-30T12:21:03.671225878Z"
   },
   {
     "platform": "intigriti",
@@ -8982,7 +8982,7 @@
         "max_severity": "Tier 2"
       }
     ],
-    "fetched_at": "2026-05-30T10:32:59.464980692Z"
+    "fetched_at": "2026-05-30T12:21:02.724156603Z"
   },
   {
     "platform": "intigriti",
@@ -8998,7 +8998,7 @@
         "max_severity": "Tier 2"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:11.480297106Z"
+    "fetched_at": "2026-05-30T12:21:14.88601378Z"
   },
   {
     "platform": "intigriti",
@@ -9051,7 +9051,7 @@
         "max_severity": "Out of scope"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:17.178863919Z"
+    "fetched_at": "2026-05-30T12:21:20.2927605Z"
   },
   {
     "platform": "intigriti",
@@ -9100,7 +9100,7 @@
         "description": "🇳🇱"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:16.022271471Z"
+    "fetched_at": "2026-05-30T12:21:19.011015916Z"
   },
   {
     "platform": "intigriti",
@@ -9116,7 +9116,7 @@
         "max_severity": "Tier 2"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:15.380483443Z"
+    "fetched_at": "2026-05-30T12:21:18.701584683Z"
   },
   {
     "platform": "intigriti",
@@ -9132,7 +9132,7 @@
         "max_severity": "Tier 2"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:15.283324191Z"
+    "fetched_at": "2026-05-30T12:21:18.551160796Z"
   },
   {
     "platform": "intigriti",
@@ -9161,7 +9161,7 @@
         "description": "## Please use only this list to search for targets.\n\nDomains that are related to Red Bull and can be found on [this list](https://gist.github.com/RedBullSecurity/3eb88debcb01759eccf65ec2b799b340). \n- Submissions affecting other domains than the ones on the list will be out of scope. \n- Please stop enumerating Red Bull related domains, and work based on the list provided.\n\nAny subdomain not mentioned in this list, will be considered as out of scope."
       }
     ],
-    "fetched_at": "2026-05-30T10:33:14.125733021Z"
+    "fetched_at": "2026-05-30T12:21:17.648851594Z"
   },
   {
     "platform": "intigriti",
@@ -9177,7 +9177,7 @@
         "max_severity": "No Bounty"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:06.475421749Z"
+    "fetched_at": "2026-05-30T12:21:09.490821404Z"
   },
   {
     "platform": "intigriti",
@@ -9314,7 +9314,7 @@
         "description": "The website located at https://uat-www.usgprofessionals.be/nl/ is the User Acceptance Testing (UAT) version of USG Professionals official website, usgprofessionals.be. This UAT environment is used for testing new features, updates, and configurations before they are implemented on the live production site. It allows for testing functionality, identifying potential bugs or vulnerabilities, and ensuring everything works as expected in a safe, non-public environment. This helps ensure that any changes are thoroughly vetted before going live, providing a secure and stable experience for users."
       }
     ],
-    "fetched_at": "2026-05-30T10:33:02.030405044Z"
+    "fetched_at": "2026-05-30T12:21:05.115805685Z"
   },
   {
     "platform": "intigriti",
@@ -9461,7 +9461,7 @@
         "max_severity": "Out of scope"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:08.611326613Z"
+    "fetched_at": "2026-05-30T12:21:11.817163956Z"
   },
   {
     "platform": "intigriti",
@@ -9573,7 +9573,7 @@
         "max_severity": "Out of scope"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:05.677412928Z"
+    "fetched_at": "2026-05-30T12:21:09.067661406Z"
   },
   {
     "platform": "intigriti",
@@ -9645,7 +9645,7 @@
         "max_severity": "Tier 3"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:11.762788026Z"
+    "fetched_at": "2026-05-30T12:21:15.283846132Z"
   },
   {
     "platform": "intigriti",
@@ -9661,7 +9661,7 @@
         "max_severity": "No Bounty"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:00.351764698Z"
+    "fetched_at": "2026-05-30T12:21:03.534150395Z"
   },
   {
     "platform": "intigriti",
@@ -9692,7 +9692,7 @@
         "description": "Any domains or services related to Signicat as a brand"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:04.096544069Z"
+    "fetched_at": "2026-05-30T12:21:07.197172311Z"
   },
   {
     "platform": "intigriti",
@@ -9742,7 +9742,7 @@
         "max_severity": "Out of scope"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:10.896193033Z"
+    "fetched_at": "2026-05-30T12:21:14.139896577Z"
   },
   {
     "platform": "intigriti",
@@ -9764,7 +9764,7 @@
         "max_severity": "Tier 2"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:04.263135626Z"
+    "fetched_at": "2026-05-30T12:21:07.354597955Z"
   },
   {
     "platform": "intigriti",
@@ -9813,7 +9813,7 @@
         "description": "Our main website. \nwww.socialdeal.be and www.socialdeal.de are the same websites, with different Locale."
       }
     ],
-    "fetched_at": "2026-05-30T10:33:07.068113673Z"
+    "fetched_at": "2026-05-30T12:21:10.097580342Z"
   },
   {
     "platform": "intigriti",
@@ -9853,7 +9853,7 @@
         "max_severity": "No Bounty"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:14.583276924Z"
+    "fetched_at": "2026-05-30T12:21:17.709202694Z"
   },
   {
     "platform": "intigriti",
@@ -10103,7 +10103,7 @@
         "max_severity": "Out of scope"
       }
     ],
-    "fetched_at": "2026-05-30T10:32:57.295478905Z"
+    "fetched_at": "2026-05-30T12:21:00.492421835Z"
   },
   {
     "platform": "intigriti",
@@ -10200,7 +10200,7 @@
         "max_severity": "Out of scope"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:04.999673242Z"
+    "fetched_at": "2026-05-30T12:21:08.340317789Z"
   },
   {
     "platform": "intigriti",
@@ -10300,7 +10300,7 @@
         "max_severity": "Tier 2"
       }
     ],
-    "fetched_at": "2026-05-30T10:32:58.01852323Z"
+    "fetched_at": "2026-05-30T12:21:01.284351096Z"
   },
   {
     "platform": "intigriti",
@@ -10455,7 +10455,7 @@
         "max_severity": "Tier 2"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:17.711461497Z"
+    "fetched_at": "2026-05-30T12:21:20.709275786Z"
   },
   {
     "platform": "intigriti",
@@ -10503,7 +10503,7 @@
         "max_severity": "Out of scope"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:07.523216269Z"
+    "fetched_at": "2026-05-30T12:21:10.677147625Z"
   },
   {
     "platform": "intigriti",
@@ -10527,7 +10527,7 @@
         "description": "this is our Main Website.\nYou are welcome to check it all around for security Issues."
       }
     ],
-    "fetched_at": "2026-05-30T10:33:06.73646284Z"
+    "fetched_at": "2026-05-30T12:21:09.945009317Z"
   },
   {
     "platform": "intigriti",
@@ -10551,7 +10551,7 @@
         "description": "Exclusion (**out of scope**):\n* 131.152.122.128/25\n* 131.152.122.192/26\n* 131.152.225.0/26"
       }
     ],
-    "fetched_at": "2026-05-30T10:32:57.29549886Z"
+    "fetched_at": "2026-05-30T12:21:00.492440721Z"
   },
   {
     "platform": "intigriti",
@@ -10827,7 +10827,7 @@
         "description": "The Uphold Website (https://www.uphold.com) serves as the company’s main informational platform, providing an overview of Uphold’s services, institutional offerings, and financial transparency. It includes key sections such as the Transparency Page (real-time reserves data), Institutional and Enterprise offerings, Market Prices, Blog, and Academy, along with general company updates. While the website itself does not provide transactional functionalities, it acts as a gateway to Uphold’s wallet, trading platform, and other financial services.\n\nTechnical Note: Each menu category (Individuals, Enterprise, Institutional, Market Prices, Blog, Academy, Transparency) may be powered by different back-end services, meaning security assessments should consider the possibility of varying architectures, data sources, and API implementations.\n\nSecurity testing should focus on identifying vulnerabilities related to content integrity, redirections, and potential misconfigurations. Please note that service degradation attacks are not permitted."
       }
     ],
-    "fetched_at": "2026-05-30T10:33:15.153602031Z"
+    "fetched_at": "2026-05-30T12:21:18.111671705Z"
   },
   {
     "platform": "intigriti",
@@ -10879,7 +10879,7 @@
         "max_severity": "Out of scope"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:19.242887684Z"
+    "fetched_at": "2026-05-30T12:21:22.331462078Z"
   },
   {
     "platform": "intigriti",
@@ -10901,7 +10901,7 @@
         "max_severity": "Tier 2"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:19.57775164Z"
+    "fetched_at": "2026-05-30T12:21:22.511727628Z"
   },
   {
     "platform": "intigriti",
@@ -11168,7 +11168,7 @@
         "max_severity": "No Bounty"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:15.958962643Z"
+    "fetched_at": "2026-05-30T12:21:18.950131779Z"
   },
   {
     "platform": "intigriti",
@@ -11318,7 +11318,7 @@
         "description": "**AutoInvoice**\nhttps://testing.maventa.com/apis/v1.1/wsdl is a SOAP API connected to Visma AutoInvoice.\n\nAPI documentation is available on https://documentation.maventa.com/soap-api/\n\nSee instructions for domain 'ai-testing.maventa.com' to get user credentials."
       }
     ],
-    "fetched_at": "2026-05-30T10:33:13.309768045Z"
+    "fetched_at": "2026-05-30T12:21:16.544069603Z"
   },
   {
     "platform": "intigriti",
@@ -11335,7 +11335,7 @@
         "description": "This program covers all Visma services, products or web properties.\nWe do not offer money rewards for this program, but as a small token of appreciation for all researchers that submit a previously unknown vulnerability that triggers a code or configuration change, we will offer a place on our [Security Hall of Fame (HoF)](https://www.visma.com/trust-centre/security/products-and-services/bug-bounty-and-responsible-disclosure/hall-of-fame/).\nAlso for **all valid Medium+ reports**, we will offer **swags**.\n\nFor money rewards, the only exceptions are the specific assets listed in our Public Bug Bounty Program, see https://app.intigriti.com/programs/visma/visma/detail. Please note that we will only accept reports for the explicitly listed assets under our Public program."
       }
     ],
-    "fetched_at": "2026-05-30T10:33:09.538486307Z"
+    "fetched_at": "2026-05-30T12:21:12.675653535Z"
   },
   {
     "platform": "intigriti",
@@ -11418,7 +11418,7 @@
         "max_severity": "No Bounty"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:10.745789112Z"
+    "fetched_at": "2026-05-30T12:21:13.817420543Z"
   },
   {
     "platform": "intigriti",
@@ -11441,7 +11441,7 @@
         "description": "Before testing or reporting a vulnerability, confirm that the target asset is owned or managed by Voi. When in doubt, we strongly encourage you to verify the asset's ownership through the program team to avoid unintentional testing of third-party systems."
       }
     ],
-    "fetched_at": "2026-05-30T10:32:57.97837314Z"
+    "fetched_at": "2026-05-30T12:21:00.976479535Z"
   },
   {
     "platform": "intigriti",
@@ -11526,7 +11526,7 @@
         "description": "VRT NWS is the news brand of VRT. Informing the Flemish citizen is an essential part of it's job."
       }
     ],
-    "fetched_at": "2026-05-30T10:33:12.729398798Z"
+    "fetched_at": "2026-05-30T12:21:15.72001285Z"
   },
   {
     "platform": "intigriti",
@@ -11549,7 +11549,7 @@
         "description": "Please verify ownership or legitimate association via WHOIS, reverse DNS, delegated DNS, or other reliable means to ensure the asset is intended for Wärtsilä use and that Wärtsilä is the appropriate recipient of the disclosure."
       }
     ],
-    "fetched_at": "2026-05-30T10:32:57.295464136Z"
+    "fetched_at": "2026-05-30T12:21:00.492421547Z"
   },
   {
     "platform": "intigriti",
@@ -11670,7 +11670,7 @@
         "description": "Here our citizens can check if their is a (un)planned interruption of the watersupply."
       }
     ],
-    "fetched_at": "2026-05-30T10:33:12.622376792Z"
+    "fetched_at": "2026-05-30T12:21:15.492104717Z"
   },
   {
     "platform": "intigriti",
@@ -11706,7 +11706,7 @@
         "max_severity": "No Bounty"
       }
     ],
-    "fetched_at": "2026-05-30T10:32:58.587869995Z"
+    "fetched_at": "2026-05-30T12:21:01.867579899Z"
   },
   {
     "platform": "intigriti",
@@ -11833,7 +11833,7 @@
         "description": "- Used by: Everybody.\n- Our main web page.\n- Notable use-cases: Offering an in-browser JavaScript app to interact with other APIs and services. Offering HTTP endpoints to interact with this service's own APIs."
       }
     ],
-    "fetched_at": "2026-05-30T10:33:08.374986866Z"
+    "fetched_at": "2026-05-30T12:21:11.473457971Z"
   },
   {
     "platform": "intigriti",
@@ -11957,7 +11957,7 @@
         "description": "This the landing page for the main WP Engine website. Most of this data is static, but there are a number of dynamic fields and functionalities that are available to be tested. Support, contact forms, and chat functionality are out-of-scope - specifically, the Sales Questions functionality and wpengine.com/contact/. No testing should be done against these targets or any 3rd party services."
       }
     ],
-    "fetched_at": "2026-05-30T10:33:09.283732392Z"
+    "fetched_at": "2026-05-30T12:21:12.48203358Z"
   },
   {
     "platform": "intigriti",
@@ -12092,7 +12092,7 @@
         "description": "This asset is hosted at a third-party vendor and is not eligible for bounties."
       }
     ],
-    "fetched_at": "2026-05-30T10:33:08.41322472Z"
+    "fetched_at": "2026-05-30T12:21:11.541254549Z"
   },
   {
     "platform": "intigriti",
@@ -12369,7 +12369,7 @@
         "description": "yimg is a resource storage and content distribution network (CDN).\n** Note:  Reports submitted that exploit bugs only in the context of the `yimg.com` domain are most likely to be closed as `Informative`.  Most bugs in `*.yimg.com` will require a proof-of-concept or proof-of-exploit that escalates into one of the primary brand or product domains (e.g. yahoo.com) to be eligible for bounty. CVSS Environmental scores have been set to account for this limitation.**\n\nWhat does that mean for my report?\n1. If you show escalation into a trusted domain's context (such as yahoo.com) it will be accepted at 100% bounty rate. A bonus may be applied for different instances within the trusted domain list only; not for other instances of vulnerabilities content on yimg.com.\n2. If you show execution in the context of *.yimg.com only, the vulnerability MAY be accepted by the business owner in some instances. In that case, a minimum bounty would be offered only if the content is removed. There are no \"same bug different host\" or other vulnerability grouping bonus offers for this asset."
       }
     ],
-    "fetched_at": "2026-05-30T10:33:07.7473616Z"
+    "fetched_at": "2026-05-30T12:21:10.994486972Z"
   },
   {
     "platform": "intigriti",
@@ -12476,6 +12476,6 @@
         "max_severity": "Out of scope"
       }
     ],
-    "fetched_at": "2026-05-30T10:33:01.695306759Z"
+    "fetched_at": "2026-05-30T12:21:04.841291084Z"
   }
 ]
