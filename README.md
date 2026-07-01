@@ -69,12 +69,12 @@ assetlas readme
 
 | Platform | Programs | File |
 |----------|---------:|------|
-| HackerOne | 454 | [`results/platforms/hackerone.json`](results/platforms/hackerone.json) |
+| HackerOne | 455 | [`results/platforms/hackerone.json`](results/platforms/hackerone.json) |
 | Bugcrowd | 235 | [`results/platforms/bugcrowd.json`](results/platforms/bugcrowd.json) |
 | Intigriti | 127 | [`results/platforms/intigriti.json`](results/platforms/intigriti.json) |
 | YesWeHack | 63 | [`results/platforms/yeswehack.json`](results/platforms/yeswehack.json) |
-| HackenProof | 307 | [`results/platforms/hackenproof.json`](results/platforms/hackenproof.json) |
-| **Total** | **1186** | |
+| HackenProof | 309 | [`results/platforms/hackenproof.json`](results/platforms/hackenproof.json) |
+| **Total** | **1189** | |
 
 ### Aggregates
 
