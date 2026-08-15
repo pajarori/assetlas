@@ -1,5 +1,8 @@
 (navigate|engage|checkout|internal|cached-api|api).shoppingapp.decathlon.com/*
 *-prod.arlo.com
+*.adx.opera.com
+*.apexnews.com
+*.apexscores.io
 *.api-app.telenor.se
 *.api.id.realestate.com.au
 *.api.louisvuitton.com
@@ -12,11 +15,19 @@
 *.core.chainstack.com
 *.doj.io
 *.dojo.me
+*.feednews.com
 *.incapsula.com
 *.jobapi.net
 *.mclead.com.au
 *.mobile-messenger.intercom.com
 *.openai.org
+*.opera-mini.net
+*.opera.news
+*.opera.technology
+*.operanewsapp.com
+*.opr.news
+*.osite99.com
+*.osp.opera.software
 *.prd.aser.simplisafe.com
 *.prd.cam.simplisafe.com (app endpoints)
 *.prd.cam.simplisafe.com (hsp endpoints)
@@ -25,14 +36,30 @@
 *.prd.services.simplisafe.com (app endpoints)
 *.prd.services.simplisafe.com (hsp endpoints)
 *.prd.webapps.simplisafe.com
+*.rtbscale.com
+*.savi.xyz
+*.sec-tunnel.com
 *.services.repostnetwork.com
 *.sft-api.com
 *.sol-data.com
 *.vidaxl.net
 *.vidaxl.org
+*.yoyogames.com
+102.23.96.0/22
+103.83.120.0/22
+107.167.96.0/19
+141.0.8.0/21
+185.26.180.0/22
+195.189.143.0/24
+203.89.100.0/22
 3.0 api
+37.228.104.0/21
 3rdparty-apis.coinmarketcap.com
+77.111.244.0/22
+82.145.208.0/20
+91.203.96.0/22
 a.klaviyo.com/api/*
+accounts.opera.com
 admintool.lime.bike
 agent-contact.realestate.com.au/lead-capture-page/campaign-id/8e50c3d0-0d2b-44d1-9df6-f4e02b9a690e
 api
@@ -103,6 +130,15 @@ api.geckoterminal.com
 api.glassdoor.com/*
 api.gobiz.co.id
 api.gojek.co.id
+api.gx.games/dc
+api.gx.games/dev
+api.gx.games/gms
+api.gx.games/gx
+api.gx.games/gxc
+api.gx.games/profile
+api.gx.games/pub
+api.gx.games/session
+api.gx.me/me
 api.ibops.net
 api.ibops.net/ad-management
 api.ibotta.com
@@ -122,6 +158,9 @@ api.magic.link
 api.midtrans.com
 api.monespacesante.fr
 api.moneyboxapp.com
+api.neon.opera.com/neon/pub
+api.neon.opera.com/neon/store
+api.neon.opera.com/pub
 api.nonkyc.io
 api.openai.com
 api.optimizely.com
@@ -193,6 +232,7 @@ auth.myopenpass.com
 auth.riskrecon.com
 auth.riskrecon.eu
 auth.seek.com
+autoupdate.geo.opera.com
 b2bapi-a.usaa.com
 b2bapi.usaa.com
 b2blsapi-a.usaa.com
@@ -203,9 +243,12 @@ bb2.simplisafe.com
 bingx-api.github.io/docs/swap/introduce.html
 bittrex.github.io/api/v3
 bkexapi.github.io/docs/api_zh.htm
+blocklist.opera-api.com
 blog.ton.org/api
 bluetooth-events.onecloud.harman.com
+browser-notifications.opera.com
 cb.simplisafe.com
+cdn-store.opera-api.com
 cdn.myopenpass.com
 chat-api.swapcard.com/graphql
 chat.openai.com
@@ -215,6 +258,7 @@ connect.soundcloud.com
 content-server.ibotta.com/graphql
 core-prod.uidapi.com
 cp.expressapisv2.net
+cryptowallet.opera-api.com
 customer-api.datadome.co
 customers.us1.fga.dev
 data-api.coindesk.com
@@ -235,16 +279,20 @@ edgeapis.onecloud.harman.com
 editeur.api.monespacesante.fr
 eim.eu-west-2.outscale.com
 events.onecloud.harman.com
+exchange.opera.com
+exchange.pointpay.io/trade-classic
 expressvpn apis
 external-api.lime.bike
 fapi.bitunix.com
 fcu.eu-west-2.outscale.com
+features.opera-api.com
 finicity - obb (open banking business service)
 finicity connect
 finicity decisioning
 finicity- data services
 finicity- open banking payment history application
 flags.expeng.optimizely.com
+flow.opera.com
 futures.coinstore.com/api
 futuresapi.coinw.com
 gateway.optus.com.au/api/ai-search/search/v1
@@ -259,6 +307,7 @@ graphql.seek.com
 gwapi.tripadvisor.com
 gwapi1.tripadvisor.com
 gwapi2.tripadvisor.com
+gx.opera-api.com
 help.lime.bike
 hypixel public apis
 icu.eu-west-2.outscale.com
@@ -286,6 +335,7 @@ mcp.recordedfuture.com
 mcs.arlo.com
 media.simplisafe.com
 mein.wien.gv.at/broker/api/*
+merchandise.opera-api.com
 mfa.simplisafe.com
 mix-dev.monash.edu/*
 mix-qat.monash.edu/*
@@ -295,6 +345,7 @@ mobileapi.clearpay.com
 mobileapi.staging.luno.com
 myapi.arlo.com
 naasapi.optus.com.au
+net.geo.opera.com
 nodes.idos.network
 nodes.playground.idos.network
 op.paymaya.com
@@ -335,6 +386,7 @@ prod.uidapi.com
 production.maf.auth0.com
 production.maf.auth0.com/api/v2
 proxy-production.lime.bike
+push.opera.com
 quantum-events.onecloud.harman.com
 rc.fstr.rocks
 res.cloudinary.com
@@ -345,11 +397,13 @@ service.platform.tripadvisor.com
 services.chipotle.com
 services.unity.com
 smbu-api.maf.ae
+speeddials.opera.com
 sso.mangerbouger.fr
 staging-api.bany.dev
 staging.claytonapp.com/api
 staging.gearset.com
 studio-api.swapcard.com
+suggestions.opera-api.com
 t.swapcard.com
 tms.onecloud.harman.com
 ton.org/api
@@ -362,6 +416,7 @@ vlapi.usaa.com
 walletproxy.tapayments.com
 walletproxy1.tapayments.com
 walletproxy2.tapayments.com
+weather.opera-api.com
 web-message-high.lime.bike
 web-message.lime.bike
 web-production.lime.bike
