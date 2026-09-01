@@ -73,8 +73,8 @@ assetlas readme
 | Bugcrowd | 265 | [`results/platforms/bugcrowd.json`](results/platforms/bugcrowd.json) |
 | Intigriti | 136 | [`results/platforms/intigriti.json`](results/platforms/intigriti.json) |
 | YesWeHack | 61 | [`results/platforms/yeswehack.json`](results/platforms/yeswehack.json) |
-| HackenProof | 291 | [`results/platforms/hackenproof.json`](results/platforms/hackenproof.json) |
-| **Total** | **753** | |
+| HackenProof | 277 | [`results/platforms/hackenproof.json`](results/platforms/hackenproof.json) |
+| **Total** | **739** | |
 
 ### Aggregates
 
