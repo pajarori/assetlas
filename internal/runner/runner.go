@@ -16,6 +16,7 @@ import (
 
 	"github.com/pajarori/assetlas/internal/platform"
 	"github.com/pajarori/assetlas/internal/store"
+	"github.com/pajarori/assetlas/internal/takeover"
 	"github.com/pajarori/assetlas/internal/tools"
 )
 
@@ -56,19 +57,19 @@ func New(cfg Config) *Runner {
 	return &Runner{cfg: cfg}
 }
 
-func (r *Runner) Run(ctx context.Context, prog platform.Program) error {
+func (r *Runner) Run(ctx context.Context, prog platform.Program) ([]takeover.Candidate, error) {
 	targets := ExtractTargets(prog)
 	if targets.IsEmpty() {
 		log.Info().Str("handle", prog.Handle).Str("platform", prog.Platform).Msg("no enumerable targets, skipping")
-		return nil
+		return nil, nil
 	}
 	dir := filepath.Join(r.cfg.OutputDir, prog.Platform, prog.Handle)
 	if err := os.MkdirAll(dir, 0o755); err != nil {
-		return fmt.Errorf("mkdir %s: %w", dir, err)
+		return nil, fmt.Errorf("mkdir %s: %w", dir, err)
 	}
 
 	if err := r.writeMeta(dir, prog, targets); err != nil {
-		return err
+		return nil, err
 	}
 
 	enumerated, err := r.runSubfinder(ctx, prog.Handle, targets.Wildcards)
@@ -77,23 +78,60 @@ func (r *Runner) Run(ctx context.Context, prog platform.Program) error {
 	}
 	hosts := mergeHosts(enumerated, targets.DirectHosts)
 	if err := writeLines(filepath.Join(dir, "hostnames.txt"), hosts); err != nil {
-		return err
+		return nil, err
 	}
 	log.Info().Str("handle", prog.Handle).Int("wildcards", len(targets.Wildcards)).Int("direct", len(targets.DirectHosts)).Int("enumerated", len(enumerated)).Int("total_hosts", len(hosts)).Msg("hosts ready")
 	if len(hosts) == 0 {
-		return nil
+		return nil, nil
 	}
 
-	aliveURLs, err := r.runHttpx(ctx, dir, hosts)
+	previous := readPreviousAlive(filepath.Join(dir, "alive.jsonl"))
+	aliveURLs, results, err := r.runHttpx(ctx, dir, hosts)
 	if err != nil {
 		log.Warn().Err(err).Str("handle", prog.Handle).Msg("httpx step failed")
 	}
 	log.Info().Str("handle", prog.Handle).Int("alive", len(aliveURLs)).Msg("httpx done")
 
+	var findings []takeover.Candidate
+	if len(previous) > 0 {
+		dnsxOpts := r.cfg.DnsxArgs
+		if dnsxOpts.Resolvers == "" {
+			dnsxOpts.Resolvers = r.cfg.ResolversPath
+		}
+		findings, err = takeover.Diff(ctx, previous, results, dnsxOpts)
+		if err != nil {
+			log.Warn().Err(err).Str("handle", prog.Handle).Msg("takeover diff failed")
+		} else if len(findings) > 0 {
+			for i := range findings {
+				findings[i].Platform = prog.Platform
+				findings[i].Handle = prog.Handle
+			}
+			log.Warn().Str("handle", prog.Handle).Int("findings", len(findings)).Msg("possible subdomain takeover drift detected")
+		}
+	}
+
 	if r.cfg.WithPorts || r.cfg.WithDNS || r.cfg.WithTLS {
 		r.runParallelProbes(ctx, dir, hosts, prog.Handle)
 	}
-	return nil
+	return findings, nil
+}
+
+func readPreviousAlive(path string) []tools.HttpxResult {
+	f, err := os.Open(path)
+	if err != nil {
+		return nil
+	}
+	defer f.Close()
+	var out []tools.HttpxResult
+	sc := bufio.NewScanner(f)
+	sc.Buffer(make([]byte, 0, 64*1024), 4<<20)
+	for sc.Scan() {
+		var r tools.HttpxResult
+		if err := json.Unmarshal(sc.Bytes(), &r); err == nil && r.Host != "" {
+			out = append(out, r)
+		}
+	}
+	return out
 }
 
 func (r *Runner) runParallelProbes(ctx context.Context, dir string, hosts []string, handle string) {
@@ -190,8 +228,9 @@ func streamJSONL[T any](path string, run func(emit func(T) error) error) error {
 	})
 }
 
-func (r *Runner) runHttpx(ctx context.Context, dir string, hosts []string) ([]string, error) {
+func (r *Runner) runHttpx(ctx context.Context, dir string, hosts []string) ([]string, []tools.HttpxResult, error) {
 	var alive []string
+	var results []tools.HttpxResult
 	err := streamJSONL(filepath.Join(dir, "alive.jsonl"), func(emit func(tools.HttpxResult) error) error {
 		opts := r.cfg.HttpxArgs
 		opts.Hosts = hosts
@@ -199,13 +238,14 @@ func (r *Runner) runHttpx(ctx context.Context, dir string, hosts []string) ([]st
 			if err := emit(res); err != nil {
 				return err
 			}
+			results = append(results, res)
 			if res.URL != "" {
 				alive = append(alive, res.URL)
 			}
 			return nil
 		})
 	})
-	return alive, err
+	return alive, results, err
 }
 
 func (r *Runner) runNaabu(ctx context.Context, dir string, hosts []string) error {

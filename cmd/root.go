@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"context"
+	"encoding/json"
 	"fmt"
 	"os"
 	"os/signal"
@@ -26,6 +27,7 @@ import (
 	"github.com/pajarori/assetlas/internal/readme"
 	"github.com/pajarori/assetlas/internal/runner"
 	"github.com/pajarori/assetlas/internal/store"
+	"github.com/pajarori/assetlas/internal/takeover"
 	"github.com/pajarori/assetlas/internal/tools"
 	"github.com/pajarori/assetlas/pkg/config"
 )
@@ -222,14 +224,23 @@ func enumCmd() *cobra.Command {
 			log.Info().Int("programs", len(programs)).Int("concurrency", concurrency).Bool("ports", withPorts).Bool("dns", withDNS).Bool("tls", withTLS).Msg("enum start")
 			jobs := make(chan progJob, concurrency)
 			var wg sync.WaitGroup
+			var findingsMu sync.Mutex
+			findingsByPlatform := map[string][]takeover.Candidate{}
 			for i := 0; i < concurrency; i++ {
 				wg.Add(1)
 				go func() {
 					defer wg.Done()
 					for job := range jobs {
 						log.Info().Int("idx", job.idx).Int("total", len(programs)).Str("platform", job.prog.Platform).Str("handle", job.prog.Handle).Msg("enum program")
-						if err := r.Run(ctx, job.prog); err != nil {
+						findings, err := r.Run(ctx, job.prog)
+						if err != nil {
 							log.Error().Err(err).Str("handle", job.prog.Handle).Msg("enum failed")
+							continue
+						}
+						if len(findings) > 0 {
+							findingsMu.Lock()
+							findingsByPlatform[job.prog.Platform] = append(findingsByPlatform[job.prog.Platform], findings...)
+							findingsMu.Unlock()
 						}
 					}
 				}()
@@ -245,7 +256,11 @@ func enumCmd() *cobra.Command {
 			}
 			close(jobs)
 			wg.Wait()
-			return nil
+			processed := map[string]struct{}{}
+			for _, prog := range programs {
+				processed[prog.Platform] = struct{}{}
+			}
+			return writeTakeoverFindings(runner.DefaultEnumDir(), processed, findingsByPlatform)
 		},
 	}
 	cmd.Flags().StringVar(&handle, "handle", "", "Limit to one program handle")
@@ -257,6 +272,33 @@ func enumCmd() *cobra.Command {
 	cmd.Flags().IntVar(&limit, "limit", 0, "Process at most N programs (0 = all)")
 	cmd.Flags().IntVar(&concurrency, "concurrency", 8, "Programs processed in parallel")
 	return cmd
+}
+
+func writeTakeoverFindings(enumDir string, processedPlatforms map[string]struct{}, byPlatform map[string][]takeover.Candidate) error {
+	for plat := range processedPlatforms {
+		path := filepath.Join(enumDir, plat, "takeover.jsonl")
+		findings := byPlatform[plat]
+		if len(findings) == 0 {
+			if err := os.Remove(path); err != nil && !os.IsNotExist(err) {
+				return fmt.Errorf("remove %s: %w", path, err)
+			}
+			continue
+		}
+		f, err := os.Create(path)
+		if err != nil {
+			return fmt.Errorf("create %s: %w", path, err)
+		}
+		enc := json.NewEncoder(f)
+		for _, c := range findings {
+			if err := enc.Encode(c); err != nil {
+				f.Close()
+				return fmt.Errorf("write %s: %w", path, err)
+			}
+		}
+		f.Close()
+		log.Warn().Str("platform", plat).Int("findings", len(findings)).Str("file", path).Msg("takeover candidates written")
+	}
+	return nil
 }
 
 type progJob struct {
