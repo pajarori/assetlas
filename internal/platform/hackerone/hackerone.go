@@ -19,8 +19,8 @@ const (
 	graphqlURL     = "https://hackerone.com/graphql"
 	teamsPageSize  = 100
 	scopesPageSize = 100
-	batchSize      = 20
-	workers        = 4
+	batchSize      = 3
+	workers        = 16
 	csrfBudget     = 64 << 10
 
 	stateSandboxed    = "sandboxed"
