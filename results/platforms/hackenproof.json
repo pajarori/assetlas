@@ -1,94 +1,6 @@
 [
   {
     "platform": "hackenproof",
-    "handle": "0g-labs-smart-contracts",
-    "name": "0G Labs Smart Contracts",
-    "url": "https://hackenproof.com/programs/0g-labs-smart-contracts",
-    "offers_bounty": true,
-    "scopes": [
-      {
-        "identifier": "https://github.com/0glabs/0g-chain",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "High"
-      },
-      {
-        "identifier": "https://github.com/0glabs/0g-da-client",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Low"
-      },
-      {
-        "identifier": "https://github.com/0glabs/0g-da-contract",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "https://github.com/0glabs/0g-da-encoder",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Medium"
-      },
-      {
-        "identifier": "https://github.com/0glabs/0g-da-node",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "High"
-      },
-      {
-        "identifier": "https://github.com/0glabs/0g-ec-gpu",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Medium"
-      },
-      {
-        "identifier": "https://github.com/0glabs/0g-storage-contracts",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "https://github.com/0glabs/0g-storage-contracts/blob/main/contracts/reward/ChunkDecayReward.sol",
-        "type": "URL",
-        "eligible": false,
-        "max_severity": "None"
-      },
-      {
-        "identifier": "https://github.com/0glabs/0g-storage-contracts/blob/main/contracts/reward/OnePoolReward.sol",
-        "type": "URL",
-        "eligible": false,
-        "max_severity": "None"
-      },
-      {
-        "identifier": "https://github.com/0glabs/0g-storage-contracts/blob/main/contracts/utils/Exponent.sol",
-        "type": "URL",
-        "eligible": false,
-        "max_severity": "None"
-      },
-      {
-        "identifier": "https://github.com/0glabs/0g-storage-contracts/tree/main/contracts/cashier",
-        "type": "URL",
-        "eligible": false,
-        "max_severity": "None"
-      },
-      {
-        "identifier": "https://github.com/0glabs/0g-storage-contracts/tree/main/contracts/token",
-        "type": "URL",
-        "eligible": false,
-        "max_severity": "None"
-      },
-      {
-        "identifier": "https://github.com/0glabs/0g-storage-contracts/tree/main/contracts/uploadMarket",
-        "type": "URL",
-        "eligible": false,
-        "max_severity": "None"
-      }
-    ],
-    "fetched_at": "2026-09-08T23:46:13.581464224Z"
-  },
-  {
-    "platform": "hackenproof",
     "handle": "1inch-aqua",
     "name": "1inch Aqua",
     "url": "https://hackenproof.com/programs/1inch-aqua",
@@ -128,7 +40,7 @@
         "max_severity": "Low"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:12.68722846Z"
+    "fetched_at": "2026-09-09T02:04:00.769774132Z"
   },
   {
     "platform": "hackenproof",
@@ -162,7 +74,7 @@
         "max_severity": "Medium"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:22.205195205Z"
+    "fetched_at": "2026-09-09T02:04:16.528652573Z"
   },
   {
     "platform": "hackenproof",
@@ -220,7 +132,70 @@
         "max_severity": "Medium"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:21.099503603Z"
+    "fetched_at": "2026-09-09T02:04:09.993950301Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "1inch-smart-contract",
+    "name": "1inch Smart Contract",
+    "url": "https://hackenproof.com/programs/1inch-smart-contract",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "https://github.com/1inch/cross-chain-swap",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://github.com/1inch/delegating",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "Delegating contracts"
+      },
+      {
+        "identifier": "https://github.com/1inch/farming",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "Farming contracts"
+      },
+      {
+        "identifier": "https://github.com/1inch/fusion-protocol",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "Limit order settlement"
+      },
+      {
+        "identifier": "https://github.com/1inch/limit-order-protocol",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "Limit order protocol"
+      },
+      {
+        "identifier": "https://github.com/1inch/solana-crosschain-protocol",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://github.com/1inch/solana-fusion",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://github.com/1inch/token-plugins",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "Token-plugins"
+      }
+    ],
+    "fetched_at": "2026-09-09T02:05:13.370381811Z"
   },
   {
     "platform": "hackenproof",
@@ -242,7 +217,35 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:22.165529505Z"
+    "fetched_at": "2026-09-09T02:04:12.015271439Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "1inch-web",
+    "name": "1inch Web",
+    "url": "https://hackenproof.com/programs/1inch-web",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "1inch.com",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "1inch.network",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "blog.1inch.com",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Medium"
+      }
+    ],
+    "fetched_at": "2026-09-09T02:04:10.368770026Z"
   },
   {
     "platform": "hackenproof",
@@ -276,7 +279,36 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:50.847728938Z"
+    "fetched_at": "2026-09-09T02:06:28.279852824Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "account-abstraction-bugs",
+    "name": "Account Abstraction Bugs",
+    "url": "https://hackenproof.com/programs/account-abstraction-bugs",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "https://github.com/eth-infinitism/account-abstraction",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "Only includes `core` and `utils` folders"
+      },
+      {
+        "identifier": "https://github.com/ethereum/ercs/blob/master/ERCS/erc-4337.md",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://github.com/ethereum/ercs/blob/master/ERCS/erc-7562.md",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      }
+    ],
+    "fetched_at": "2026-09-09T02:04:41.882050955Z"
   },
   {
     "platform": "hackenproof",
@@ -310,7 +342,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:11.455547474Z"
+    "fetched_at": "2026-09-09T02:03:59.340710765Z"
   },
   {
     "platform": "hackenproof",
@@ -350,7 +382,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:09.871231531Z"
+    "fetched_at": "2026-09-09T02:03:58.347224376Z"
   },
   {
     "platform": "hackenproof",
@@ -367,7 +399,7 @@
         "description": "- Invite-only - [Request Access to Repository](https://discord.com/channels/918595597769015397/1485699362012004352) \n- **KYC Required**"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:05.249489419Z"
+    "fetched_at": "2026-09-09T02:03:52.750189316Z"
   },
   {
     "platform": "hackenproof",
@@ -401,7 +433,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:47.611044383Z"
+    "fetched_at": "2026-09-09T02:06:25.640755085Z"
   },
   {
     "platform": "hackenproof",
@@ -418,7 +450,7 @@
         "description": "Telegram Bot"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:06.576739294Z"
+    "fetched_at": "2026-09-09T02:04:37.408881256Z"
   },
   {
     "platform": "hackenproof",
@@ -440,7 +472,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:17.627259717Z"
+    "fetched_at": "2026-09-09T02:06:01.162990702Z"
   },
   {
     "platform": "hackenproof",
@@ -497,7 +529,7 @@
         "description": "Inbox"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:08.643338963Z"
+    "fetched_at": "2026-09-09T02:04:00.023067419Z"
   },
   {
     "platform": "hackenproof",
@@ -525,7 +557,7 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:46.375119476Z"
+    "fetched_at": "2026-09-09T02:05:16.833635937Z"
   },
   {
     "platform": "hackenproof",
@@ -547,7 +579,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:04.658272543Z"
+    "fetched_at": "2026-09-09T02:03:54.578945511Z"
   },
   {
     "platform": "hackenproof",
@@ -563,7 +595,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:09.290148969Z"
+    "fetched_at": "2026-09-09T02:04:03.553765938Z"
   },
   {
     "platform": "hackenproof",
@@ -657,7 +689,7 @@
         "description": "Monad: `AmpleEarnCrossChainRouter`"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:05.03007219Z"
+    "fetched_at": "2026-09-09T02:03:53.358923719Z"
   },
   {
     "platform": "hackenproof",
@@ -679,7 +711,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:19.561633526Z"
+    "fetched_at": "2026-09-09T02:04:07.575973505Z"
   },
   {
     "platform": "hackenproof",
@@ -725,7 +757,7 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:20.361869543Z"
+    "fetched_at": "2026-09-09T02:05:03.328777775Z"
   },
   {
     "platform": "hackenproof",
@@ -759,7 +791,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:03.051902001Z"
+    "fetched_at": "2026-09-09T02:03:52.740365074Z"
   },
   {
     "platform": "hackenproof",
@@ -775,7 +807,41 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:20.773112642Z"
+    "fetched_at": "2026-09-09T02:04:07.783334697Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "ascendex-web-and-mobile",
+    "name": "AscendEX Web \u0026 Mobile",
+    "url": "https://hackenproof.com/programs/ascendex-web-and-mobile",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "*.ascendex.com",
+        "type": "WILDCARD",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://apps.apple.com/us/app/bitmax-token-margin-exchange/id1463917147",
+        "type": "IOS",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://ascendex.com",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://play.google.com/store/apps/details?id=com.ascendex.exchange\u0026hl=en",
+        "type": "ANDROID",
+        "eligible": true,
+        "max_severity": "Critical"
+      }
+    ],
+    "fetched_at": "2026-09-09T02:04:12.997725977Z"
   },
   {
     "platform": "hackenproof",
@@ -797,7 +863,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:24.401064491Z"
+    "fetched_at": "2026-09-09T02:05:04.379347583Z"
   },
   {
     "platform": "hackenproof",
@@ -813,7 +879,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:13.05287156Z"
+    "fetched_at": "2026-09-09T02:04:02.347952703Z"
   },
   {
     "platform": "hackenproof",
@@ -829,7 +895,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:14.87909877Z"
+    "fetched_at": "2026-09-09T02:04:05.189807032Z"
   },
   {
     "platform": "hackenproof",
@@ -845,23 +911,29 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:13.413609351Z"
+    "fetched_at": "2026-09-09T02:05:59.096820419Z"
   },
   {
     "platform": "hackenproof",
-    "handle": "atomone",
-    "name": "AtomOne",
-    "url": "https://hackenproof.com/programs/atomone",
+    "handle": "asymetrix-web",
+    "name": "Asymetrix Web",
+    "url": "https://hackenproof.com/programs/asymetrix-web",
     "offers_bounty": true,
     "scopes": [
       {
-        "identifier": "https://github.com/atomone-hub/atomone",
+        "identifier": "https://app.asymetrix.io/",
+        "type": "ANDROID",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://asymetrix.io/",
         "type": "URL",
         "eligible": true,
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:08.628418562Z"
+    "fetched_at": "2026-09-09T02:05:40.936150973Z"
   },
   {
     "platform": "hackenproof",
@@ -969,7 +1041,7 @@
         "description": "Sputnik EVM"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:09.33602837Z"
+    "fetched_at": "2026-09-09T02:05:44.357330971Z"
   },
   {
     "platform": "hackenproof",
@@ -985,7 +1057,329 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:10.32429315Z"
+    "fetched_at": "2026-09-09T02:05:44.602914762Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "avalanche-bridge",
+    "name": "Avalanche Bridge",
+    "url": "https://hackenproof.com/programs/avalanche-bridge",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "Ava Labs Warden server and blob storage endpoints (please test on testnet only)",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "Enclave server (please test on testnet only)",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "Non Ava Labs Warden servers and other infra",
+        "type": "OTHER",
+        "eligible": false,
+        "max_severity": "None"
+      },
+      {
+        "identifier": "Prod BTC Bridge Enclave Address: Avalanche",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0xf5163f69f97b221d50347dd79382f11c6401f1a1"
+      },
+      {
+        "identifier": "Prod BTC Bridge Enclave Address: Bitcoin",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "bc1q2f0tczgrukdxjrhhadpft2fehzpcrwrz549u90"
+      },
+      {
+        "identifier": "Prod EVM Bridge Enclave Address: Avalanche",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0xeb1bb70123b2f43419d070d7fde5618971cc2f8f"
+      },
+      {
+        "identifier": "Prod EVM Bridge Enclave Address: Ethereum",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0x8eb8a3b98659cce290402893d0123abb75e3ab28"
+      },
+      {
+        "identifier": "Prod bridge front end (reporting only - please test on testnet)",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "https://core.app/bridge"
+      },
+      {
+        "identifier": "Prod contract address: 1INCH.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0xd501281565bf7789224523144fe5d98e8b28f267"
+      },
+      {
+        "identifier": "Prod contract address: AAVE.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0x63a72806098bd3d9520cc43356dd78afe5d386d9"
+      },
+      {
+        "identifier": "Prod contract address: ALPHA.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0x2147efff675e4a4ee1c2f918d181cdbd7a8e208f"
+      },
+      {
+        "identifier": "Prod contract address: BAT.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0x98443b96ea4b0858fdf3219cd13e98c7a4690588"
+      },
+      {
+        "identifier": "Prod contract address: BTC.b",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0x152b9d0fdc40c096757f570a51e494bd4b943e50"
+      },
+      {
+        "identifier": "Prod contract address: BUSD.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0x19860ccb0a68fd4213ab9d8266f7bbf05a8dde98"
+      },
+      {
+        "identifier": "Prod contract address: COMP.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0xc3048e19e76cb9a3aa9d77d8c03c29fc906e2437"
+      },
+      {
+        "identifier": "Prod contract address: CRV.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0x249848beca43ac405b8102ec90dd5f22ca513c06"
+      },
+      {
+        "identifier": "Prod contract address: DAI.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0xd586e7f844cea2f87f50152665bcbc2c279d8d70"
+      },
+      {
+        "identifier": "Prod contract address: GRT.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0x8a0cac13c7da965a312f08ea4229c37869e85cb9"
+      },
+      {
+        "identifier": "Prod contract address: LINK.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0x5947bb275c521040051d82396192181b413227a3"
+      },
+      {
+        "identifier": "Prod contract address: MKR.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0x88128fd4b259552a9a1d457f435a6527aab72d42"
+      },
+      {
+        "identifier": "Prod contract address: SHIB.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0x02d980a0d7af3fb7cf7df8cb35d9edbcf355f665"
+      },
+      {
+        "identifier": "Prod contract address: SNX.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0xbec243c995409e6520d7c41e404da5deba4b209b"
+      },
+      {
+        "identifier": "Prod contract address: SUSHI.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0x37b608519f91f70f2eeb0e5ed9af4061722e4f76"
+      },
+      {
+        "identifier": "Prod contract address: SWAP.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0xc7b5d72c836e718cda8888eaf03707faef675079"
+      },
+      {
+        "identifier": "Prod contract address: UMA.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0x3bd2b1c7ed8d396dbb98ded3aebb41350a5b2339"
+      },
+      {
+        "identifier": "Prod contract address: UNI.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0x8ebaf22b6f053dffeaf46f4dd9efa95d89ba8580"
+      },
+      {
+        "identifier": "Prod contract address: USDC.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664"
+      },
+      {
+        "identifier": "Prod contract address: USDT.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0xc7198437980c041c805a1edcba50c1ce5db95118"
+      },
+      {
+        "identifier": "Prod contract address: WBTC.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0x50b7545627a5162f82a992c33b87adc75187b218"
+      },
+      {
+        "identifier": "Prod contract address: WETH.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab"
+      },
+      {
+        "identifier": "Prod contract address: WOO.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0xabc9547b534519ff73921b1fba6e672b5f58d083"
+      },
+      {
+        "identifier": "Prod contract address: YFI.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0x9eaac1b23d935365bd7b542fe22ceee2922f52dc"
+      },
+      {
+        "identifier": "Prod contract address: ZRX.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0x596fa47043f99a4e0f122243b841e55375cde0d2"
+      },
+      {
+        "identifier": "Testnet Bridge Enclave Address: Avalanche",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0x9a3789061c69e14ca66251afa0e2efca0e04f1a5"
+      },
+      {
+        "identifier": "Testnet Bridge Enclave address: Bitcoin",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "tb1q8nur2k3xphnsqa5zxgjl7djtkj3ya0gfs96nxk"
+      },
+      {
+        "identifier": "Testnet Bridge Enclave address: Ethereum (Goerli)",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0x0d90114dfddac9892cd2da88412b15b929680fe8"
+      },
+      {
+        "identifier": "Testnet EVM Bridge Enclave address: Avalanche:",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0x93753a9ea4c9d6eeed9f64ea92e97ce1f5fbaede"
+      },
+      {
+        "identifier": "Testnet bridge front end for testing",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "https://test.core.app/bridge"
+      },
+      {
+        "identifier": "Testnet contract address (subject to change): BTC.b",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0x0f2071079315ba5a1c6d5b532a01a132c157ac83"
+      },
+      {
+        "identifier": "Testnet contract address (subject to change): DAI.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0x2f20537c2f5c57231866de9d0ce33d0681a200d4"
+      },
+      {
+        "identifier": "Testnet contract address (subject to change): LINK.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0x1741b9c475e0861a43b03f984928082ac4f3fb95"
+      },
+      {
+        "identifier": "Testnet contract address (subject to change): USDC.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0xdb84a45a28f019970ec46c8acaf2aa8215d6fe4b"
+      },
+      {
+        "identifier": "Testnet contract address (subject to change): USDT.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0xa73c78c12c962e987a8b37f7b2e1e2a5f00f1fe8"
+      },
+      {
+        "identifier": "Testnet contract address (subject to change): WBTC.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0x8a11d879ebe06f475580ea22c5e8cc52772a6872"
+      },
+      {
+        "identifier": "Testnet contract address (subject to change): WETH.e",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "0x678c4c42572ec1c44b144c5a6712b69d2a5d412c"
+      }
+    ],
+    "fetched_at": "2026-09-09T02:06:02.153925184Z"
   },
   {
     "platform": "hackenproof",
@@ -1016,7 +1410,7 @@
         "description": "https://github.com/ava-labs/subnet-evm"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:36.117270958Z"
+    "fetched_at": "2026-09-09T02:06:19.546933267Z"
   },
   {
     "platform": "hackenproof",
@@ -1155,7 +1549,7 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:33.598772541Z"
+    "fetched_at": "2026-09-09T02:06:13.399748169Z"
   },
   {
     "platform": "hackenproof",
@@ -1171,7 +1565,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:17.918376634Z"
+    "fetched_at": "2026-09-09T02:04:07.18115291Z"
   },
   {
     "platform": "hackenproof",
@@ -1205,7 +1599,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:16.716742441Z"
+    "fetched_at": "2026-09-09T02:04:55.352273491Z"
   },
   {
     "platform": "hackenproof",
@@ -1245,7 +1639,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:21.893895027Z"
+    "fetched_at": "2026-09-09T02:06:12.430672907Z"
   },
   {
     "platform": "hackenproof",
@@ -1261,7 +1655,7 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:18.875822294Z"
+    "fetched_at": "2026-09-09T02:04:09.594275671Z"
   },
   {
     "platform": "hackenproof",
@@ -1355,7 +1749,7 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:18.306587134Z"
+    "fetched_at": "2026-09-09T02:06:02.779699818Z"
   },
   {
     "platform": "hackenproof",
@@ -1383,7 +1777,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:20.078352748Z"
+    "fetched_at": "2026-09-09T02:06:01.567243661Z"
   },
   {
     "platform": "hackenproof",
@@ -1399,7 +1793,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:58.279989839Z"
+    "fetched_at": "2026-09-09T02:05:35.348616934Z"
   },
   {
     "platform": "hackenproof",
@@ -1427,7 +1821,23 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:49.312963841Z"
+    "fetched_at": "2026-09-09T02:05:28.426558401Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "bitexen-smart-contracts",
+    "name": "Bitexen Smart Contracts",
+    "url": "https://hackenproof.com/programs/bitexen-smart-contracts",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "0xe6cc10ef4de1ccfb821c99c04abfe1859d8eab8f (EXEN) (ERC20)",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "Critical"
+      }
+    ],
+    "fetched_at": "2026-09-09T02:05:29.821934964Z"
   },
   {
     "platform": "hackenproof",
@@ -1477,7 +1887,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:48.44164211Z"
+    "fetched_at": "2026-09-09T02:05:26.622713868Z"
   },
   {
     "platform": "hackenproof",
@@ -1500,7 +1910,7 @@
         "description": "https://m.bitforex.com/en/download"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:24.538922662Z"
+    "fetched_at": "2026-09-09T02:06:08.370032275Z"
   },
   {
     "platform": "hackenproof",
@@ -1534,7 +1944,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:09.4617539Z"
+    "fetched_at": "2026-09-09T02:04:01.166043652Z"
   },
   {
     "platform": "hackenproof",
@@ -1564,7 +1974,7 @@
         "description": "https://apps.apple.com/th/app/bitkub-buy-sell-bitcoin"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:34.511260478Z"
+    "fetched_at": "2026-09-09T02:06:09.680868252Z"
   },
   {
     "platform": "hackenproof",
@@ -1610,7 +2020,7 @@
         "max_severity": "High"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:17.67076377Z"
+    "fetched_at": "2026-09-09T02:04:06.582762132Z"
   },
   {
     "platform": "hackenproof",
@@ -1662,7 +2072,7 @@
         "max_severity": "Medium"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:11.864605108Z"
+    "fetched_at": "2026-09-09T02:04:01.575239813Z"
   },
   {
     "platform": "hackenproof",
@@ -1702,43 +2112,23 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:22.348715728Z"
+    "fetched_at": "2026-09-09T02:06:03.350026096Z"
   },
   {
     "platform": "hackenproof",
-    "handle": "bitrue",
-    "name": "Bitrue",
-    "url": "https://hackenproof.com/programs/bitrue",
+    "handle": "bitmart-post-incident-forensics-bounty-hunt",
+    "name": "Bitmart Post-Incident Forensics Bounty Hunt",
+    "url": "https://hackenproof.com/programs/bitmart-post-incident-forensics-bounty-hunt",
     "offers_bounty": true,
     "scopes": [
       {
-        "identifier": "*.bitrue.com",
-        "type": "WILDCARD",
+        "identifier": "Bitmart Post-Incident Forensics Bounty Hunt",
+        "type": "OTHER",
         "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "Android App",
-        "type": "ANDROID",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "https://play.google.com/store/apps/details?id=com.bitrue.currency.exchange\u0026hl=en"
-      },
-      {
-        "identifier": "https://github.com/Bitrue/bitrue-official-api-docs",
-        "type": "API",
-        "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "iOS App",
-        "type": "IOS",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "https://apps.apple.com/us/app/bitrue/id1435877386"
+        "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:50.625487359Z"
+    "fetched_at": "2026-09-09T02:04:25.418104146Z"
   },
   {
     "platform": "hackenproof",
@@ -1760,7 +2150,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:45.05008648Z"
+    "fetched_at": "2026-09-09T02:05:20.288890986Z"
   },
   {
     "platform": "hackenproof",
@@ -1830,7 +2220,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:53.553286103Z"
+    "fetched_at": "2026-09-09T02:05:41.201883991Z"
   },
   {
     "platform": "hackenproof",
@@ -1919,7 +2309,7 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:08.360678526Z"
+    "fetched_at": "2026-09-09T02:04:38.348478765Z"
   },
   {
     "platform": "hackenproof",
@@ -1976,7 +2366,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:21.390227669Z"
+    "fetched_at": "2026-09-09T02:06:01.973335071Z"
   },
   {
     "platform": "hackenproof",
@@ -2024,7 +2414,7 @@
         "description": "BloFin Wallet Android"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:36.298130026Z"
+    "fetched_at": "2026-09-09T02:05:17.639316695Z"
   },
   {
     "platform": "hackenproof",
@@ -2041,7 +2431,7 @@
         "description": "!! Only smart contracts residing in the sources folder are in scope. The rest is there to make testing easier !! Please contact our support team in Discord to get access to scope."
       }
     ],
-    "fetched_at": "2026-09-08T23:45:22.896478767Z"
+    "fetched_at": "2026-09-09T02:04:10.992333714Z"
   },
   {
     "platform": "hackenproof",
@@ -2058,7 +2448,7 @@
         "description": "Out of Scope: * Anything outside the sources folder * test_coin.move file in the sources folder * deleverage() function inside exchange.move Please contact our support team in Discord to get access to scope."
       }
     ],
-    "fetched_at": "2026-09-08T23:45:17.06158653Z"
+    "fetched_at": "2026-09-09T02:04:11.180905Z"
   },
   {
     "platform": "hackenproof",
@@ -2075,7 +2465,7 @@
         "description": "!! Only smart contracts residing in the sources folder are in scope. The rest is there to make testing easier !! Please contact our support team in Discord to get access to scope."
       }
     ],
-    "fetched_at": "2026-09-08T23:46:06.319082856Z"
+    "fetched_at": "2026-09-09T02:04:33.676209428Z"
   },
   {
     "platform": "hackenproof",
@@ -2097,7 +2487,7 @@
         "max_severity": "Medium"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:18.314393049Z"
+    "fetched_at": "2026-09-09T02:04:53.508701513Z"
   },
   {
     "platform": "hackenproof",
@@ -2113,7 +2503,7 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:17.28175225Z"
+    "fetched_at": "2026-09-09T02:04:06.008842599Z"
   },
   {
     "platform": "hackenproof",
@@ -2163,7 +2553,7 @@
         "description": "https://www.btse.com"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:31.615258999Z"
+    "fetched_at": "2026-09-09T02:06:11.465542449Z"
   },
   {
     "platform": "hackenproof",
@@ -2180,7 +2570,7 @@
         "description": "* Participation: Invite-only - https://discord.gg/g7u4afaYu7\n* KYC Required"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:19.701169482Z"
+    "fetched_at": "2026-09-09T02:04:12.412163262Z"
   },
   {
     "platform": "hackenproof",
@@ -2196,7 +2586,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:08.480404296Z"
+    "fetched_at": "2026-09-09T02:03:52.541641165Z"
   },
   {
     "platform": "hackenproof",
@@ -2220,7 +2610,7 @@
         "description": "staging.buni.finance"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:41.664484951Z"
+    "fetched_at": "2026-09-09T02:06:24.3363581Z"
   },
   {
     "platform": "hackenproof",
@@ -2236,7 +2626,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:15.468991722Z"
+    "fetched_at": "2026-09-09T02:04:03.951085871Z"
   },
   {
     "platform": "hackenproof",
@@ -2265,7 +2655,108 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:11.544538979Z"
+    "fetched_at": "2026-09-09T02:04:46.503149755Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "celestia",
+    "name": "Celestia",
+    "url": "https://hackenproof.com/programs/celestia",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "https://github.com/celestiaorg/celestia-app",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://github.com/celestiaorg/celestia-core",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://github.com/celestiaorg/celestia-node",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://github.com/celestiaorg/celestia-node",
+        "type": "URL",
+        "eligible": false,
+        "max_severity": "None",
+        "description": "- nodebuilder/fraud - share/ipld - share/eds/byzantine - share/eds/retriever.go - share/eds/retriever_quadrant.go"
+      },
+      {
+        "identifier": "https://github.com/celestiaorg/go-fraud",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://github.com/celestiaorg/go-header",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://github.com/celestiaorg/go-square",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://github.com/celestiaorg/nmt",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://github.com/celestiaorg/rsmt2d",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://github.com/klauspost/reedsolomon",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://github.com/succinctlabs/sp1-blobstream",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "Blobstream"
+      }
+    ],
+    "fetched_at": "2026-09-09T02:04:17.398304466Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "cetus-smart-contracts",
+    "name": "Cetus Smart Contracts",
+    "url": "https://hackenproof.com/programs/cetus-smart-contracts",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "https://github.com/CetusProtocol/cetus-contracts",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://github.com/hackenproof-public/cetus-clmm",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "!! Only smart contracts residing in the sources folder and dependencies are in scope. The rest is there to make testing easier !!\r\n\r\nPlease contact our support team in Discord to get access to scope. KYC required."
+      }
+    ],
+    "fetched_at": "2026-09-09T02:04:08.561725584Z"
   },
   {
     "platform": "hackenproof",
@@ -2287,7 +2778,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:03.867104173Z"
+    "fetched_at": "2026-09-09T02:03:56.154666624Z"
   },
   {
     "platform": "hackenproof",
@@ -2375,7 +2866,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:08.327276944Z"
+    "fetched_at": "2026-09-09T02:03:56.938492488Z"
   },
   {
     "platform": "hackenproof",
@@ -2475,7 +2966,7 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:11.303533982Z"
+    "fetched_at": "2026-09-09T02:05:48.838301331Z"
   },
   {
     "platform": "hackenproof",
@@ -2527,7 +3018,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:54.418459051Z"
+    "fetched_at": "2026-09-09T02:05:31.455466817Z"
   },
   {
     "platform": "hackenproof",
@@ -2830,7 +3321,7 @@
         "description": "Blockchain/DLT - Official RPC"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:08.468078892Z"
+    "fetched_at": "2026-09-09T02:03:56.336885208Z"
   },
   {
     "platform": "hackenproof",
@@ -2881,7 +3372,7 @@
         "description": "Website \u0026 Apps - Official block explorer"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:07.05365162Z"
+    "fetched_at": "2026-09-09T02:03:58.160372363Z"
   },
   {
     "platform": "hackenproof",
@@ -2931,7 +3422,29 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:46.653289091Z"
+    "fetched_at": "2026-09-09T02:05:21.385433609Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "codex-exchange",
+    "name": "CODEX Exchange",
+    "url": "https://hackenproof.com/programs/codex-exchange",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "api.codex.one",
+        "type": "API",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "codex.one",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      }
+    ],
+    "fetched_at": "2026-09-09T02:06:23.430020207Z"
   },
   {
     "platform": "hackenproof",
@@ -2983,7 +3496,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:23.440784498Z"
+    "fetched_at": "2026-09-09T02:05:59.562464373Z"
   },
   {
     "platform": "hackenproof",
@@ -2992,7 +3505,7 @@
     "url": "https://hackenproof.com/programs/coindcx-recovery-bounty-program",
     "offers_bounty": true,
     "scopes": [],
-    "fetched_at": "2026-09-08T23:45:18.356286583Z"
+    "fetched_at": "2026-09-09T02:04:08.829327722Z"
   },
   {
     "platform": "hackenproof",
@@ -3020,7 +3533,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:20.628692521Z"
+    "fetched_at": "2026-09-09T02:04:55.618243007Z"
   },
   {
     "platform": "hackenproof",
@@ -3153,7 +3666,23 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:34.264383877Z"
+    "fetched_at": "2026-09-09T02:06:17.654026862Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "coinmetro-exchange",
+    "name": "CoinMetro Exchange",
+    "url": "https://hackenproof.com/programs/coinmetro-exchange",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "*.coinmetro.com",
+        "type": "WILDCARD",
+        "eligible": true,
+        "max_severity": "Critical"
+      }
+    ],
+    "fetched_at": "2026-09-09T02:04:13.192636128Z"
   },
   {
     "platform": "hackenproof",
@@ -3190,117 +3719,7 @@
         "description": "https://apps.apple.com/ru/app/coinsbit-crypto-exchange/id1517008816"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:14.377788406Z"
-  },
-  {
-    "platform": "hackenproof",
-    "handle": "coinstore",
-    "name": "Coinstore",
-    "url": "https://hackenproof.com/programs/coinstore",
-    "offers_bounty": true,
-    "scopes": [
-      {
-        "identifier": "https://api.coinstore.com",
-        "type": "API",
-        "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "https://api.coinstore.com/api",
-        "type": "API",
-        "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "https://apps.apple.com/app/id1567160644",
-        "type": "IOS",
-        "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "https://coinstore-openapi.github.io/en/#45fa4e00db",
-        "type": "API",
-        "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "https://futures.coinstore.com/api",
-        "type": "API",
-        "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "https://h5.coinstore.com",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "https://play.google.com/store/apps/details?id=com.io.coinstore",
-        "type": "ANDROID",
-        "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "wss://ws-futures.coinstore.com/socket.io/",
-        "type": "API",
-        "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "wss://ws.coinstore.com/s/ws",
-        "type": "API",
-        "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "www.coinstore.com",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "High"
-      }
-    ],
-    "fetched_at": "2026-09-08T23:47:25.883587537Z"
-  },
-  {
-    "platform": "hackenproof",
-    "handle": "coinw-web-and-mobile",
-    "name": "CoinW Web \u0026 Mobile",
-    "url": "https://hackenproof.com/programs/coinw-web-and-mobile",
-    "offers_bounty": true,
-    "scopes": [
-      {
-        "identifier": "https://api.coinw.com/",
-        "type": "API",
-        "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "https://apps.apple.com/us/app/coinw/id1494077068",
-        "type": "IOS",
-        "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "https://futuresapi.coinw.com",
-        "type": "API",
-        "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "https://play.google.com/store/apps/details?id=com.coinw.win\u0026hl=en\u0026gl=US",
-        "type": "ANDROID",
-        "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "https://www.coinw.com/",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical"
-      }
-    ],
-    "fetched_at": "2026-09-08T23:46:39.440987074Z"
+    "fetched_at": "2026-09-09T02:05:59.95379958Z"
   },
   {
     "platform": "hackenproof",
@@ -3338,7 +3757,7 @@
         "description": "https://wallet.avax.network/"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:27.374952657Z"
+    "fetched_at": "2026-09-09T02:06:02.56400606Z"
   },
   {
     "platform": "hackenproof",
@@ -3369,7 +3788,7 @@
         "description": "Blockchain/DLT - Ethermint"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:28.53779434Z"
+    "fetched_at": "2026-09-09T02:05:06.279042137Z"
   },
   {
     "platform": "hackenproof",
@@ -3778,830 +4197,7 @@
         "description": "Smart Contract - Tectonic Smart Contracts and Security"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:37.708540513Z"
-  },
-  {
-    "platform": "hackenproof",
-    "handle": "cronos-web",
-    "name": "Cronos Web",
-    "url": "https://hackenproof.com/programs/cronos-web",
-    "offers_bounty": true,
-    "scopes": [
-      {
-        "identifier": "https://amply.finance",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Web/App"
-      },
-      {
-        "identifier": "https://cronosid.xyz/",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Web/App"
-      },
-      {
-        "identifier": "https://ferroprotocol.com",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Web/App"
-      },
-      {
-        "identifier": "https://fulcrom.finance",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Web/App"
-      },
-      {
-        "identifier": "https://h2.finance",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Web/App"
-      },
-      {
-        "identifier": "https://h2.finance",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "None"
-      },
-      {
-        "identifier": "https://minted.network/",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Web/App"
-      },
-      {
-        "identifier": "https://moonlander.trade",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "https://orby.network",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Web/App"
-      },
-      {
-        "identifier": "https://tectonic.finance",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Web/App"
-      },
-      {
-        "identifier": "https://veno.finance",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Web/App"
-      },
-      {
-        "identifier": "https://vvs.finance/",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Web/App"
-      }
-    ],
-    "fetched_at": "2026-09-08T23:46:27.633583402Z"
-  },
-  {
-    "platform": "hackenproof",
-    "handle": "cronos-zkevm-smart-contracts",
-    "name": "Cronos zkEVM Smart Contracts",
-    "url": "https://hackenproof.com/programs/cronos-zkevm-smart-contracts",
-    "offers_bounty": true,
-    "scopes": [
-      {
-        "identifier": "https://cronoscan.com/address/0x28ff2e4dd1b58efeb0fc138602a28d5ae81e44e2",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Veno - LCROBridge (Cronos EVM)"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x17dacAD8AA962963830136422E2EAa8d27D014f8",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Veno - ybUSDBridge (Ethereum)"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x28ff2e4dd1b58efeb0fc138602a28d5ae81e44e2",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Veno - zkCRO (Ethereum)"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x3766Eb5F07DBc60d39a2059A9A29fD9b7D3C356D",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Veno - BridgeMiddleware (Ethereum)"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x76bf2D1e6dFda645c0c17440B17Eccc181dfC351",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Veno - ybETH (Ethereum)"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x8F6B0512e63A644631694178B83419feCd90762D",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Veno - ybETHNft (Ethereum)"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xDED4Dd6E03A7CaA6278Ee453BE2C26363f50643D",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Veno - ybETHBridge (Ethereum)"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xE69a535730858fd8Dc386B448972A9f801aB4e12",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Veno - zkCROMintAndBridge (Ethereum)"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xFA59075DfCE274E028b58BdDFcC3D709960F594a",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Veno - ybUSD (Ethereum)"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x02aB5dB5888cCbA5c9C9c32b55B3393a15ca4B8A",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - Timelock"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x0366Cf13eFaa80ee7127B63061cD167375541513",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - StakedFulTracker"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x0790F016918aA5d1Ac62938331fEE34D5B043Cd8",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - StakedFulDistributor"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x0aCE43a9DA33cA4c3D69D582E70D2Bd84a5a3f19",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Amply Finance - ReservesSetupHelper"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x11e3bf3cacC607D4aB3B810d20A43D95092d26ef",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - FastPriceFeed"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x1F1650cc835F28dE73dC425Ffb372A0eFD2Ec572",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - OrderBook"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x1d3B19A1D05dB785A07b64EbcE6782AC180715C2",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "H2 Finance - H2Earn"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x1e6c88f9f4b6d4caa010bca6ea6d505b82df83cd",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "H2 Finance - H2EarnFactory"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x26a70f97494776942F32eF52D82e686B35203b6D",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - FlpVester"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x271602A97027ee1dd03b1E6e5dB153eB659A80b1",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Veno - vETH (Cronos zkEVM)"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x2Ce4531CB531B655006D79cc4D3FBc447d2F5913",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Amply Finance - WalletBalanceProvider"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x2Cf7F3Ae56aF353b2aa1c92439f372c2c75Aa080",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - FeeFulTracker"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x301cbe34dd38cf69295bf2698dc9be3b9eecedfa",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "H2 Finance - V3Core - H2V3Factory"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x31D864780Cc862C5F6b7DEfc8627c2593339C59e",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Amply Finance - PoolConfigurator-Implementation"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x31eb925496C9F46f21a333963F564Fae3A884327",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - USDG"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x33D84485168E89C476074741Ba6830Bbe093eC1a",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "H2 Finance - V3Farm - H2V3LmPoolDeployer"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x33d2394f6Ca43aba6716982d6CB0824Db4A912b2",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "H2 Finance - V3Periphery - SwapRouter"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x36FFB624d1B135bec784288e66d4d6a6B96ead25",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "H2 Finance - V3SmartRouter- TokenValidator"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x39aD8C3067281e60045DF041846EE01c1Dd3a853",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "H2 Finance - H2Router - H2Router"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x3D0c3D1373010557A5D97b9D3D61C56CE4C74a51",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - RewardRouter"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x3a93C3c70321E3020a036FFAf4214E15d6AF117E",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - CircuitBreaker"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x45e149b212b1c4c2618527de767a5844079f9fde",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "H2 Finance - V2Core - H2Pair"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x45e149b212b1c4c2618527de767a5844079f9fde",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "H2 Finance - V2Core - H2ERC20"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x47656eb2A31094b348EBF458Eccb942d471324eD",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Amply Finance - PoolDataProvider"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x4BEC5cf1408fffcC2C65fe1061fd7abd22d1BEC8",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Amply Finance - UiIncentiveDataProviderV3"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x4C29cf0CFEa5c9E717aE5e862212ee7174Ea70Cc",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "H2 Finance - V3Core - H2V3PoolDeployer"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x4E792B8c9bcB9E200C3713810C4D6eA8C4230E7c",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "H2 Finance - V3SmartRouter- SmartRouter.sol"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x4bb74A27bFe30AFd8974aC84cFeA62F3e4515a7C",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Veno - PerpVaultDeposit (Cronos zkEVM)"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x4dEC9CfE3E8f4f4c34135fF281d7274e970635b8",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - FastPriceEvents"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x50704Ac00064be03CEEd817f41E0Aa61F52ef4DC",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "H2 Finance - V2Core - H2Factory"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x5649EBBb8f2784D08f4932a89F9e127b8338a3e5",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - FlpManager"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x5BCF4A45516176c63448c6Be3cAB9603f1C46dC2",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - RewardReader"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x5F254945A318f7ca93496320767E6b640aB9f730",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Veno - vETHRewarder (Cronos zkEVM)"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x5F3e99759962018e4c371128D3cA32E8E5FfE66A",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Amply Finance - L2Encoder"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x5b91e29Ae5A71d9052620Acb813d5aC25eC7a4A2",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Veno - vUSD (Cronos zkEVM)"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x63ce4d8698A1628e44737E869622F084B24C7c1a",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - CronosOracle"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x669E271F4BF58AB4936A7AAC90EB363579Ef612F",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Amply Finance - vUSD-AToken"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x669E271F4BF58AB4936A7AAC90EB363579Ef612F",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Amply Finance - wzkCRO-AToken"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x669E271F4BF58AB4936A7AAC90EB363579Ef612F",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Amply Finance - vETH-AToken"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x669E271F4BF58AB4936A7AAC90EB363579Ef612F",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Amply Finance - AToken-Implementation"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x6806b39B7A63c4FbED56B4680f86142455Cc552B",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Amply Finance - EmissionManager"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x6C4A080556E003Ed0628024dB814A83164E17891",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Amply Finance - ACLManager"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x770b88688d13C82E72B431744fA37ac92bd265ef",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - PositionRouter"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x7Baa329293ACa87f31E44d610c0e95065eA024Bc",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - VaultUtils"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x822421feeD7Bd922ea0d069fdfC8c9802a168Da5",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - PositionManager"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x864E2F278b257c27F6F0974B96F720D8ac51E8cb",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "H2 Finance - V3SmartRouter- MixedRouteQuoterV1"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x898f2aB6E74d91AeA94BEF4316691ac0F43e7463",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Veno - TransactionManager (Cronos zkEVM)"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x89B58b648592C7b5Db134C361F71f10648D0B1aC",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - VaultReader"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x8D7FF55CA4B85853C0BBBED4D2e2BC4Ef643E433",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - BonusFulTracker"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x925C9a84Cc47A0fC43eFfFBE1d8Bb381D61f0333",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - Router"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x99aFec9351691b804cbBFD61975A05bD4B3F46b1",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "H2 Finance - V3Periphery - NonfungibleTokenPositionDescriptor"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0x9C38F038Fe887f5e37a3a943d85bB67bd4E394C1",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "H2 Finance - V2Farm - MasterChef"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xA74a066C15873efA7330DBE5E05fe1282bFCC25d",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - StakedFlpDistributor"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xB8C34b5c180e13D2F5460F91E47F9dd217Ce77b1",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - Reader"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xBF8E3ddf0E64b1a2FD35572F0e36bF17b0316F51",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - ES_FUL"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xBdF6d6ccCb90077f34138b75f973fbAc6dc15C2c",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Amply Finance - ReserveStrategy-rateStrategyVolatileOne"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xC145515aA0a9e80e2e4367D48c56A0f14B09dDe4",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "H2 Finance - V3Periphery - V3Migrator"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xC273d6Df2C9b7e337Eb1dDc0067cE778bb8D3955",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Amply Finance - WrappedTokenGatewayV3"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xC32358B90131CA682BAEDfF4E86cF26893dd21b6",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - OrderBookReader"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xC383bB82cDEC5C3f5296aa4e7D3F19c56A0C4D0B",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - FeeDistributor"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xCF60ea08124066bab2AFbfe6643bEF766232Ab0c",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Amply Finance - vUSD-VariableDebtToken"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xCF60ea08124066bab2AFbfe6643bEF766232Ab0c",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Amply Finance - vETH-VariableDebtToken"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xCF60ea08124066bab2AFbfe6643bEF766232Ab0c",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Amply Finance - wzkCRO-VariableDebtToken"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xCF60ea08124066bab2AFbfe6643bEF766232Ab0c",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Amply Finance - VariableDebtToken"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xCbD2125264e9F69437845Ea52FB9d23DD31B5fB5",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Amply Finance - UiPoolDataProviderV3"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xCfd984f26b4B59591F7fa9EeFCe8d1f298BAebfB",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - ReferralManager"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xD1821D41F8a55E1043458A834A86c7B749d1d065",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "H2 Finance - V2Farm - MasterChefAdmin"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xDA59Cc2Ee08ce5F830B1190bfed34415772Ddc57",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Amply Finance - PoolAddressesProvider"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xE694B71bABaF620f5202afa32e7719E460f2b013",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Amply Finance - L2Pool-Implementation"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xE7222f933952bF1B06fc6eD360eE7eD92855Fa91",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - BN_FUL"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xEF8f641f054392C636090d0E556131fc8D86130E",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Amply Finance - RewardsController-Implementation"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xEeb08cDa02EDef325A86Ee3A3FA2c46da8987a68",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - FeeFlpTracker"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xF04c42578daa0Be9A5756F667958385DcC159CED",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - BonusFulDistributor"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xF43E78E5F1204c5cAB40Dd2825f1bee9451e267e",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Amply Finance - AmplyOracle"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xF43E78E5F1204c5cAB40Dd2825f1bee9451e267e",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Amply Finance - AmplyOracle"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xFA7F38321974d304A583d6e21964869ec37786a1",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - FLP"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xFB3338E2cA713B344D6A45B36525c3db156e492F",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - FUL"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xFcD9cA1968Af3274a5e327dBfa7C80a99a0c0f52",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Veno - vUSDRewarder (Cronos zkEVM)"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xa84dd5C68758B7c665006Ae692D210312Fa1515B",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - AccessControlMultiCall2"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xaBF532439377d71e84feA9e59d19F6142751ce03",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Amply Finance - PreAmplyTokenTransferStrategy"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xbc77810a9258Fbf1AD48aA3C2D695F35d47B0353",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - StakedFlpTracker"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xcD1fd146F60A266c91439bD750E51eed2b9eBD90",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - ShortsTracker"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xca4880458d287dE7fc079cE0f4dfD5c10d56a1a5",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - FeeFulDistributor"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xcaf2fd3f47e7F46E99f74be579b2cc2233f33ef8",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "H2 Finance - V2Farm - H2Token"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xcdf9026aee0425d94a8bdc3af91b66ef5c7bd850",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "H2 Finance - V3Core - H2V3Pool"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xdDDf221d5293619572616574Ff46a2760f162075",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - Vault"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xdEcddfF446B4bbc01a02B46E1c2712752A31cABb",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - FeeFlpDistributor"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xdfE68fB100C074c838D6e2C5A2D248308dCf090d",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "H2 Finance - V2Farm - MasterChefV2"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xe8B64e6b141769D716fA151e72C94cAd21E36A3a",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "H2 Finance - V3Farm - MasterChefV3"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xf33bCB80dd694b85f22F89C99894e622D916F676",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - VaultPriceFeed"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xf53B6BEd5A6FdFd5f12F984DEf19BF284fE41389",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - FulVester"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xfC376EaDbA66385054d6b3A631a30136ba09Ac24",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "H2 Finance - V3Periphery - NonfungiblePositionManager"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xfEd7ADfbD45907d183bD28523C9EdF1681cA9F24",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Amply Finance - PullRewardsTransferStrategy"
-      },
-      {
-        "identifier": "https://explorer.zkevm.cronos.org/address/0xfeeeb762667054085929C1aEC392aF11cE0c3133",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Fulcrom - VaultErrorController"
-      }
-    ],
-    "fetched_at": "2026-09-08T23:46:10.430037534Z"
+    "fetched_at": "2026-09-09T02:05:05.712645602Z"
   },
   {
     "platform": "hackenproof",
@@ -4683,7 +4279,7 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:09.291314006Z"
+    "fetched_at": "2026-09-09T02:04:36.361701524Z"
   },
   {
     "platform": "hackenproof",
@@ -4700,7 +4296,7 @@
         "description": "* SFTP Server - 85.214.29.47\r\n* Login - ftpuser\r\n* Password - hJk830\u0026A^ber"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:45.753896828Z"
+    "fetched_at": "2026-09-09T02:06:25.372909517Z"
   },
   {
     "platform": "hackenproof",
@@ -4717,7 +4313,35 @@
         "description": "* DAPP Crypviser Secure Messenger for iOS"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:43.870369529Z"
+    "fetched_at": "2026-09-09T02:06:23.150323082Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "cube-exchange-web",
+    "name": "Cube Exchange Web",
+    "url": "https://hackenproof.com/programs/cube-exchange-web",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "*.cube.exchange",
+        "type": "WILDCARD",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://t.me/cube_hodl_bot",
+        "type": "URL",
+        "eligible": false,
+        "max_severity": "None"
+      },
+      {
+        "identifier": "https://www.cube.exchange",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      }
+    ],
+    "fetched_at": "2026-09-09T02:04:33.190655777Z"
   },
   {
     "platform": "hackenproof",
@@ -4745,7 +4369,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:33.653603047Z"
+    "fetched_at": "2026-09-09T02:05:14.294942301Z"
   },
   {
     "platform": "hackenproof",
@@ -4761,7 +4385,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:12.060017019Z"
+    "fetched_at": "2026-09-09T02:04:00.962344833Z"
   },
   {
     "platform": "hackenproof",
@@ -4778,7 +4402,7 @@
         "description": "password: Beta@25"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:12.274817592Z"
+    "fetched_at": "2026-09-09T02:04:01.970415677Z"
   },
   {
     "platform": "hackenproof",
@@ -4812,7 +4436,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:01.519675515Z"
+    "fetched_at": "2026-09-09T02:05:36.314342853Z"
   },
   {
     "platform": "hackenproof",
@@ -4840,7 +4464,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:32.262501834Z"
+    "fetched_at": "2026-09-09T02:06:16.269538814Z"
   },
   {
     "platform": "hackenproof",
@@ -4862,7 +4486,23 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:04.247624294Z"
+    "fetched_at": "2026-09-09T02:03:53.544357739Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "dexalot-smart-contracts-archived",
+    "name": "Dexalot Smart Contracts (Archived)",
+    "url": "https://hackenproof.com/programs/dexalot-smart-contracts-archived",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "https://github.com/Dexalot/contracts",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      }
+    ],
+    "fetched_at": "2026-09-09T02:06:15.349157205Z"
   },
   {
     "platform": "hackenproof",
@@ -4890,23 +4530,35 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:02.423929497Z"
+    "fetched_at": "2026-09-09T02:05:38.261530515Z"
   },
   {
     "platform": "hackenproof",
-    "handle": "dexe-protocol-smart-contracts",
-    "name": "DeXe Protocol Smart Contracts",
-    "url": "https://hackenproof.com/programs/dexe-protocol-smart-contracts",
+    "handle": "dexx-web-and-mobile",
+    "name": "DEXX Web \u0026 Mobile",
+    "url": "https://hackenproof.com/programs/dexx-web-and-mobile",
     "offers_bounty": true,
     "scopes": [
       {
-        "identifier": "https://github.com/dexe-network/DeXe-Protocol/tree/master/contracts",
+        "identifier": "https://www.dexx.ai/",
         "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://www.dexx.ai/download",
+        "type": "IOS",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://www.dexx.ai/download",
+        "type": "ANDROID",
         "eligible": true,
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:26.302877709Z"
+    "fetched_at": "2026-09-09T02:04:31.333119802Z"
   },
   {
     "platform": "hackenproof",
@@ -4965,7 +4617,7 @@
         "description": "Subnet EVM is the Virtual Machine (VM) that defines the Subnet Contract Chains."
       }
     ],
-    "fetched_at": "2026-09-08T23:46:15.323507808Z"
+    "fetched_at": "2026-09-09T02:04:47.358014434Z"
   },
   {
     "platform": "hackenproof",
@@ -4981,7 +4633,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:08.821958509Z"
+    "fetched_at": "2026-09-09T02:05:43.420207753Z"
   },
   {
     "platform": "hackenproof",
@@ -4997,7 +4649,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:07.382968441Z"
+    "fetched_at": "2026-09-09T02:05:58.314425384Z"
   },
   {
     "platform": "hackenproof",
@@ -5013,7 +4665,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:10.623394728Z"
+    "fetched_at": "2026-09-09T02:05:58.833967537Z"
   },
   {
     "platform": "hackenproof",
@@ -5044,7 +4696,7 @@
         "description": "Protocol"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:14.677286968Z"
+    "fetched_at": "2026-09-09T02:04:45.791690316Z"
   },
   {
     "platform": "hackenproof",
@@ -5061,7 +4713,7 @@
         "description": "The code in the suivision package can be wrong as it's decompilation of the compiled byte code.\r\nEach issue must contain a PoC that reproduces the vulnerability on a local fork of mainnet, including clear execution steps and the resulting transactions."
       }
     ],
-    "fetched_at": "2026-09-08T23:45:14.618607974Z"
+    "fetched_at": "2026-09-09T02:04:01.362643415Z"
   },
   {
     "platform": "hackenproof",
@@ -5083,7 +4735,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:11.678715372Z"
+    "fetched_at": "2026-09-09T02:04:00.564440002Z"
   },
   {
     "platform": "hackenproof",
@@ -5092,7 +4744,7 @@
     "url": "https://hackenproof.com/programs/dragon-king",
     "offers_bounty": true,
     "scopes": [],
-    "fetched_at": "2026-09-08T23:47:37.381713534Z"
+    "fetched_at": "2026-09-09T02:06:20.220008013Z"
   },
   {
     "platform": "hackenproof",
@@ -5109,7 +4761,7 @@
         "description": "!! Only smart contracts residing in the \"contracts\" folder are in scope. Additionally, the folders \"test\" and \"testing\" along with other functions/files which are intended for testing purposes are not in scope !!\r\n\r\nPlease contact our support team in Discord to get access to scope."
       }
     ],
-    "fetched_at": "2026-09-08T23:45:06.237471441Z"
+    "fetched_at": "2026-09-09T02:03:57.344604435Z"
   },
   {
     "platform": "hackenproof",
@@ -5126,7 +4778,23 @@
         "description": "!! Only smart contracts residing in the sources folder are in scope. Functions which are marked with [test_only] are not in scope. The rest is there to make testing easier !!\r\n\r\nPlease contact our support team in Discord to get access to scope."
       }
     ],
-    "fetched_at": "2026-09-08T23:45:15.297912403Z"
+    "fetched_at": "2026-09-09T02:04:03.167908948Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "emojicoin-dot-fun-frontend",
+    "name": "emojicoin.fun frontend",
+    "url": "https://hackenproof.com/programs/emojicoin-dot-fun-frontend",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "https://www.emojicoin.fun/home",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      }
+    ],
+    "fetched_at": "2026-09-09T02:04:21.565808452Z"
   },
   {
     "platform": "hackenproof",
@@ -5156,7 +4824,7 @@
         "description": "https://www.enkrypt.com/"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:52.346169155Z"
+    "fetched_at": "2026-09-09T02:05:30.564908198Z"
   },
   {
     "platform": "hackenproof",
@@ -5190,7 +4858,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:53.285061249Z"
+    "fetched_at": "2026-09-09T02:05:32.377234865Z"
   },
   {
     "platform": "hackenproof",
@@ -5206,7 +4874,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:55.675845982Z"
+    "fetched_at": "2026-09-09T02:05:37.352865301Z"
   },
   {
     "platform": "hackenproof",
@@ -5222,7 +4890,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:56.323519845Z"
+    "fetched_at": "2026-09-09T02:05:32.625358771Z"
   },
   {
     "platform": "hackenproof",
@@ -5250,7 +4918,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:05.342503143Z"
+    "fetched_at": "2026-09-09T02:05:46.523746517Z"
   },
   {
     "platform": "hackenproof",
@@ -5266,7 +4934,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:05.861501977Z"
+    "fetched_at": "2026-09-09T02:05:48.591189227Z"
   },
   {
     "platform": "hackenproof",
@@ -5294,7 +4962,23 @@
         "max_severity": "Low"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:00.391332145Z"
+    "fetched_at": "2026-09-09T02:05:37.617244827Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "fastex-web",
+    "name": "Fastex Web",
+    "url": "https://hackenproof.com/programs/fastex-web",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "https://exchange.fastex.com/",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      }
+    ],
+    "fetched_at": "2026-09-09T02:05:27.338062535Z"
   },
   {
     "platform": "hackenproof",
@@ -5310,7 +4994,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:03.326206028Z"
+    "fetched_at": "2026-09-09T02:05:31.725224192Z"
   },
   {
     "platform": "hackenproof",
@@ -5338,7 +5022,7 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:57.429582791Z"
+    "fetched_at": "2026-09-09T02:05:30.265638184Z"
   },
   {
     "platform": "hackenproof",
@@ -5372,7 +5056,7 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:01.769615017Z"
+    "fetched_at": "2026-09-09T02:05:58.051809659Z"
   },
   {
     "platform": "hackenproof",
@@ -5400,7 +5084,53 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:36.594384851Z"
+    "fetched_at": "2026-09-09T02:05:13.630690959Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "flipster-web-and-mobile",
+    "name": "Flipster Web \u0026 Mobile",
+    "url": "https://hackenproof.com/programs/flipster-web-and-mobile",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "https://api.flipster.io",
+        "type": "API",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://app.flipster.io",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "High"
+      },
+      {
+        "identifier": "https://apps.apple.com/in/app/flipster-trade-btc-crypto/id1660635220",
+        "type": "IOS",
+        "eligible": true,
+        "max_severity": "High"
+      },
+      {
+        "identifier": "https://flipster.io",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "High"
+      },
+      {
+        "identifier": "https://play.google.com/store/apps/details?id=com.prestolabs.android.prex",
+        "type": "ANDROID",
+        "eligible": true,
+        "max_severity": "High"
+      },
+      {
+        "identifier": "https://trading-api.flipster.io",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "High"
+      }
+    ],
+    "fetched_at": "2026-09-09T02:04:11.80804214Z"
   },
   {
     "platform": "hackenproof",
@@ -5428,7 +5158,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:15.893921935Z"
+    "fetched_at": "2026-09-09T02:04:07.021281522Z"
   },
   {
     "platform": "hackenproof",
@@ -5462,7 +5192,7 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:22.521290075Z"
+    "fetched_at": "2026-09-09T02:04:11.388030307Z"
   },
   {
     "platform": "hackenproof",
@@ -5479,7 +5209,7 @@
         "description": "* Participation: Invite-only - https://discord.gg/g7u4afaYu7\r\n* KYC Required\r\n\r\n!! Only smart contracts residing in the sources folder and dependencies are in scope. The rest is there to make testing easier !!"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:16.061178628Z"
+    "fetched_at": "2026-09-09T02:04:03.357792973Z"
   },
   {
     "platform": "hackenproof",
@@ -5507,7 +5237,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:21.517149644Z"
+    "fetched_at": "2026-09-09T02:04:16.262705643Z"
   },
   {
     "platform": "hackenproof",
@@ -5573,7 +5303,7 @@
         "description": "https://apps.apple.com/us/app/gate-io/id1294998195 Or https://testflight.apple.com/join/tBYCVJgJ"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:33.328707038Z"
+    "fetched_at": "2026-09-09T02:06:10.794757095Z"
   },
   {
     "platform": "hackenproof",
@@ -5589,7 +5319,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:09.062919687Z"
+    "fetched_at": "2026-09-09T02:04:02.764794407Z"
   },
   {
     "platform": "hackenproof",
@@ -5662,7 +5392,41 @@
         "description": "Vara Network (Substrate) essentials\r\n- crate “vara-runtime” [./runtime/vara]"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:02.641696988Z"
+    "fetched_at": "2026-09-09T02:04:24.043697028Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "gmgn-web-and-mobile",
+    "name": "GMGN Web \u0026 Mobile",
+    "url": "https://hackenproof.com/programs/gmgn-web-and-mobile",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "*.gmgn.ai",
+        "type": "WILDCARD",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://apps.apple.com/sg/app/gmgn-lite/id6740896821",
+        "type": "IOS",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://gmgn.ai/",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://play.google.com/store/apps/details?id=com.gmgn.app",
+        "type": "ANDROID",
+        "eligible": true,
+        "max_severity": "Critical"
+      }
+    ],
+    "fetched_at": "2026-09-09T02:04:19.411474036Z"
   },
   {
     "platform": "hackenproof",
@@ -5678,23 +5442,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:18.606114811Z"
-  },
-  {
-    "platform": "hackenproof",
-    "handle": "govgen-governance-dapp",
-    "name": "GovGen Governance dApp",
-    "url": "https://hackenproof.com/programs/govgen-governance-dapp",
-    "offers_bounty": true,
-    "scopes": [
-      {
-        "identifier": "https://github.com/allinbits/govgen-governance-dapp",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical"
-      }
-    ],
-    "fetched_at": "2026-09-08T23:46:27.362217551Z"
+    "fetched_at": "2026-09-09T02:05:02.579521118Z"
   },
   {
     "platform": "hackenproof",
@@ -5722,7 +5470,41 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:05.59640334Z"
+    "fetched_at": "2026-09-09T02:05:41.444890792Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "grovex-web-and-mobile",
+    "name": "GroveX Web \u0026 Mobile",
+    "url": "https://hackenproof.com/programs/grovex-web-and-mobile",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "*.grovex.io",
+        "type": "WILDCARD",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://apps.apple.com/sg/app/grovexc/id6471401141",
+        "type": "IOS",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://grovex.io",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://play.google.com/store/apps/details?id=com.grovex\u0026hl=en_US",
+        "type": "ANDROID",
+        "eligible": true,
+        "max_severity": "Critical"
+      }
+    ],
+    "fetched_at": "2026-09-09T02:04:11.610254223Z"
   },
   {
     "platform": "hackenproof",
@@ -5731,7 +5513,7 @@
     "url": "https://hackenproof.com/programs/hack-to-the-future-2024-icp-dot-hub-ae-hackathon",
     "offers_bounty": false,
     "scopes": [],
-    "fetched_at": "2026-09-08T23:46:25.337207767Z"
+    "fetched_at": "2026-09-09T02:05:02.263984806Z"
   },
   {
     "platform": "hackenproof",
@@ -5771,7 +5553,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:01.296406816Z"
+    "fetched_at": "2026-09-09T02:04:30.247983853Z"
   },
   {
     "platform": "hackenproof",
@@ -5802,7 +5584,7 @@
         "description": "* Our Blog"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:36.374145461Z"
+    "fetched_at": "2026-09-09T02:06:18.382644747Z"
   },
   {
     "platform": "hackenproof",
@@ -5826,7 +5608,7 @@
         "description": "* Participation: Invite-only - https://discord.gg/g7u4afaYu7\r\n* KYC Required"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:30.616490915Z"
+    "fetched_at": "2026-09-09T02:04:05.817986215Z"
   },
   {
     "platform": "hackenproof",
@@ -5843,7 +5625,7 @@
         "description": "Repo holding Hinkal Protocol's core smart contracts and Circom zero-knowledge circuits — the on-chain logic and proof system behind its private, EVM-based transactions."
       }
     ],
-    "fetched_at": "2026-09-08T23:45:03.434606524Z"
+    "fetched_at": "2026-09-09T02:03:55.02410816Z"
   },
   {
     "platform": "hackenproof",
@@ -5859,7 +5641,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:41.518344115Z"
+    "fetched_at": "2026-09-09T02:05:16.293577355Z"
   },
   {
     "platform": "hackenproof",
@@ -5896,7 +5678,7 @@
         "description": "https://app.hotbit.pro/"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:45.512950514Z"
+    "fetched_at": "2026-09-09T02:06:20.500064482Z"
   },
   {
     "platform": "hackenproof",
@@ -5983,7 +5765,7 @@
         "description": "Android"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:31.358717371Z"
+    "fetched_at": "2026-09-09T02:06:15.825021048Z"
   },
   {
     "platform": "hackenproof",
@@ -5992,7 +5774,7 @@
     "url": "https://hackenproof.com/programs/humanode-competitive-developer-initiative-program",
     "offers_bounty": false,
     "scopes": [],
-    "fetched_at": "2026-09-08T23:46:42.584443973Z"
+    "fetched_at": "2026-09-09T02:05:19.363013827Z"
   },
   {
     "platform": "hackenproof",
@@ -6014,7 +5796,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:04.063195469Z"
+    "fetched_at": "2026-09-09T02:03:54.762609128Z"
   },
   {
     "platform": "hackenproof",
@@ -6090,29 +5872,7 @@
         "max_severity": "Medium"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:06.433776253Z"
-  },
-  {
-    "platform": "hackenproof",
-    "handle": "impermax-finance-smart-contracts",
-    "name": "Impermax Finance Smart Contracts",
-    "url": "https://hackenproof.com/programs/impermax-finance-smart-contracts",
-    "offers_bounty": true,
-    "scopes": [
-      {
-        "identifier": "https://github.com/Impermax-Finance/lending-vault/tree/main",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "https://github.com/Impermax-Finance/lending-vault/tree/main/contracts/test",
-        "type": "URL",
-        "eligible": false,
-        "max_severity": "None"
-      }
-    ],
-    "fetched_at": "2026-09-08T23:46:35.419606636Z"
+    "fetched_at": "2026-09-09T02:03:54.770144892Z"
   },
   {
     "platform": "hackenproof",
@@ -6604,7 +6364,7 @@
         "description": "InceptionLRT Bridge X Layers"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:05.658969993Z"
+    "fetched_at": "2026-09-09T02:04:44.460266377Z"
   },
   {
     "platform": "hackenproof",
@@ -6620,7 +6380,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:19.272787134Z"
+    "fetched_at": "2026-09-09T02:04:40.396518846Z"
   },
   {
     "platform": "hackenproof",
@@ -6994,7 +6754,7 @@
         "description": "InitCore |Mantle (for address of proxy SC — look into full list)"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:15.573279746Z"
+    "fetched_at": "2026-09-09T02:04:50.121243275Z"
   },
   {
     "platform": "hackenproof",
@@ -7010,198 +6770,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:17.382399022Z"
-  },
-  {
-    "platform": "hackenproof",
-    "handle": "internet-computer-protocol-icp",
-    "name": "Internet Computer Protocol (ICP)",
-    "url": "https://hackenproof.com/programs/internet-computer-protocol-icp",
-    "offers_bounty": true,
-    "scopes": [
-      {
-        "identifier": "Boundary.dfinity.network",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "High",
-        "description": "ICP boundary nodes enables web2 software to interact with ICP canisters."
-      },
-      {
-        "identifier": "boundary.ic0.app",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "High",
-        "description": "ICP boundary nodes enables web2 software to interact with ICP canisters."
-      },
-      {
-        "identifier": "https://dashboard.internetcomputer.org/",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Low",
-        "description": "The internet computer dashboard is a web application that provides visibility into the Internet Computer. It provides metrics and information about governance, network (subnets, data centers, nodes), Chain Fusion, etc."
-      },
-      {
-        "identifier": "https://github.com/caffeinelabs/motoko",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "High",
-        "description": "Motoko is a safe, simple, actor-based programming language for building Internet Computer (ICP) canister smart contracts."
-      },
-      {
-        "identifier": "https://github.com/caffeinelabs/motoko-core",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "High",
-        "description": "The standard library for Motoko."
-      },
-      {
-        "identifier": "https://github.com/dfinity/agent-rs",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "High",
-        "description": "The Rust agent allows developers to interact with ICP canisters."
-      },
-      {
-        "identifier": "https://github.com/dfinity/candid",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "High",
-        "description": "Candid is an interface description language (IDL) for interacting with canisters (also known as services or actors) running on the Internet Computer. It provides a language-independent description of canister interfaces and the data they exchange, with type safety and extensibility."
-      },
-      {
-        "identifier": "https://github.com/dfinity/cdk-rs",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "High",
-        "description": "Rust Canister Development Kit allows rust developers to build ICP canisters in Rust."
-      },
-      {
-        "identifier": "https://github.com/dfinity/chain-fusion-signer",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "The Internet Computer provides an API that allows any canister to hold decentralised public-private key pairs. These keys can be used to sign messages for any system that uses compatible elliptic curves. Popular use cases are signing Bitcoin and Ethereum transactions. However, accessing this API requires developing a backend canister, which may be an unnecessary hurdle. The Chain Fusion Signer makes the Internet Computer threshold signature APIs directly accessible to web apps and to command line users."
-      },
-      {
-        "identifier": "https://github.com/dfinity/exchange-rate-canister",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "The exchange rate canister provides an oracle service for cryptocurrency and fiat currency exchange rates. It interacts with all data sources using the [HTTPS outcalls](https://internetcomputer.org/https-outcalls/) feature."
-      },
-      {
-        "identifier": "https://github.com/dfinity/ic",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "The core Internet Computer Protocol stack."
-      },
-      {
-        "identifier": "https://github.com/dfinity/ic/tree/master/rs/boundary_node",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "High",
-        "description": "ICP boundary nodes enables web2 software to interact with ICP canisters."
-      },
-      {
-        "identifier": "https://github.com/dfinity/ic/tree/master/rs/nns",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Network Nervous System (NNS) canisters"
-      },
-      {
-        "identifier": "https://github.com/dfinity/ic/tree/master/rs/rosetta-api",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "High",
-        "description": "Rosetta API provides applications that third parties (e.g. exchanges) can run to obtain ICP price data."
-      },
-      {
-        "identifier": "https://github.com/dfinity/ic/tree/master/rs/sns",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "High",
-        "description": "ICP offers a framework to launch decentralized autonomous organizations (DAOs), called the Service Nervous System (SNS)"
-      },
-      {
-        "identifier": "https://github.com/dfinity/icp-js-core",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "High",
-        "description": "The JavaScript agent allows developers to interact with ICP canisters."
-      },
-      {
-        "identifier": "https://github.com/dfinity/imcp2",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "High"
-      },
-      {
-        "identifier": "https://github.com/dfinity/internet-identity",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "High",
-        "description": "Internet identity is an anonymous blockchain authentication framework on ICP and supports passkey authentication"
-      },
-      {
-        "identifier": "https://github.com/dfinity/nns-dapp",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Front-end and back-end components of the Network Nervous System (NNS) canisters."
-      },
-      {
-        "identifier": "https://github.com/dfinity/oisy-trade",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Order book DEX"
-      },
-      {
-        "identifier": "https://github.com/dfinity/oisy-wallet",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "High",
-        "description": "Oisy is a new browser-based, network-custodial and multi-chain wallet powered by Internet Computer's chain fusion technology."
-      },
-      {
-        "identifier": "https://github.com/dfinity/orbit",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "High",
-        "description": "Orbit is a non-custodial platform for secure digital asset and smart contract management on the Internet Computer. It enables teams to define approval workflows, enforce governance policies, and manage assets with flexibility and transparency."
-      },
-      {
-        "identifier": "https://github.com/dfinity/quill",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "High",
-        "description": "Minimalistic ledger and governance toolkit for cold wallets."
-      },
-      {
-        "identifier": "https://github.com/dfinity/sdk",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "High",
-        "description": "IC software development kit"
-      },
-      {
-        "identifier": "https://identity.ic0.app/",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "High",
-        "description": "Internet identity is an anonymous blockchain authentication framework on ICP and supports passkey authentication"
-      },
-      {
-        "identifier": "https://nns.ic0.app/",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Front-end and back-end components of the Network Nervous System (NNS) canisters."
-      }
-    ],
-    "fetched_at": "2026-09-08T23:46:17.659156293Z"
+    "fetched_at": "2026-09-09T02:04:50.403470645Z"
   },
   {
     "platform": "hackenproof",
@@ -7217,7 +6786,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:16.680463624Z"
+    "fetched_at": "2026-09-09T02:06:00.965939814Z"
   },
   {
     "platform": "hackenproof",
@@ -7233,7 +6802,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:19.832903475Z"
+    "fetched_at": "2026-09-09T02:05:58.574800117Z"
   },
   {
     "platform": "hackenproof",
@@ -7255,7 +6824,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:16.664288414Z"
+    "fetched_at": "2026-09-09T02:04:06.413852702Z"
   },
   {
     "platform": "hackenproof",
@@ -7271,7 +6840,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:14.749573731Z"
+    "fetched_at": "2026-09-09T02:03:59.545530744Z"
   },
   {
     "platform": "hackenproof",
@@ -7293,7 +6862,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:10.887582309Z"
+    "fetched_at": "2026-09-09T02:03:59.159290181Z"
   },
   {
     "platform": "hackenproof",
@@ -7310,7 +6879,41 @@
         "description": "https://github.com/kalmar-io/leverage-yield-contracts"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:46.47717523Z"
+    "fetched_at": "2026-09-09T02:06:27.407089131Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "kcex",
+    "name": "KCEX",
+    "url": "https://hackenproof.com/programs/kcex",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "https://apps.apple.com/us/app/kcex/id6470641783",
+        "type": "IOS",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://play.google.com/store/apps/details?id=com.kcex\u0026hl=en",
+        "type": "ANDROID",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://static.kcex.io/mobile_apps/android/KCEX.apk",
+        "type": "ANDROID",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://www.kcex.com/",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      }
+    ],
+    "fetched_at": "2026-09-09T02:04:12.206408844Z"
   },
   {
     "platform": "hackenproof",
@@ -7355,7 +6958,7 @@
         "description": "Oracle"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:37.44848483Z"
+    "fetched_at": "2026-09-09T02:05:14.786181902Z"
   },
   {
     "platform": "hackenproof",
@@ -7383,104 +6986,7 @@
         "max_severity": "High"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:18.706040815Z"
-  },
-  {
-    "platform": "hackenproof",
-    "handle": "kucoin",
-    "name": "KuCoin",
-    "url": "https://hackenproof.com/programs/kucoin",
-    "offers_bounty": true,
-    "scopes": [
-      {
-        "identifier": "*.kucoin.com",
-        "type": "WILDCARD",
-        "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "Api docs",
-        "type": "URL",
-        "eligible": false,
-        "max_severity": "None",
-        "description": "https://docs.kucoin.com/"
-      },
-      {
-        "identifier": "KuCoin Mobile Application for Android",
-        "type": "ANDROID",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "https://www.kucoin.com/download"
-      },
-      {
-        "identifier": "KuCoin Mobile Application for iOS",
-        "type": "IOS",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "https://www.kucoin.com/download"
-      },
-      {
-        "identifier": "KuCoin store",
-        "type": "URL",
-        "eligible": false,
-        "max_severity": "None",
-        "description": "https://store.kucoin.com/"
-      },
-      {
-        "identifier": "SandBox",
-        "type": "URL",
-        "eligible": false,
-        "max_severity": "None",
-        "description": "*-sdb.kucoin.com"
-      },
-      {
-        "identifier": "SandBox",
-        "type": "URL",
-        "eligible": false,
-        "max_severity": "None",
-        "description": "*-sandbox.kucoin.com"
-      },
-      {
-        "identifier": "SandBox",
-        "type": "URL",
-        "eligible": false,
-        "max_severity": "None",
-        "description": "https://sandbox.kucoin.com/"
-      },
-      {
-        "identifier": "SandBox",
-        "type": "URL",
-        "eligible": false,
-        "max_severity": "None",
-        "description": "sandbox-*.kucoin.com"
-      },
-      {
-        "identifier": "cert.kucoin.com",
-        "type": "URL",
-        "eligible": false,
-        "max_severity": "None"
-      },
-      {
-        "identifier": "intro.kucoin.com",
-        "type": "URL",
-        "eligible": false,
-        "max_severity": "None"
-      },
-      {
-        "identifier": "passport.kucoin.com",
-        "type": "URL",
-        "eligible": false,
-        "max_severity": "None"
-      },
-      {
-        "identifier": "zendesk",
-        "type": "URL",
-        "eligible": false,
-        "max_severity": "None",
-        "description": "https://support.kucoin.plus/"
-      }
-    ],
-    "fetched_at": "2026-09-08T23:46:21.589436967Z"
+    "fetched_at": "2026-09-09T02:04:07.362992719Z"
   },
   {
     "platform": "hackenproof",
@@ -7565,7 +7071,7 @@
         "max_severity": "Low"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:36.646851207Z"
+    "fetched_at": "2026-09-09T02:06:18.058129241Z"
   },
   {
     "platform": "hackenproof",
@@ -7599,7 +7105,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:29.768451064Z"
+    "fetched_at": "2026-09-09T02:06:05.457824749Z"
   },
   {
     "platform": "hackenproof",
@@ -7636,31 +7142,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:58.573898566Z"
-  },
-  {
-    "platform": "hackenproof",
-    "handle": "layer3-smart-contracts",
-    "name": "Layer3 Smart Contracts",
-    "url": "https://hackenproof.com/programs/layer3-smart-contracts",
-    "offers_bounty": true,
-    "scopes": [
-      {
-        "identifier": "https://etherscan.io/address/0x8e02d37b6cad86039bdd11095b8c879b907f7d10#code",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "**Staking (Proxy)**\r\n- Contract is deployed with proxy. The current **implementation** of the contract is in scope."
-      },
-      {
-        "identifier": "https://github.com/layer3xyz/cubes/blob/main/src/escrow/Factory.sol",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "https://etherscan.io/address/0x5e2b297016d41055876ff1078100c548adc3a498"
-      }
-    ],
-    "fetched_at": "2026-09-08T23:46:12.674999593Z"
+    "fetched_at": "2026-09-09T02:05:34.677218303Z"
   },
   {
     "platform": "hackenproof",
@@ -7676,7 +7158,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:18.515718631Z"
+    "fetched_at": "2026-09-09T02:04:09.190189639Z"
   },
   {
     "platform": "hackenproof",
@@ -7707,7 +7189,7 @@
         "description": "Third-party Shopify platform, not operated by LCX engineering. Any asset not explicitly listed in the In-Scope section is considered out of scope."
       }
     ],
-    "fetched_at": "2026-09-08T23:47:30.686537217Z"
+    "fetched_at": "2026-09-09T02:06:10.377334297Z"
   },
   {
     "platform": "hackenproof",
@@ -7731,7 +7213,7 @@
         "description": "Chainlink Automations 2.0 (CRE)"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:05.474805015Z"
+    "fetched_at": "2026-09-09T02:03:55.57140266Z"
   },
   {
     "platform": "hackenproof",
@@ -7769,7 +7251,7 @@
         "description": "LetsExchange.io's Swap mode, integrated into our widget, offers users a seamless and instant cryptocurrency exchange experience. Supporting over 5,000+ coins and tokens across multiple blockchain networks, this feature ensures hassle-free swaps.\r\n\r\nResearchers are invited to explore potential vulnerabilities in the Swap mode, such as transaction inaccuracies, data leakage, unauthorized access, or issues affecting the user experience. The focus is on identifying risks that could impact the security, stability, or reliability of the exchange process."
       }
     ],
-    "fetched_at": "2026-09-08T23:46:52.606712845Z"
+    "fetched_at": "2026-09-09T02:05:29.570364687Z"
   },
   {
     "platform": "hackenproof",
@@ -7786,7 +7268,53 @@
         "description": "LiNEAR protocol"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:22.456717535Z"
+    "fetched_at": "2026-09-09T02:04:57.42003354Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "linen-api-and-mobile",
+    "name": "Linen API \u0026 Mobile",
+    "url": "https://hackenproof.com/programs/linen-api-and-mobile",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "https://api.linen.app/",
+        "type": "API",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://apps.apple.com/app/apple-store/id1480509067",
+        "type": "IOS",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://blog.linen.app/",
+        "type": "URL",
+        "eligible": false,
+        "max_severity": "None"
+      },
+      {
+        "identifier": "https://linen.app/",
+        "type": "URL",
+        "eligible": false,
+        "max_severity": "None"
+      },
+      {
+        "identifier": "https://play.google.com/store/apps/details?id=app.linen.wallet",
+        "type": "ANDROID",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://support.linen.app/",
+        "type": "URL",
+        "eligible": false,
+        "max_severity": "None"
+      }
+    ],
+    "fetched_at": "2026-09-09T02:05:23.608851237Z"
   },
   {
     "platform": "hackenproof",
@@ -7809,7 +7337,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:55.430778104Z"
+    "fetched_at": "2026-09-09T02:05:33.320216288Z"
   },
   {
     "platform": "hackenproof",
@@ -7854,7 +7382,7 @@
         "description": "TypeScript/JavaScript implementation of the Waku v2 protocol (RFC 10). This is the primary SDK used by dApp developers to integrate Waku messaging into web and Node.js applications. Vulnerabilities here may impact any application built on top of it."
       }
     ],
-    "fetched_at": "2026-09-08T23:47:24.291707926Z"
+    "fetched_at": "2026-09-09T02:06:06.392460852Z"
   },
   {
     "platform": "hackenproof",
@@ -7876,7 +7404,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:08.692020751Z"
+    "fetched_at": "2026-09-09T02:03:57.753867317Z"
   },
   {
     "platform": "hackenproof",
@@ -7906,7 +7434,7 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:33.252275625Z"
+    "fetched_at": "2026-09-09T02:05:10.420373954Z"
   },
   {
     "platform": "hackenproof",
@@ -7923,7 +7451,7 @@
         "description": "* Participation: Invite-only - https://discord.gg/g7u4afaYu7\r\n* KYC Required"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:15.09544225Z"
+    "fetched_at": "2026-09-09T02:04:05.365945437Z"
   },
   {
     "platform": "hackenproof",
@@ -7939,7 +7467,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:15.310994061Z"
+    "fetched_at": "2026-09-09T02:03:56.53991498Z"
   },
   {
     "platform": "hackenproof",
@@ -7991,7 +7519,7 @@
         "description": "RolesAuthority - Avalanche xUSDC"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:06.070107471Z"
+    "fetched_at": "2026-09-09T02:03:55.951971383Z"
   },
   {
     "platform": "hackenproof",
@@ -8037,7 +7565,7 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:10.269592153Z"
+    "fetched_at": "2026-09-09T02:03:57.13992317Z"
   },
   {
     "platform": "hackenproof",
@@ -8053,7 +7581,7 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:06.632534005Z"
+    "fetched_at": "2026-09-09T02:03:55.756403232Z"
   },
   {
     "platform": "hackenproof",
@@ -8104,7 +7632,7 @@
         "description": "https://www.myetherwallet.com/wallet/access"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:56.572957418Z"
+    "fetched_at": "2026-09-09T02:05:43.684754785Z"
   },
   {
     "platform": "hackenproof",
@@ -8120,7 +7648,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:11.177353954Z"
+    "fetched_at": "2026-09-09T02:04:00.16942789Z"
   },
   {
     "platform": "hackenproof",
@@ -8142,7 +7670,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:12.456171191Z"
+    "fetched_at": "2026-09-09T02:04:00.35811547Z"
   },
   {
     "platform": "hackenproof",
@@ -8176,7 +7704,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:14.906588795Z"
+    "fetched_at": "2026-09-09T02:04:02.954898907Z"
   },
   {
     "platform": "hackenproof",
@@ -8192,7 +7720,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:14.581058493Z"
+    "fetched_at": "2026-09-09T02:04:06.778772252Z"
   },
   {
     "platform": "hackenproof",
@@ -8208,7 +7736,7 @@
         "max_severity": "Low"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:50.356266378Z"
+    "fetched_at": "2026-09-09T02:05:26.884335763Z"
   },
   {
     "platform": "hackenproof",
@@ -8242,7 +7770,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:05.836915895Z"
+    "fetched_at": "2026-09-09T02:03:56.7472778Z"
   },
   {
     "platform": "hackenproof",
@@ -8258,7 +7786,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:08.397139555Z"
+    "fetched_at": "2026-09-09T02:03:55.386990888Z"
   },
   {
     "platform": "hackenproof",
@@ -8280,7 +7808,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:16.285985582Z"
+    "fetched_at": "2026-09-09T02:04:05.617137746Z"
   },
   {
     "platform": "hackenproof",
@@ -8296,7 +7824,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:17.386832437Z"
+    "fetched_at": "2026-09-09T02:06:00.346067384Z"
   },
   {
     "platform": "hackenproof",
@@ -8347,7 +7875,7 @@
         "description": "whitelist"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:12.331437452Z"
+    "fetched_at": "2026-09-09T02:06:00.563821913Z"
   },
   {
     "platform": "hackenproof",
@@ -8465,7 +7993,7 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:59.437311059Z"
+    "fetched_at": "2026-09-09T02:05:35.648891028Z"
   },
   {
     "platform": "hackenproof",
@@ -8474,7 +8002,7 @@
     "url": "https://hackenproof.com/programs/neverdie-smart-contract",
     "offers_bounty": true,
     "scopes": [],
-    "fetched_at": "2026-09-08T23:47:40.256991806Z"
+    "fetched_at": "2026-09-09T02:06:23.679960879Z"
   },
   {
     "platform": "hackenproof",
@@ -8483,7 +8011,7 @@
     "url": "https://hackenproof.com/programs/neverdie-web",
     "offers_bounty": true,
     "scopes": [],
-    "fetched_at": "2026-09-08T23:47:38.308940157Z"
+    "fetched_at": "2026-09-09T02:06:21.377206152Z"
   },
   {
     "platform": "hackenproof",
@@ -8542,7 +8070,7 @@
         "description": "NiceHash platform test web content"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:21.740876479Z"
+    "fetched_at": "2026-09-09T02:04:10.577274467Z"
   },
   {
     "platform": "hackenproof",
@@ -8573,7 +8101,7 @@
         "description": "📘 https://git.nimbusplatform.io/nimbus-platform/nim-smartcontract/-/blob/master/contracts/contracts_BSC/dApps/P2P/NimbusP2P_V2.sol\r\n\r\nContracts in scope: \r\n\r\n📘 NimbusP2P_V2.sol"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:44.348035004Z"
+    "fetched_at": "2026-09-09T02:06:33.892866292Z"
   },
   {
     "platform": "hackenproof",
@@ -8613,7 +8141,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:19.283206294Z"
+    "fetched_at": "2026-09-09T02:04:08.369785025Z"
   },
   {
     "platform": "hackenproof",
@@ -8653,7 +8181,7 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:20.934066141Z"
+    "fetched_at": "2026-09-09T02:04:07.990527475Z"
   },
   {
     "platform": "hackenproof",
@@ -8670,7 +8198,7 @@
         "description": "Folders (externals/mock/interfaces) and contracts  (LifiImplementation.sol, UniswapValueOracle.sol) are out of scope!"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:21.333030849Z"
+    "fetched_at": "2026-09-09T02:04:08.227396413Z"
   },
   {
     "platform": "hackenproof",
@@ -8686,7 +8214,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:47.576475893Z"
+    "fetched_at": "2026-09-09T02:05:23.343466717Z"
   },
   {
     "platform": "hackenproof",
@@ -8708,7 +8236,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:17.688552238Z"
+    "fetched_at": "2026-09-09T02:04:06.215972649Z"
   },
   {
     "platform": "hackenproof",
@@ -8810,7 +8338,23 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:29.486629223Z"
+    "fetched_at": "2026-09-09T02:06:07.449146432Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "oort-protocol",
+    "name": "OORT Protocol",
+    "url": "https://hackenproof.com/programs/oort-protocol",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "https://github.com/oort-tech/Olympus",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      }
+    ],
+    "fetched_at": "2026-09-09T02:05:09.373831753Z"
   },
   {
     "platform": "hackenproof",
@@ -8826,7 +8370,36 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:28.33028464Z"
+    "fetched_at": "2026-09-09T02:06:09.432154296Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "p2b-exchange",
+    "name": "P2B Exchange",
+    "url": "https://hackenproof.com/programs/p2b-exchange",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "https://github.com/P2B-team/p2b-api-docs",
+        "type": "API",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "github.com/P2pb2b-team/P2PB2B-WSS-Public/blob/main/wss_documentation.md"
+      },
+      {
+        "identifier": "https://p2pb2b.com/",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://p2pb2b.com/blog/",
+        "type": "URL",
+        "eligible": false,
+        "max_severity": "Critical"
+      }
+    ],
+    "fetched_at": "2026-09-09T02:06:13.90053086Z"
   },
   {
     "platform": "hackenproof",
@@ -8842,7 +8415,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:47.312400861Z"
+    "fetched_at": "2026-09-09T02:05:19.616762531Z"
   },
   {
     "platform": "hackenproof",
@@ -8858,7 +8431,7 @@
         "max_severity": "High"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:27.614757287Z"
+    "fetched_at": "2026-09-09T02:06:07.714162204Z"
   },
   {
     "platform": "hackenproof",
@@ -8874,23 +8447,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:26.330947707Z"
-  },
-  {
-    "platform": "hackenproof",
-    "handle": "payhub-web",
-    "name": "Payhub Web",
-    "url": "https://hackenproof.com/programs/payhub-web",
-    "offers_bounty": true,
-    "scopes": [
-      {
-        "identifier": "https://standalone2.fuib.com",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical"
-      }
-    ],
-    "fetched_at": "2026-09-08T23:46:23.497771951Z"
+    "fetched_at": "2026-09-09T02:06:13.656422244Z"
   },
   {
     "platform": "hackenproof",
@@ -8924,7 +8481,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:11.277755022Z"
+    "fetched_at": "2026-09-09T02:04:01.768897311Z"
   },
   {
     "platform": "hackenproof",
@@ -8970,127 +8527,7 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:40.365191817Z"
-  },
-  {
-    "platform": "hackenproof",
-    "handle": "pointpay-web-and-mobile",
-    "name": "PointPay Web \u0026 Mobile",
-    "url": "https://hackenproof.com/programs/pointpay-web-and-mobile",
-    "offers_bounty": true,
-    "scopes": [
-      {
-        "identifier": "https://apps.apple.com/us/app/id1512836089",
-        "type": "IOS",
-        "eligible": true,
-        "max_severity": "None"
-      },
-      {
-        "identifier": "https://exchange.pointpay.io/",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "None"
-      },
-      {
-        "identifier": "https://exchange.pointpay.io/buy-crypto",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "None"
-      },
-      {
-        "identifier": "https://exchange.pointpay.io/launchpad/projects",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "None"
-      },
-      {
-        "identifier": "https://exchange.pointpay.io/launchpad/voting",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "None"
-      },
-      {
-        "identifier": "https://exchange.pointpay.io/trade-classic",
-        "type": "API",
-        "eligible": true,
-        "max_severity": "None"
-      },
-      {
-        "identifier": "https://play.google.com/store/apps/details?id=com.pointpay.bank",
-        "type": "ANDROID",
-        "eligible": true,
-        "max_severity": "None"
-      },
-      {
-        "identifier": "https://pointpay.io/",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "None"
-      }
-    ],
-    "fetched_at": "2026-09-08T23:46:40.643642789Z"
-  },
-  {
-    "platform": "hackenproof",
-    "handle": "polkadot-bridge",
-    "name": "Polkadot Bridge",
-    "url": "https://hackenproof.com/programs/polkadot-bridge",
-    "offers_bounty": true,
-    "scopes": [
-      {
-        "identifier": "https://github.com/paritytech/parity-bridges-common",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Parity Bridges Common"
-      },
-      {
-        "identifier": "https://github.com/paritytech/polkadot-sdk/tree/master/bridges",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Polkadot SDK: Bridges"
-      },
-      {
-        "identifier": "https://github.com/paritytech/polkadot-sdk/tree/master/cumulus/parachains/runtimes/bridge-hubs",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Polkadot SDK: Bridge hub parachains"
-      },
-      {
-        "identifier": "https://github.com/polkadot-fellows/runtimes/tree/main/system-parachains/bridge-hubs",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Runtimes: Bridge hub"
-      }
-    ],
-    "fetched_at": "2026-09-08T23:46:04.445417351Z"
-  },
-  {
-    "platform": "hackenproof",
-    "handle": "polkadot-sdk-runtime-by-parity",
-    "name": "Polkadot SDK, Runtime by Parity",
-    "url": "https://hackenproof.com/programs/polkadot-sdk-runtime-by-parity",
-    "offers_bounty": true,
-    "scopes": [
-      {
-        "identifier": "https://github.com/paritytech/polkadot-sdk",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Implementation-related issues only. Any bugs which can be used to bring down or take control of Substrate based chains without direct access to the machine, including bugs in pallets and primitives."
-      },
-      {
-        "identifier": "https://github.com/polkadot-fellows/runtimes/",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Any bugs that compromise the intended behaviour of the various blockchain runtimes (Kusama, Polkadot, etc)."
-      }
-    ],
-    "fetched_at": "2026-09-08T23:46:04.179672376Z"
+    "fetched_at": "2026-09-09T02:05:16.54615175Z"
   },
   {
     "platform": "hackenproof",
@@ -9106,7 +8543,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:45.979828919Z"
+    "fetched_at": "2026-09-09T02:06:32.783961019Z"
   },
   {
     "platform": "hackenproof",
@@ -9122,7 +8559,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:22.588123666Z"
+    "fetched_at": "2026-09-09T02:06:00.745694653Z"
   },
   {
     "platform": "hackenproof",
@@ -9198,7 +8635,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:30.834675558Z"
+    "fetched_at": "2026-09-09T02:05:07.622404518Z"
   },
   {
     "platform": "hackenproof",
@@ -9221,7 +8658,7 @@
         "description": "3.124.213.220"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:22.768692568Z"
+    "fetched_at": "2026-09-09T02:04:51.319656462Z"
   },
   {
     "platform": "hackenproof",
@@ -9237,7 +8674,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:08.478020763Z"
+    "fetched_at": "2026-09-09T02:03:54.347025392Z"
   },
   {
     "platform": "hackenproof",
@@ -9301,7 +8738,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:34.758368021Z"
+    "fetched_at": "2026-09-09T02:05:11.658032438Z"
   },
   {
     "platform": "hackenproof",
@@ -9317,7 +8754,23 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:11.283141387Z"
+    "fetched_at": "2026-09-09T02:04:28.440333628Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "risc-zero-zkvm",
+    "name": "RISC Zero zkVM",
+    "url": "https://hackenproof.com/programs/risc-zero-zkvm",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "https://github.com/risc0/risc0/tree/main/risc0",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      }
+    ],
+    "fetched_at": "2026-09-09T02:05:05.454103212Z"
   },
   {
     "platform": "hackenproof",
@@ -9411,7 +8864,29 @@
         "description": "https://polygonscan.com/address/0xf18aCC02628009231d7BAAF9a7a24C0860Dda6cb"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:25.390922188Z"
+    "fetched_at": "2026-09-09T02:06:03.779849925Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "router-web",
+    "name": "Router Web",
+    "url": "https://hackenproof.com/programs/router-web",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "https://app.routerprotocol.com/",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://www.routerprotocol.com/",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      }
+    ],
+    "fetched_at": "2026-09-09T02:06:02.979074831Z"
   },
   {
     "platform": "hackenproof",
@@ -9433,23 +8908,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:18.305490569Z"
-  },
-  {
-    "platform": "hackenproof",
-    "handle": "safeswap-app",
-    "name": "SafeSwap App",
-    "url": "https://hackenproof.com/programs/safeswap-app",
-    "offers_bounty": true,
-    "scopes": [
-      {
-        "identifier": "https://app.safeswap.io",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical"
-      }
-    ],
-    "fetched_at": "2026-09-08T23:46:14.433696093Z"
+    "fetched_at": "2026-09-09T02:04:09.826978256Z"
   },
   {
     "platform": "hackenproof",
@@ -9466,7 +8925,7 @@
         "description": "Core Smart contract protocol."
       }
     ],
-    "fetched_at": "2026-09-08T23:46:02.369093039Z"
+    "fetched_at": "2026-09-09T02:04:24.340569718Z"
   },
   {
     "platform": "hackenproof",
@@ -9475,7 +8934,38 @@
     "url": "https://hackenproof.com/programs/serenity-shield-testnet-campain",
     "offers_bounty": true,
     "scopes": [],
-    "fetched_at": "2026-09-08T23:46:41.277096624Z"
+    "fetched_at": "2026-09-09T02:05:24.243867323Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "sg-forge-smart-contracts",
+    "name": "SG Forge Smart Contracts",
+    "url": "https://hackenproof.com/programs/sg-forge-smart-contracts",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "SG Forge websites and other assets",
+        "type": "URL",
+        "eligible": false,
+        "max_severity": "None",
+        "description": "All others non-listed assets that belongs to SG Forge are out of scope for this program."
+      },
+      {
+        "identifier": "https://github.com/castframework/smartcoin",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "Smartcontract EURCV/USDCV on Ethereum"
+      },
+      {
+        "identifier": "https://solscan.io/token/DghpMkatCiUsofbTmid3M3kAbDTPqDwKiYHnudXeGG52",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "Smartcontract EURCV on Solana"
+      }
+    ],
+    "fetched_at": "2026-09-09T02:04:20.299336397Z"
   },
   {
     "platform": "hackenproof",
@@ -9583,7 +9073,7 @@
         "description": "hosted by ZenDesk, a third-party"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:15.376032724Z"
+    "fetched_at": "2026-09-09T02:06:00.164409839Z"
   },
   {
     "platform": "hackenproof",
@@ -9599,7 +9089,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:34.522175063Z"
+    "fetched_at": "2026-09-09T02:05:12.311578991Z"
   },
   {
     "platform": "hackenproof",
@@ -9639,7 +9129,7 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:31.299022081Z"
+    "fetched_at": "2026-09-09T02:05:02.004281143Z"
   },
   {
     "platform": "hackenproof",
@@ -9668,48 +9158,206 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:38.386159897Z"
+    "fetched_at": "2026-09-09T02:05:11.402923184Z"
   },
   {
     "platform": "hackenproof",
-    "handle": "smilee-smart-contracts",
-    "name": "Smilee Smart Contracts",
-    "url": "https://hackenproof.com/programs/smilee-smart-contracts",
+    "handle": "smardex-smart-contracts",
+    "name": "SmarDex Smart Contracts",
+    "url": "https://hackenproof.com/programs/smardex-smart-contracts",
     "offers_bounty": true,
     "scopes": [
       {
-        "identifier": "https://github.com/smilee-finance/v2-contracts-public/blob/master/src/periphery/IGAccessNFT.sol",
-        "type": "URL",
-        "eligible": false,
-        "max_severity": "None"
-      },
-      {
-        "identifier": "https://github.com/smilee-finance/v2-contracts-public/blob/master/src/periphery/MasterChefSmilee.sol",
-        "type": "URL",
-        "eligible": false,
-        "max_severity": "None"
-      },
-      {
-        "identifier": "https://github.com/smilee-finance/v2-contracts-public/blob/master/src/periphery/SimpleRewarderPerSec.sol",
-        "type": "URL",
-        "eligible": false,
-        "max_severity": "None"
-      },
-      {
-        "identifier": "https://github.com/smilee-finance/v2-contracts-public/tree/master/src",
+        "identifier": "https://arbiscan.io/address/0x41A00e3FbE7F479A99bA6822704d9c5dEB611F22",
         "type": "URL",
         "eligible": true,
-        "max_severity": "None",
-        "description": "Smilee v2 core contracts (contracts out of scope are specified in the following tabs)"
+        "max_severity": "High",
+        "description": "Smart Contract - SmardexFactory\r\n- Group 2 target"
       },
       {
-        "identifier": "https://github.com/smilee-finance/v2-contracts-public/tree/master/src/testnet",
+        "identifier": "https://arbiscan.io/address/0x53D165DF0414bD02E91747775450934BF2257f69",
         "type": "URL",
-        "eligible": false,
-        "max_severity": "None"
+        "eligible": true,
+        "max_severity": "High",
+        "description": "Smart Contract - FarmingRangeArbitrum\r\n- Group 2 target"
+      },
+      {
+        "identifier": "https://arbiscan.io/address/0x5c622dcc96b6d96ac6c154f99cf081815094cbc9",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "High",
+        "description": "Smart Contract - RewardManagerL2Arbitrum\r\n- Group 2 target"
+      },
+      {
+        "identifier": "https://arbiscan.io/address/0xd978bb7a7ae5b01116d1bd714fedd1b77ca9e75b",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "High",
+        "description": "Smart Contract - AutoSwapperL2\r\n- Group 2 target"
+      },
+      {
+        "identifier": "https://arbiscan.io/address/0xdd4536dD9636564D891c919416880a3e250f975A",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "High",
+        "description": "Smart Contract - SmardexRouter\r\n- Group 2 target"
+      },
+      {
+        "identifier": "https://basescan.org/address/0x5C622Dcc96b6D96ac6c154f99CF081815094CBC9",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "High",
+        "description": "Smart Contract - SmardexRouter\r\n- Group 2 target"
+      },
+      {
+        "identifier": "https://basescan.org/address/0x7240aac0f57fa0126c107673597ce3cd5b907e38",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "High",
+        "description": "Smart Contract - AutoSwapperL2\r\n- Group 2 target"
+      },
+      {
+        "identifier": "https://basescan.org/address/0xa5d378c05192e3f1f365d6298921879c4d51c5a3",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "High",
+        "description": "Smart Contract - FarmingRangeL2\r\n- Group 2 target"
+      },
+      {
+        "identifier": "https://basescan.org/address/0xd978bb7a7ae5b01116d1bd714fedd1b77ca9e75b",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "High",
+        "description": "Smart Contract - RewardManagerL2\r\n- Group 2 target"
+      },
+      {
+        "identifier": "https://basescan.org/address/0xdd4536dD9636564D891c919416880a3e250f975A",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "High",
+        "description": "Smart Contract - SmardexFactory\r\n- Group 2 target"
+      },
+      {
+        "identifier": "https://bscscan.com/address/0x391BeCc8DAaf32b9ba8e602e9527Bf9DA04C8deb",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "High",
+        "description": "Smart Contract - SmardexRouter\r\n- Group 2 target"
+      },
+      {
+        "identifier": "https://bscscan.com/address/0x41A00e3FbE7F479A99bA6822704d9c5dEB611F22",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "High",
+        "description": "Smart Contract - AutoSwapperL2\r\n- Group 2 target"
+      },
+      {
+        "identifier": "https://bscscan.com/address/0x8ef71fDe0681f567d241A2Cb7f2aE46d6D709D30",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "High",
+        "description": "Smart Contract - RewardManagerL2\r\n- Group 2 target"
+      },
+      {
+        "identifier": "https://bscscan.com/address/0xA8EF6FEa013034E62E2C4A9Ec1CDb059fE23Af33",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "High",
+        "description": "Smart Contract - SmardexFactory\r\n- Group 2 target"
+      },
+      {
+        "identifier": "https://bscscan.com/address/0xb891Aeb2130805171796644a2af76Fc7Ff25a0b9",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "High",
+        "description": "Smart Contract - FarmingRange\r\n- Group 2 target"
+      },
+      {
+        "identifier": "https://etherscan.io/address/0x5DE8ab7E27f6E7A1fFf3E5B337584Aa43961BEeF",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "Smart Contract - SmarDexToken\r\n- Group 1 target"
+      },
+      {
+        "identifier": "https://etherscan.io/address/0x7753F36E711B66a0350a753aba9F5651BAE76A1D",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "Smart Contract - SmardexFactory\r\n- Group 1 target"
+      },
+      {
+        "identifier": "https://etherscan.io/address/0x7d85C0905a6E1Ab5837a0b57cD94A419d3a77523",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "Smart Contract - Farming\r\n- Group 1 target"
+      },
+      {
+        "identifier": "https://etherscan.io/address/0x80497049b005Fd236591c3CD431DBD6E06eB1A31",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "Smart Contract - Staking\r\n- Group 1 target"
+      },
+      {
+        "identifier": "https://etherscan.io/address/0x865d61582abc2CCd85549774CEe171280fE82e3e",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "Smart Contract - Autoswapper\r\n- Group 1 target"
+      },
+      {
+        "identifier": "https://etherscan.io/address/0xC049c7fE5EAa024095861212BD8a8E8Df88a2b1f",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "Smart Contract - RewardsManager\r\n- Group 1 target"
+      },
+      {
+        "identifier": "https://etherscan.io/address/0xEf2f9b48d7EC80440Ab4573dF1A2aBDBE06D3f60",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical",
+        "description": "Smart Contract - SmardexRouter\r\n- Group 1 target"
+      },
+      {
+        "identifier": "https://polygonscan.com/address/0x391becc8daaf32b9ba8e602e9527bf9da04c8deb",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "High",
+        "description": "Smart Contract - RewardManagerL2\r\n- Group 2 target"
+      },
+      {
+        "identifier": "https://polygonscan.com/address/0x7db73a1e526db36c40e508b09428420c1fa8e46b",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "High",
+        "description": "Smart Contract - FarmingRangeL2\r\n- Group 2 target"
+      },
+      {
+        "identifier": "https://polygonscan.com/address/0x8ef71fde0681f567d241a2cb7f2ae46d6d709d30",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "High",
+        "description": "Smart Contract - AutoSwapperL2\r\n- Group 2 target"
+      },
+      {
+        "identifier": "https://polygonscan.com/address/0x9A1e1681f6D59Ca051776410465AfAda6384398f",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "High",
+        "description": "Smart Contract - SmardexFactory\r\n- Group 2 target"
+      },
+      {
+        "identifier": "https://polygonscan.com/address/0xA8EF6FEa013034E62E2C4A9Ec1CDb059fE23Af33",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "High",
+        "description": "Smart Contract - SmardexRouter\r\n- Group 2 target"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:28.28708604Z"
+    "fetched_at": "2026-09-09T02:05:18.307698101Z"
   },
   {
     "platform": "hackenproof",
@@ -9733,7 +9381,7 @@
         "description": "Pallets and support crates that are deployed to the BridgeHub parachain"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:19.107916858Z"
+    "fetched_at": "2026-09-09T02:04:05.478034255Z"
   },
   {
     "platform": "hackenproof",
@@ -9763,7 +9411,7 @@
         "description": "Javascript SDK used by web applications for interacting with the bridge"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:16.460421716Z"
+    "fetched_at": "2026-09-09T02:04:03.748396038Z"
   },
   {
     "platform": "hackenproof",
@@ -9780,7 +9428,7 @@
         "description": "directory: `programs/solvbtc/src`"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:09.660846648Z"
+    "fetched_at": "2026-09-09T02:03:58.539572254Z"
   },
   {
     "platform": "hackenproof",
@@ -9827,7 +9475,7 @@
         "description": "this program is primarily for web and infrastructure bugs relating to the targets above.\r\n\r\nfor smart contract bugs report them through the Solv Smart Contracts program"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:10.685570694Z"
+    "fetched_at": "2026-09-09T02:03:59.943818402Z"
   },
   {
     "platform": "hackenproof",
@@ -10096,7 +9744,7 @@
         "description": "**Blockchain/DLT**\nStarknet OS"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:04.857698028Z"
+    "fetched_at": "2026-09-09T02:03:53.18286746Z"
   },
   {
     "platform": "hackenproof",
@@ -10232,7 +9880,7 @@
         "description": "RewardSupplier.sol"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:03.64892825Z"
+    "fetched_at": "2026-09-09T02:03:52.944015222Z"
   },
   {
     "platform": "hackenproof",
@@ -10284,7 +9932,7 @@
         "description": "**Web**\r\nStarkGate main site"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:03.250025682Z"
+    "fetched_at": "2026-09-09T02:03:53.786187762Z"
   },
   {
     "platform": "hackenproof",
@@ -10369,7 +10017,7 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:05.097492418Z"
+    "fetched_at": "2026-09-09T02:05:41.708006969Z"
   },
   {
     "platform": "hackenproof",
@@ -10512,7 +10160,7 @@
         "description": "STBL_USST - Proxy"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:14.578046758Z"
+    "fetched_at": "2026-09-09T02:04:05.253466552Z"
   },
   {
     "platform": "hackenproof",
@@ -10540,116 +10188,52 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:12.854033743Z"
+    "fetched_at": "2026-09-09T02:04:04.363903569Z"
   },
   {
     "platform": "hackenproof",
-    "handle": "sui-protocol",
-    "name": "Sui Protocol",
-    "url": "https://hackenproof.com/programs/sui-protocol",
+    "handle": "ston-dot-fi-dex-smart-contracts-v2",
+    "name": "STON.fi DEX Smart Contracts v2",
+    "url": "https://hackenproof.com/programs/ston-dot-fi-dex-smart-contracts-v2",
     "offers_bounty": true,
     "scopes": [
       {
-        "identifier": "github.com/MystenLabs/sui/tree/bella-ciao",
-        "type": "OTHER",
-        "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "https://github.com/MystenLabs/deepbookv3",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "High"
-      },
-      {
-        "identifier": "https://github.com/MystenLabs/seal/tree/main/crates/key-server",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "https://github.com/MystenLabs/seal/tree/main/move/seal/sources /",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "https://github.com/MystenLabs/sui/tree/main/bridge",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "High"
-      },
-      {
-        "identifier": "https://github.com/MystenLabs/sui/tree/main/crates/sui-bridge",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "https://github.com/MystenLabs/sui/tree/main/crates/sui-framework",
+        "identifier": "https://github.com/ston-fi/dex-core-v2/blob/main/contracts/lp_account.fc",
         "type": "URL",
         "eligible": true,
         "max_severity": "Critical",
-        "description": "Blockchain/DLT - Sui Framework"
+        "description": "LP Account"
       },
       {
-        "identifier": "https://github.com/MystenLabs/sui/tree/main/sui-execution/latest/sui-adapter",
+        "identifier": "https://github.com/ston-fi/dex-core-v2/blob/main/contracts/lp_wallet.fc",
         "type": "URL",
         "eligible": true,
         "max_severity": "Critical",
-        "description": "Blockchain/DLT - Sui Move"
+        "description": "LP Wallet"
       },
       {
-        "identifier": "https://github.com/MystenLabs/sui/tree/main/sui-execution/latest/sui-verifier",
+        "identifier": "https://github.com/ston-fi/dex-core-v2/blob/main/contracts/pool.fc",
         "type": "URL",
         "eligible": true,
         "max_severity": "Critical",
-        "description": "Blockchain/DLT - Sui Move"
+        "description": "Pool"
       },
       {
-        "identifier": "https://github.com/MystenLabs/sui/tree/testnet/crates/json-rpc",
-        "type": "URL",
-        "eligible": false,
-        "max_severity": "Low",
-        "description": "Blockchain/DLT - Sui Network"
-      },
-      {
-        "identifier": "https://github.com/MystenLabs/sui/tree/testnet/crates/json-rpc-types",
-        "type": "URL",
-        "eligible": false,
-        "max_severity": "Low",
-        "description": "Blockchain/DLT - Sui Network"
-      },
-      {
-        "identifier": "https://github.com/MystenLabs/sui/tree/testnet/crates/sui-core",
+        "identifier": "https://github.com/ston-fi/dex-core-v2/blob/main/contracts/router.fc",
         "type": "URL",
         "eligible": true,
         "max_severity": "Critical",
-        "description": "Blockchain/DLT - Sui Network"
+        "description": "Router"
       },
       {
-        "identifier": "https://github.com/MystenLabs/sui/tree/testnet/crates/sui-node",
+        "identifier": "https://github.com/ston-fi/dex-core-v2/blob/main/contracts/vault.fc",
         "type": "URL",
         "eligible": true,
         "max_severity": "Critical",
-        "description": "Blockchain/DLT - Sui Network"
-      },
-      {
-        "identifier": "https://github.com/MystenLabs/sui/tree/testnet/crates/sui-types",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Blockchain/DLT - Sui Network"
-      },
-      {
-        "identifier": "https://github.com/MystenLabs/sui/tree/testnet/external-crates/move",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Blockchain/DLT - Sui Move"
+        "description": "Vault"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:43.546482981Z"
+    "fetched_at": "2026-09-09T02:04:12.629612565Z"
   },
   {
     "platform": "hackenproof",
@@ -10677,7 +10261,7 @@
         "max_severity": "High"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:04.457853062Z"
+    "fetched_at": "2026-09-09T02:03:54.983238604Z"
   },
   {
     "platform": "hackenproof",
@@ -10699,7 +10283,7 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:24.664160606Z"
+    "fetched_at": "2026-09-09T02:05:02.858776Z"
   },
   {
     "platform": "hackenproof",
@@ -10851,7 +10435,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:16.863033793Z"
+    "fetched_at": "2026-09-09T02:04:04.7744813Z"
   },
   {
     "platform": "hackenproof",
@@ -10903,7 +10487,7 @@
         "description": "EVM JSON-RPC Link"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:44.809996772Z"
+    "fetched_at": "2026-09-09T02:05:22.456070461Z"
   },
   {
     "platform": "hackenproof",
@@ -10927,7 +10511,23 @@
         "description": "Swisstronik-EVM-Module repository"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:45.30818633Z"
+    "fetched_at": "2026-09-09T02:05:22.695467135Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "synfutures-dapp",
+    "name": "SynFutures dApp",
+    "url": "https://hackenproof.com/programs/synfutures-dapp",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "https://oyster.synfutures.com/",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      }
+    ],
+    "fetched_at": "2026-09-09T02:04:10.844534569Z"
   },
   {
     "platform": "hackenproof",
@@ -10955,7 +10555,35 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:22.530491419Z"
+    "fetched_at": "2026-09-09T02:04:10.178850208Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "telegram-apps-center",
+    "name": "Telegram Apps Center",
+    "url": "https://hackenproof.com/programs/telegram-apps-center",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "Apps which are listed within @tapps bot and meet TON-based criteria",
+        "type": "OTHER",
+        "eligible": true,
+        "max_severity": "None"
+      },
+      {
+        "identifier": "https://t.me/Open_league_bot",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "None"
+      },
+      {
+        "identifier": "https://t.me/tapps",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      }
+    ],
+    "fetched_at": "2026-09-09T02:05:06.008634854Z"
   },
   {
     "platform": "hackenproof",
@@ -10971,7 +10599,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:39.689150915Z"
+    "fetched_at": "2026-09-09T02:05:17.317134481Z"
   },
   {
     "platform": "hackenproof",
@@ -10993,7 +10621,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:20.344728971Z"
+    "fetched_at": "2026-09-09T02:06:01.760795366Z"
   },
   {
     "platform": "hackenproof",
@@ -11015,7 +10643,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:30.416712322Z"
+    "fetched_at": "2026-09-09T02:06:02.350205888Z"
   },
   {
     "platform": "hackenproof",
@@ -11094,7 +10722,7 @@
         "description": "https://bridge.ternoa.network"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:47.342188129Z"
+    "fetched_at": "2026-09-09T02:06:29.293667021Z"
   },
   {
     "platform": "hackenproof",
@@ -11251,7 +10879,7 @@
         "description": "Smart Contract - ForwarderV2"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:59.738482698Z"
+    "fetched_at": "2026-09-09T02:05:34.378568065Z"
   },
   {
     "platform": "hackenproof",
@@ -11273,7 +10901,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:06.835356598Z"
+    "fetched_at": "2026-09-09T02:03:55.179924803Z"
   },
   {
     "platform": "hackenproof",
@@ -11339,7 +10967,7 @@
         "description": "Tickets.ua"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:04.709144597Z"
+    "fetched_at": "2026-09-09T02:04:27.38792621Z"
   },
   {
     "platform": "hackenproof",
@@ -11409,7 +11037,35 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:14.68143222Z"
+    "fetched_at": "2026-09-09T02:05:57.799335073Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "tidex-exchange",
+    "name": "Tidex Exchange",
+    "url": "https://hackenproof.com/programs/tidex-exchange",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "https://apps.apple.com/us/app/tidex/id1632072370",
+        "type": "IOS",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://play.google.com/store/apps/details?id=com.tidex.app.exchange",
+        "type": "ANDROID",
+        "eligible": true,
+        "max_severity": "Critical"
+      },
+      {
+        "identifier": "https://tidex.com/",
+        "type": "URL",
+        "eligible": true,
+        "max_severity": "Critical"
+      }
+    ],
+    "fetched_at": "2026-09-09T02:06:05.706575671Z"
   },
   {
     "platform": "hackenproof",
@@ -11425,7 +11081,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:29.374855448Z"
+    "fetched_at": "2026-09-09T02:05:07.348413319Z"
   },
   {
     "platform": "hackenproof",
@@ -11494,7 +11150,7 @@
         "description": "API routing and endpoints as Node.js serverless functions. Handles integration with CMS."
       }
     ],
-    "fetched_at": "2026-09-08T23:46:21.303625319Z"
+    "fetched_at": "2026-09-09T02:04:59.419591047Z"
   },
   {
     "platform": "hackenproof",
@@ -11510,7 +11166,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:31.546679359Z"
+    "fetched_at": "2026-09-09T02:05:10.736271576Z"
   },
   {
     "platform": "hackenproof",
@@ -11544,7 +11200,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:51.298356263Z"
+    "fetched_at": "2026-09-09T02:05:25.29903545Z"
   },
   {
     "platform": "hackenproof",
@@ -11608,493 +11264,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:05.379800736Z"
-  },
-  {
-    "platform": "hackenproof",
-    "handle": "treehouse-smart-contracts",
-    "name": "Treehouse Smart Contracts",
-    "url": "https://hackenproof.com/programs/treehouse-smart-contracts",
-    "offers_bounty": true,
-    "scopes": [
-      {
-        "identifier": "https://etherscan.io/address/0x0039d822156FF2FD28ac6e19A518660890fcD2E0",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "aaveV3Withdraw\r\n*Action to withdraw wstETH from Aave V3*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x03a993369b5b6290D412b63d29f3bC2dC13f5e61",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "ProtocolPoolController\r\n*Manage protocol and pool information, such as protocol name, pool address, and data provider address*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x077C2122e96C7457d11FB9523f5745acb49fDc1e",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "tEth_Eth_Rate_Provider\r\n*Provides tETH/ETH price using stETH/ETH CL oracle*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x0C3603B0c299e680A5Af4dC83a962d66E852903B",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "tETH Mint Burn Token Pool\r\n*Support tETH bridging transactions from mainnet to arbitrum. This contract will mint new token for tETH bridged to arbitrum, and burn tETH if token is bridged back to mainnet*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x0fd6AFFaedd3e883170B17B41b925D3216fB3960",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "sparkWithdraw\r\n*Action to withdraw wstETH from Spark*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x150d67ad07700918FC77d7fD2e78967693718Ece",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "GearboxRedeem\r\n*Action to withdraw wstETH from Gearbox wstETH pool*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x160F1f3a512Fa7cCefA0eb08f881282c05d6eb0f",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "LidoWrap\r\n*Action to wrap stETH to wstETH*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x1B6238E95bBCABEE58997c99BaDD4154ad68BA92",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "IAU_wstETH\r\n*Internal Accounting contract to manage deposited wstETH amount into Vault and record generated wstETH yield from Strategy*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x22261B4D6F629D8cF946C3524df86bF7222901F6",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Multisig Wallet \r\n*Owner address of multiple Treehosue contracts, such as: Vault, Strategy Executor, PnL, strategy storage, Router*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x24f034051cA0A24de9a5192B91f61C3edBc6d093",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "sparkSetEMode\r\n*Action to set the loan to E-mode*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x28624ff9c0dbB899CeE659C676d1b761aDbbc45b",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Mutisig Wallet - Base"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x313Ca6136521D22A7Ea763B3566Ed0B53F5B3AB9",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "VaultPull\r\n*Action to withdraw wstETH from Strategy contract back to Vault contract*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x3503152722beeE269E9B4E0921F2c3D44C90d2b5",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "aaveV3Supply\r\n*Action to supply wstETH to Aave V3*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x351dd4581d61BCE7101FDf5f6864D510021c7CaB",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "aaveV3HealthFactorCheck\r\n*Action to query Health Factor for the debt in Aave V3*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x3e34E0694204e462Deaf8EBbeEE2bE9F887f3C3b",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "LidoWithdrawStart\r\n*Action to withdraw from Lido*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x434B68B11bBE8FD3074089397cA3d275801d6354",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "TreehouseFastlaneFee\r\n*Manage Instant redemption % fee*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x47F04d3F7361371AEA6F53CF0f44976904Aa49Fe",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "sparkBorrow\r\n*Action to borrow WETH from Spark*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x4bd1ec6cDaD93B3C6219ceDA018ECaf8D655Fa8d",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "tEth_eth_ExchangeRateProvider\r\n*Provides tETH/ETH price using exchange rate*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x4c82F6829797A4174a082CE9FEE0B9BDDc1E5E39",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "NavUnStEth"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x551d155760ae96050439AD24Ae98A96c765d761B",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "tETH_Vault\r\n*Store all converted/deposited wstETH from depositors. Funds in this vault afterward will be used for deploying investment strategy and ready for user withdrawals*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x57bB3aA2d0DD7ee9bDbe24c6d2fB32c128234064",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "MS Rebalancing\r\n*Executor address on Strategy Executor contract, used to execute executeOnStrategy function*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x5E4ACCa7a9989007cD74aE4ed1b096c000779DCC",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Simple Staking ERC20\r\n*Interaction contract for staking allowed LP tokens*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x5a2FA3b7e027D6bf307B166311763972eAd1747E",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "aaveV3ClaimRewards\r\n*Action to claim rewards from Aave V3*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x5aE0e44DE96885702bD99A6914751C952d284938",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Strategy1 - Spark\r\n*Strategy contract to execute pre-defined logic on Spark market*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x608a60E587666766F855c1aDffc99851f9d44C62",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "MS Accounting\r\n*Executor address on PnL Accounting contract, It's used to execute doAccounting function*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x60d2D94aCB969CA54e781007eE89F04c1A2e5943",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Strategy0 - Aave Core\r\n*Strategy contract to execute pre-defined logic on Aave V3 core market*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x71f4d0A74b7F1BB07cc767dC2f4b436E907476DC",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "aaveV3Payback\r\n*Action to repay Aave v3 debt*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x7c0eDbbB862b27C04689202ef6B3B2fd6B8852c0",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "steth_Eth_Oracle\r\n*Provides stETH/ETH rate*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x8113f001ea456759264317007220cbc939ca8435",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "tETH Lock Release Token Pool\r\n*Support tETH bridging transactions from mainnet to arbitrum. For every bridge transaction of tETH to arbitrum chain, an equivalent amount of tETH will be locked in this contract and vice versa*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x819Bdb303e224CaC4aC14Da17a1ec13895869b65",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "aaveV3SetEMode\r\n*Action to set the loan to E-mode*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x829525417Cd78CBa0f99A8736426fC299506C0d6",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "TreehouseFastlane\r\n*Interaction contract for redeeming wstETH instantly*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x86b238787f24EEcF24500135BC9D4D117062b6E6",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "NavHelper\r\n*Contract to calculate Treehouse NAV*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x8793164ae37E5fAE2cdf7620F4D4DC615bC22f31",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "GearboxDeposit\r\n*Action to supply wstETH to Gearbox wstETH pool*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x89f57D3617F6a9FF877fEa34Dd0688b2840Ef50e",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Strategy Executor\r\n*Entry point for executing actions on strategy contracts. Manage active executor address*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x94aF5994EB6841e1D930C95AD0C9F89771c3073F",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "ActionRegistry\r\n*Manage action contract addresses and Id*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x97c03F52244E60BB18511Cbf03f890D5886f1F47",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "StrategyStorage\r\n*Store strategies information (id, address, action id, asset). Manage active strategy addresses, and strategy executor address*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0x99eAe56224EA5Bcb2c886D0a07154217b7A1E5d1",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "LidoWithdrawClaim\r\n*Action to withdraw from Lido*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xA14A1A1646980c2B78Eddd51B66EC220AEfE6109",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "WstETH_Rate_Provider\r\n*Provides wstETH/stETH, and wstETH/ETH rate*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xB27D688Ac06a441c005657971B11521e80CdcE98",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Strategy2 - Aave Prime\r\n*Strategy contract to execute pre-defined logic on Aave V3 Prime market*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xB55db668F209AB707c90Aa949182B6071f00330b",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "sparkPayback\r\n*Action to repay Aave v3 debt*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xCf1787F70533b4cFb5B2f727d8D024107518943a",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Curve.fi tETHwstETH Gauge\r\n*Liquidity farm pool for Curve tETH LP token*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xD0B6c01e9A8d21Ed05726f9020B577a614BeDCe7",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Rate Provider Registry\r\n*Provides ETH/USD, wstETH/ETH, and stETH/ETH rate*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xD11c452fc99cF405034ee446803b6F6c1F6d5ED8",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "tETH token - proxy address"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xD1A622566F277AA76c3C47A30469432AAec95E38",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "tAsset Implemenation\r\n*tETH token - implemantation address*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xDD317b85f7Bd56361e2e3216610803e433aCaEa7",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "PnlAccounting V2\r\n*Contract to calculate and realize Treehouse's Profit and Loss*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xEE1F8dc0135EE9dC2e00fac3817b9C530d34B6ba",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "aaveV3Borrow\r\n*Action to borrow WETH from Aave V3*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xFF62aD6200a54ffF9288c997f8ca2d480A0C48bC",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "NavErc20WithDebt\r\n*To fix price discrepancy with spark oracle*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xFe964d3E779752C7598985436A8598F13f22F6F4",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Curve.fi tETHweETH Gauge\r\n*Liquidity farm pool for Curve tETH LP token*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xa0773fB76Cfd4cF6747C455de79c3dE94F853744",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "sparkHealthFactorCheck\r\n*Action to query Health Factor for the debt in Spark*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xa0a105E10801B52Bf89a042bDB40c7389E57aF36",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "NavErc20"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xaC3388367E427DC2B29F5167A5009851AC26b32F",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "sparkSupply\r\n*Action to supply wstETH to Spark*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xb1593193Bcd7CEcc3d19597658003d735D1e9E94",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "ActionExecutor\r\n*Implementation contract of Strategy Address contract, used to execute a list of action contracts in sequence*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xb7Ce3cb5Bc5c00cd2f9B39d9b0580f5355535709",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "TreehouseAccounting\r\n*Treehoouse Accounting contract*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xb8cD2bA2A0Ada353aE15398618Fafb1d7BD558C5",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "LidoUnwrap\r\n*Action to unwrap wstETH to stETH*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xbE3600b2a1E9ad19075A96cEF413b844D81Aa3cC",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "sparkClaimRewards\r\n*Action to claim rewards from Spark*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xbdFb29cCD82dB3ccf462F3CB600892b2E6f185C7",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "LidoStake\r\n*Action to stake ETH and WETH to Lido*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xbfdF0aF6Df48E645Bd076802B95DDEf0b1E02a9d",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "Strategy3 - Gearbox\r\n*Strategy contract to execute pre-defined logic on Gearbox wstETH pool*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xc780112305ED959CEEeb0DE692E2407E4145Fc3A",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "VaultSend\r\n*Action to transfer wstETH from Vault to Strategy contract*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xcbb64b15b0c14645A9216a4Caf57B33AA9bA2860",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "FixedRateProvider\r\n*Returns a fixed rate of 1:1*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xcd63a29FAfF07130d3Af89bB4f40778938AaBB85",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "TreehouseRedemptionV2\r\n*Interaction contract for redeeming wstETH with 7 waiting days period*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xd09ACb80C1E8f2291862c4978A008791c9167003",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "tETH token\r\n*tETH token proxy contract on abritrum chain*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xd7f100067952f0ebCF70461Bc09aa1cA973E79de",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "usd_Eth_Oracle\r\n*Provides ETH/ USD rate*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xdF2eE409BEe416A53b5C040d8e6dAD4a7cEb2510",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "RedemptionController\r\n*Manages Redemption contract addresses, and make the final redeem request to Vault to transfer wstETH to redeemers*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xe2d60463dE3a0221276D737b87C605e0BB5451E9",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "NavRegistry"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xeFA3fa8e85D2b3CfdB250CdeA156c2c6C90628F5",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "tETH_router\r\n*Interaction contract for depositing ETH/ WETH/ wstETH/ stETH*"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xf5760a2f36a8A3Bf57cfc8376B046669A7FbbF08",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "DWSTETHV3RateProvider"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xf754727f48b286A1f4A0507566167Fdfe6fEb8dd",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "NavAaveV3"
-      },
-      {
-        "identifier": "https://etherscan.io/address/0xfdA0B8bcA5d0A5A5093141D8a45D133A9f09B258",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "NavLens"
-      }
-    ],
-    "fetched_at": "2026-09-08T23:46:12.424314272Z"
+    "fetched_at": "2026-09-09T02:04:34.35525927Z"
   },
   {
     "platform": "hackenproof",
@@ -12140,7 +11310,7 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:09.546967307Z"
+    "fetched_at": "2026-09-09T02:04:42.414451283Z"
   },
   {
     "platform": "hackenproof",
@@ -12162,7 +11332,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:44.555217981Z"
+    "fetched_at": "2026-09-09T02:05:20.537974784Z"
   },
   {
     "platform": "hackenproof",
@@ -12193,7 +11363,7 @@
         "description": "https://itunes.apple.com/us/app/ttc-connect-wallet/id1436822085?mt=8"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:42.546862314Z"
+    "fetched_at": "2026-09-09T02:06:31.249666387Z"
   },
   {
     "platform": "hackenproof",
@@ -12210,7 +11380,7 @@
         "description": "* https://github.com/TTCECO/gttc"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:39.379931284Z"
+    "fetched_at": "2026-09-09T02:06:26.310097687Z"
   },
   {
     "platform": "hackenproof",
@@ -12234,7 +11404,7 @@
         "description": "* https://github.com/TTCECO/TTCSDK_iOS"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:39.62000292Z"
+    "fetched_at": "2026-09-09T02:06:21.706069043Z"
   },
   {
     "platform": "hackenproof",
@@ -12251,7 +11421,7 @@
         "description": "* KYC Required"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:15.697730843Z"
+    "fetched_at": "2026-09-09T02:04:04.144885257Z"
   },
   {
     "platform": "hackenproof",
@@ -12267,7 +11437,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:32.39767023Z"
+    "fetched_at": "2026-09-09T02:05:08.515226091Z"
   },
   {
     "platform": "hackenproof",
@@ -12283,7 +11453,7 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:11.623186618Z"
+    "fetched_at": "2026-09-09T02:05:59.357035034Z"
   },
   {
     "platform": "hackenproof",
@@ -12299,7 +11469,7 @@
         "max_severity": "None"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:08.330203272Z"
+    "fetched_at": "2026-09-09T02:05:46.284820701Z"
   },
   {
     "platform": "hackenproof",
@@ -12330,7 +11500,7 @@
         "description": "https://etherscan.io/address/0xd67fd2dfe741b15bd93df796b66868347e887ba2"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:51.092366912Z"
+    "fetched_at": "2026-09-09T02:06:31.848043503Z"
   },
   {
     "platform": "hackenproof",
@@ -12347,7 +11517,7 @@
         "description": "This bounty program is limited to contracts and their corresponding functions that have already been deployed on-chain and are currently active. Unitus reserves the right of final interpretation regarding the scope."
       }
     ],
-    "fetched_at": "2026-09-08T23:46:25.59808686Z"
+    "fetched_at": "2026-09-09T02:04:58.305444405Z"
   },
   {
     "platform": "hackenproof",
@@ -12363,7 +11533,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:41.417605122Z"
+    "fetched_at": "2026-09-09T02:06:30.488401154Z"
   },
   {
     "platform": "hackenproof",
@@ -12380,7 +11550,7 @@
         "description": "[VIP191 - Designated Gas Payer function](https://github.com/vechain/thor/releases/tag/v1.1.0)"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:42.300593224Z"
+    "fetched_at": "2026-09-09T02:06:26.561774628Z"
   },
   {
     "platform": "hackenproof",
@@ -12404,7 +11574,7 @@
         "description": "https://itunes.apple.com/app/vechainthor/id1397679485?mt=8"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:07.632945129Z"
+    "fetched_at": "2026-09-09T02:05:45.364636289Z"
   },
   {
     "platform": "hackenproof",
@@ -12420,7 +11590,7 @@
         "max_severity": "High"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:13.661550898Z"
+    "fetched_at": "2026-09-09T02:05:59.750287665Z"
   },
   {
     "platform": "hackenproof",
@@ -12436,7 +11606,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:16.422696624Z"
+    "fetched_at": "2026-09-09T02:06:01.346903594Z"
   },
   {
     "platform": "hackenproof",
@@ -12452,7 +11622,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:14.566563569Z"
+    "fetched_at": "2026-09-09T02:04:02.576235547Z"
   },
   {
     "platform": "hackenproof",
@@ -12468,84 +11638,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:13.409450512Z"
-  },
-  {
-    "platform": "hackenproof",
-    "handle": "weex-web-and-app",
-    "name": "WEEX Web \u0026 App",
-    "url": "https://hackenproof.com/programs/weex-web-and-app",
-    "offers_bounty": true,
-    "scopes": [
-      {
-        "identifier": "https://apk.wx16ml.info/apk400.apk",
-        "type": "ANDROID",
-        "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "https://apps.apple.com/app/weex-buy-bitcoin-crypto/id1609350789",
-        "type": "IOS",
-        "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "https://play.google.com/store/apps/details?id=com.wake.weexprd",
-        "type": "ANDROID",
-        "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "https://testflight.apple.com/join/dJeQFkqv",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical"
-      },
-      {
-        "identifier": "https://www.weex.com/",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical"
-      }
-    ],
-    "fetched_at": "2026-09-08T23:46:07.461199202Z"
-  },
-  {
-    "platform": "hackenproof",
-    "handle": "whitebit",
-    "name": "WhiteBIT",
-    "url": "https://hackenproof.com/programs/whitebit",
-    "offers_bounty": true,
-    "scopes": [
-      {
-        "identifier": "Android App",
-        "type": "ANDROID",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "https://play.google.com/store/apps/details?id=com.whitebit.android"
-      },
-      {
-        "identifier": "iOS App",
-        "type": "IOS",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "https://apps.apple.com/ua/app/whitebit/id1463405025"
-      },
-      {
-        "identifier": "internal.whitebit.com",
-        "type": "API",
-        "eligible": true,
-        "max_severity": "Critical",
-        "description": "https://github.com/whitebit-exchange/api-docs"
-      },
-      {
-        "identifier": "whitebit.com",
-        "type": "URL",
-        "eligible": true,
-        "max_severity": "Critical"
-      }
-    ],
-    "fetched_at": "2026-09-08T23:47:37.643915778Z"
+    "fetched_at": "2026-09-09T02:04:02.154919934Z"
   },
   {
     "platform": "hackenproof",
@@ -12561,7 +11654,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:02.673957472Z"
+    "fetched_at": "2026-09-09T02:05:39.380146874Z"
   },
   {
     "platform": "hackenproof",
@@ -12577,7 +11670,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:08.904837521Z"
+    "fetched_at": "2026-09-09T02:03:57.944483577Z"
   },
   {
     "platform": "hackenproof",
@@ -12593,7 +11686,23 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:50.088591034Z"
+    "fetched_at": "2026-09-09T02:05:25.577394289Z"
+  },
+  {
+    "platform": "hackenproof",
+    "handle": "whitemarket-web",
+    "name": "WhiteMarket Web",
+    "url": "https://hackenproof.com/programs/whitemarket-web",
+    "offers_bounty": true,
+    "scopes": [
+      {
+        "identifier": "*.white.market",
+        "type": "WILDCARD",
+        "eligible": true,
+        "max_severity": "Critical"
+      }
+    ],
+    "fetched_at": "2026-09-09T02:05:38.528364183Z"
   },
   {
     "platform": "hackenproof",
@@ -12627,7 +11736,7 @@
         "max_severity": "Low"
       }
     ],
-    "fetched_at": "2026-09-08T23:47:06.3197114Z"
+    "fetched_at": "2026-09-09T02:05:42.37254873Z"
   },
   {
     "platform": "hackenproof",
@@ -12657,7 +11766,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:05.649273524Z"
+    "fetched_at": "2026-09-09T02:03:52.722052208Z"
   },
   {
     "platform": "hackenproof",
@@ -12779,7 +11888,7 @@
         "description": "Smart Contract - dao-traits"
       }
     ],
-    "fetched_at": "2026-09-08T23:46:30.585314938Z"
+    "fetched_at": "2026-09-09T02:05:08.27411319Z"
   },
   {
     "platform": "hackenproof",
@@ -12823,7 +11932,7 @@
         "description": "Threshold signature orchestration library used by [zeta-chain/node](https://github.com/zeta-chain/node).\r\n\r\nOnly functionality that is ultimately used by [zeta-chain/node](https://github.com/zeta-chain/node) is in scope. Your main goal as an attacker is to pivot from one key share to full control of the private key."
       }
     ],
-    "fetched_at": "2026-09-08T23:45:20.113784537Z"
+    "fetched_at": "2026-09-09T02:04:12.808623247Z"
   },
   {
     "platform": "hackenproof",
@@ -12887,7 +11996,7 @@
         "description": "Helper scripts and tools for interacting with ZetaChain and deploying Smart Contracts. Rewards for findings in this repo are capped at $5000"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:19.942147668Z"
+    "fetched_at": "2026-09-09T02:04:08.99412001Z"
   },
   {
     "platform": "hackenproof",
@@ -12945,7 +12054,7 @@
         "max_severity": "Medium"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:14.617925803Z"
+    "fetched_at": "2026-09-09T02:03:57.537205195Z"
   },
   {
     "platform": "hackenproof",
@@ -12967,7 +12076,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:10.464538608Z"
+    "fetched_at": "2026-09-09T02:03:58.953830503Z"
   },
   {
     "platform": "hackenproof",
@@ -12995,7 +12104,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:10.08262044Z"
+    "fetched_at": "2026-09-09T02:03:58.754372589Z"
   },
   {
     "platform": "hackenproof",
@@ -13023,7 +12132,7 @@
         "max_severity": "Critical"
       }
     ],
-    "fetched_at": "2026-09-08T23:45:20.527818948Z"
+    "fetched_at": "2026-09-09T02:04:09.389236234Z"
   },
   {
     "platform": "hackenproof",
@@ -13054,6 +12163,6 @@
         "description": "**Zynk Orbit** is a lightweight Solana program responsible for managing liquidity provider (LP) fund flows within the Zynk Protocol. Its primary function is to securely move liquidity into and out of the Zynk ecosystem, bridging LP wallets and the Zynk Operational Vault (ZOV) in a controlled and auditable manner.\r\nZynk Orbit is intentionally minimal in scope. It does not enforce in-program governance or partner logic. Instead, it serves as a dedicated liquidity rail, enforcing strict constraints and relying on backend orchestration for business logic.\r\n\r\nThe yield computation logic resides off-chain (out-of-scope) and hence, there's no on-chain counterpart to it."
       }
     ],
-    "fetched_at": "2026-09-08T23:45:02.85004821Z"
+    "fetched_at": "2026-09-09T02:03:52.324025038Z"
   }
 ]
